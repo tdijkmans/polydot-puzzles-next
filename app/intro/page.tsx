@@ -1,4 +1,5 @@
-import IntroTab from "./intro/IntroTab";
+
+import IntroTab from './IntroTab';
 
 export default function Home() {
 	return (

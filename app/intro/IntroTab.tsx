@@ -1,12 +1,14 @@
 import Image from 'next/image';
-import InfoBox from './Infobox';
 import styles from './IntroTab.module.css';
 
 
 const IntroTab = () => {
     return (
-        <div className={styles.coverTab}>
-            <InfoBox />
+        <>
+            <div className={styles.infoBox}>
+                <h1>Polydot Puzzles</h1>
+                <h2>Low Poly Connect-the-Dots for Adults</h2>
+            </div>
 
             <div className={styles.description}>
                 <h2>What are Polydot Puzzles?</h2>
@@ -31,7 +33,7 @@ const IntroTab = () => {
 
                 <a className={styles.buyButton} href="https://www.amazon.nl/Origins-Obscure-Polydot-Connect-Dots/dp/B0DHT7VH9Y/" target="_blank" rel="noopener noreferrer">Buy Now</a>
             </div>
-        </div>
+        </>
     );
 }
 

@@ -1,15 +1,4 @@
-const someStyle = {
-    dominantBaseline: "middle",
-    fontFamily: "Consolas",
-    fontSize: 8,
-    fontWeight: 400,
-    letterSpacing: 1,
-    textAnchor: "middle"
-}
 
-const someTransform = {
-    transform: "translate(-501 -701) scale(1.99262)"
-}
 
 
 const Instructions = () => (
@@ -93,7 +82,16 @@ const Instructions = () => (
             <circle cx={262.9} cy={525.9} r={1.5} stroke="#fff" strokeWidth={0.8} />
         </g>
 
-        <g {...someTransform} {...someStyle}>
+        <g {...{
+            dominantBaseline: "middle",
+            fontFamily: "Consolas",
+            fontSize: 8,
+            fontWeight: 400,
+            letterSpacing: 1,
+            textAnchor: "middle",
+            transform: "translate(-501 -701) scale(1.99262)"
+        }
+        }>
             <circle cx={400} cy={669} r={0.7} />
             <text x={400} y={669}>{"aa"}</text>
             <circle cx={364} cy={652} r={0.7} />

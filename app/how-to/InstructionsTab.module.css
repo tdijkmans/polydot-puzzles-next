@@ -1,0 +1,16 @@
+.polyDotinstruction {
+    font-family: 'Consolas', monospace;
+    font-size: 1rem;
+    color: var(--pale-silver);
+}
+
+.polyDotinstruction span {
+    margin: var(--spacing-sm);
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'Garamond', serif;
+}

@@ -14,7 +14,7 @@ const InstructionsTab = () => {
                 <>
                     {["aa", "ab", "ac", "ad", "ae", "af", "ag", "ah", "ai", "ah", "aj", "ak", "al", "am", "an", "ao", "ap", "am", "ak", "ai", "aq", "ar", "as", "at", "au", "ar", "am", "as", "an", "ao", "av", "aa"].map((letter, index) => (
                         <>
-                            {letter} {(index + 1) % 5 === 0 && <span className={styles.break} />}
+                            {letter} {(index + 1) % 5 === 0 && <span />}
                         </>
                     ))}
                 </>

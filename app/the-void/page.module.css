@@ -1,0 +1,8 @@
+.haiku {
+
+    margin-top: var(--spacing-lg);
+    color: white;
+    padding: var(--spacing-md);
+    height: 100vh;
+    line-height: 2rem;
+}

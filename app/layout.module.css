@@ -1,0 +1,64 @@
+.main {
+    height: 100vh;
+    display: flex;
+    /* overflow: hidden; */
+    flex-direction: column;
+}
+
+.nav {
+    width: 100vw;
+    color: var(--pale-silver);
+    padding: var(--spacing-md);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    background-color: var(--jet);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    border-bottom: 1px solid var(--pale-silver);
+}
+
+.navLink {
+    color: var(--pale-silver);
+    margin: 0 var(--spacing-md);
+    text-decoration: none;
+}
+
+.tabs {
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 70px;
+}
+
+.tab {
+    margin: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    border-radius: 5px;
+    padding: var(--spacing-md);
+    background-color: var(--jet);
+    border: 1px solid var(--pale-silver);
+    opacity: 0.9;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.pageTransition {}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
