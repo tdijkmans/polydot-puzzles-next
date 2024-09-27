@@ -1,227 +1,159 @@
-/* Buttons */
-.button {
-  display: inline-block;
-  padding: var(--spacing-xs) var(--spacing-md);
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  border-radius: var(--border-radius-sm);
-  color: var(--text-light-color);
-  background-color: var(--primary-color);
+.main {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.coverTab {
+  margin: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 10;
+  border-radius: 5px;
+  background-color: var(--jet);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: var(--spacing-md);
+  border: 1px solid var(--pale-silver);
+  opacity: 0.9;
+
+
+}
+
+.bookCoverContainer {
+  border-radius: 5px;
+  /* border: 1px solid var(--pale-silver); */
+}
+
+.bookCover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 1px solid var(--jet);
+  transform: rotate3d(1, 1, 1, 10deg);
+}
+
+.buyButton {
+  background-color: var(--pale-silver);
+  color: var(--jet);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: 5px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 1.5rem;
+  transition: all 0.3s;
 }
 
-.buttonPrimary {
-  background-color: var(--primary-color);
+.buyButton:hover {
+  background-color: var(--jet);
+  color: var(--pale-silver);
 }
 
-.buttonPrimary:hover {
-  background-color: var(--primary-color-hover);
-}
 
-.buttonSecondary {
-  background-color: var(--secondary-color);
-  color: var(--text-light-color);
-}
-
-.buttonSecondary:hover {
-  background-color: var(--secondary-color-hover);
-}
-
-.buttonTertiary {
-  background-color: var(--tertiary-color);
-  color: var(--text-color);
-}
-
-.buttonTertiary:hover {
-  background-color: var(--tertiary-color-hover);
-}
-
-/* Form Controls */
-.formControl {
-  display: block;
-  width: 100%;
-  padding: var(--spacing-xs);
-  font-size: 1rem;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-sm);
-  margin-bottom: var(--spacing-md);
-  transition: border-color 0.3s ease;
-}
-
-.formControl:focus {
-  border-color: var(--primary-color);
-}
-
-.formLabel {
-  display: block;
-  margin-bottom: var(--spacing-xs);
-  font-weight: bold;
-}
-
-.formError {
-  color: var(--error-color);
-  margin-top: var(--spacing-xs);
-  font-size: 0.875rem;
-  /* 14px */
-}
-
-/* Grid System */
-.container {
-  max-width: 75rem;
-  /* 1200px */
-  margin: 0 auto;
-  padding: 0 var(--spacing-md);
-}
-
-.row {
+.examplePolydot {
+  margin: var(--spacing-lg);
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 -0.5rem;
-  /* Negative margin to offset padding */
-}
-
-.col {
-  flex: 1;
-  padding: 0 0.5rem;
-  /* Padding for each column */
-}
-
-.col1 {
-  flex: 0 0 8.33%;
-}
-
-.col2 {
-  flex: 0 0 16.66%;
-}
-
-.col3 {
-  flex: 0 0 25%;
-}
-
-.col4 {
-  flex: 0 0 33.33%;
-}
-
-.col5 {
-  flex: 0 0 41.66%;
-}
-
-.col6 {
-  flex: 0 0 50%;
-}
-
-.col7 {
-  flex: 0 0 58.33%;
-}
-
-.col8 {
-  flex: 0 0 66.66%;
-}
-
-.col9 {
-  flex: 0 0 75%;
-}
-
-.col10 {
-  flex: 0 0 83.33%;
-}
-
-.col11 {
-  flex: 0 0 91.66%;
-}
-
-.col12 {
-  flex: 0 0 100%;
-}
-
-/* Utility Classes */
-.textCenter {
-  text-align: center;
-}
-
-.textUppercase {
-  text-transform: uppercase;
-}
-
-.textBold {
-  font-weight: bold;
-}
-
-.marginTop {
-  margin-top: var(--spacing-md);
-}
-
-.marginBottom {
-  margin-bottom: var(--spacing-md);
-}
-
-.marginLeft {
-  margin-left: var(--spacing-md);
-}
-
-.marginRight {
-  margin-right: var(--spacing-md);
-}
-
-.paddingTop {
-  padding-top: var(--spacing-md);
-}
-
-.paddingBottom {
-  padding-bottom: var(--spacing-md);
-}
-
-.paddingLeft {
-  padding-left: var(--spacing-md);
-}
-
-.paddingRight {
-  padding-right: var(--spacing-md);
-}
-
-/* Cards */
-.card {
-  background-color: #ffffff;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-md);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 10;
+  border-radius: 5px;
+  background-color: var(--jet);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: var(--spacing-md);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: var(--spacing-lg);
+  border: 1px solid var(--pale-silver);
+  opacity: 0.9;
 }
 
-.cardHeader {
-  font-size: 1.25rem;
-  margin-bottom: var(--spacing-sm);
-  font-weight: bold;
+.examplePolydot h2 {
+  font-size: 2rem;
+  color: var(--pale-silver);
+  margin: var(--spacing-md);
+  font-family: 'Garamond', serif;
 }
 
-.cardBody {
+.examplePolydot p {
   font-size: 1rem;
-  margin-bottom: var(--spacing-md);
+  color: var(--pale-silver);
+  margin: var(--spacing-md);
 }
 
-/* Alerts */
-.alert {
-  padding: var(--spacing-sm);
-  border-radius: var(--border-radius-sm);
-  margin-bottom: var(--spacing-md);
+.polyDotdescription {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--pale-silver);
+  font-family: 'Garamond', serif;
+  font-style: italic;
+  max-width: 500px;
 }
 
-.alertSuccess {
-  background-color: var(--success-color);
-  color: var(--text-light-color);
+.polyDotinstruction {
+  font-family: 'Consolas', monospace;
+  font-size: 1rem;
+  color: var(--pale-silver);
 }
 
-.alertError {
-  background-color: var(--error-color);
-  color: var(--text-light-color);
+.polyDotinstruction span {
+  margin: var(--spacing-sm);
 }
 
-.alertWarning {
-  background-color: var(--warning-color);
-  color: var(--text-light-color);
+.description {
+  font-size: 1rem;
+  text-align: left;
+  color: var(--pale-silver);
+  max-width: 500px;
+  border: 1px solid var(--jet);
+
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--jet);
+}
+
+.mountainsFront {
+  z-index: 1;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  display: flex;
+  width: 100%;
+  transform: scaleX(1);
+  height: 300px;
+  filter: blur(1px);
+  overflow: hidden;
+}
+
+
+.mountainsBack {
+  position: absolute;
+  bottom: 0px;
+  transform: translateY(10px);
+  width: 100%;
+  z-index: 1;
+  transform: scaleX(-1);
+  height: 250px;
+  filter: brightness(0.7) blur(2px);
+  overflow: hidden;
+
+}
+
+@keyframes glow {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0.8;
+    filter: blur(0px);
+    transform: scale(1);
+  }
 }

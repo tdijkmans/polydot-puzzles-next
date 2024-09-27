@@ -3,21 +3,14 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
+
   /* Colors */
-  --primary-color: #ff6600;
-  --primary-color-hover: #e55b00;
-  --secondary-color: #003366;
-  --secondary-color-hover: #002a52;
-  --tertiary-color: #f1f1f1;
-  --tertiary-color-hover: #e1e1e1;
-  --accent-color: #00cc66;
-  --text-color: #333333;
-  --text-light-color: #ffffff;
-  --background-color: #f5f5f5;
-  --border-color: #cccccc;
-  --error-color: #ff4d4d;
-  --success-color: #4caf50;
-  --warning-color: #ffa500;
+  --jet: #3f3639ff;
+  --myrtle-green: rgb(68, 121, 133);
+  --taupe-gray: #9a99a2ff;
+  --mountbatten-pink: #8e6f80ff;
+  --earth-yellow: #d9ae6aff;
+  --pale-silver: #c9c9c9ff;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -68,8 +61,6 @@ body {
   /* Removes default body margin */
   line-height: 1.6;
   /* Improves readability */
-  background-color: #fff;
-  /* You can customize this */
 }
 
 a {
@@ -79,16 +70,7 @@ a {
   /* Removes default underline */
 }
 
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  /* Avoids inline-block gaps */
-  max-width: 100%;
-  /* Prevents overflow */
-}
+
 
 button,
 input,
@@ -104,8 +86,6 @@ body {
   font-family: var(--font-family-sans);
   font-size: var(--base-font-size);
   line-height: var(--body-line-height);
-  color: var(--text-color);
-  background-color: var(--background-color);
   margin: 0;
 }
 

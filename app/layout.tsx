@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Analyse van schaatsdata",
-	description: "Analyseer en visualiseer prestatiegegevens van schaatsen.",
+	title: "Polydot Puzzles",
+	description: "Low Poly Connect-the-Dots for Adults",
 };
 
 export default function RootLayout({
