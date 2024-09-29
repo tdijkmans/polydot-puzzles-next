@@ -1,15 +1,66 @@
-.examplePolydot {
-  margin: var(--spacing-lg);
+.tabs {
+  justify-content: space-around;
+  width: 100vw;
+  color: var(--pale-silver);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  background-color: var(--jet);
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid var(--pale-silver);
+  text-overflow: ellipsis;
+}
+
+.tab {
+  padding: var(--spacing-sm);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+
+
+.tabContent {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  /* 70% of the viewport width */
+  width: clamp(300px, 70vw, 800px);
+  height: 90vh;
+
+  margin: var(--spacing-lg);
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  position: relative;
   z-index: 10;
-  border-radius: 5px;
-  background-color: var(--jet);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius-md);
   padding: var(--spacing-md);
+  background-color: var(--jet);
   border: 1px solid var(--pale-silver);
   opacity: 0.9;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* Show tab content on hover */
+.tab:hover .tabContent {
+  display: block;
+}
+
+/* Show the first tab's content by default */
+.tab:first-child .tabContent {
+  display: block;
+}
+
+/* When any tab is hovered, hide the first tab's content */
+.tab:hover~.tab:first-child .tabContent {
+  display: none;
 }
