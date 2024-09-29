@@ -37,7 +37,7 @@ export default function Home() {
 
 			<div className={styles.tab}>
 				The Void
-				<div className={styles.tabContent}>
+				<div className={`${styles.tabContent} ${styles.void}`}>
 					Endless stars whisper, <br />
 					Darkness cradles silent worlds, <br />
 					The Void breathes alone.

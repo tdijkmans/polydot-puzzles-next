@@ -25,15 +25,12 @@
   background-color: #ddd;
 }
 
-
-
 .tabContent {
   display: none;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  /* 70% of the viewport width */
-  width: clamp(300px, 70vw, 800px);
+  position: fixed;
+  top: 70px;
+  left: 10px;
+  width: clamp(300px, 50%, 800px);
   height: 90vh;
 
   margin: var(--spacing-lg);
@@ -50,17 +47,19 @@
   backdrop-filter: blur(10px);
 }
 
+.void {
+  color: var(--pale-silver);
+  font-size: 1.5rem;
+  margin-top: 50%;
+  background-color: none;
+  background: none;
+  backdrop-filter: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
 /* Show tab content on hover */
 .tab:hover .tabContent {
   display: block;
-}
-
-/* Show the first tab's content by default */
-.tab:first-child .tabContent {
-  display: block;
-}
-
-/* When any tab is hovered, hide the first tab's content */
-.tab:hover~.tab:first-child .tabContent {
-  display: none;
 }
