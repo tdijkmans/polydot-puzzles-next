@@ -4,7 +4,7 @@ import styles from './bookTab.module.css';
 
 const BookTab = () => {
     return (
-        <div className={styles.tabContainer}>
+        <div className={'tabContainer'}>
             <h2>Origins of the Obscure</h2>
 
             <p>Origins of the Obscure is the first book in the Polydot Puzzles series. It features 20 puzzles of mythological creatures from around the world, including the Golem, the Popobawa, the Gwisin, Baba Yaga, and more. At the end of the book, you'll find the answers to each puzzle, revealing which creature you've brought to life.</p>

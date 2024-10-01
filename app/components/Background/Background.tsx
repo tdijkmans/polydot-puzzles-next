@@ -16,6 +16,8 @@ const Background = () => {
             <div className={styles.mountainsFront}>
                 <Mountains />
             </div>
+            {/* <Signup /> */}
+
         </>
     );
 };

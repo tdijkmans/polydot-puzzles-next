@@ -14,12 +14,3 @@
     color: white;
     font-family: 'Garamond', serif;
 }
-
-.tabContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    transition: all 0.3s;
-    height: 100%
-}

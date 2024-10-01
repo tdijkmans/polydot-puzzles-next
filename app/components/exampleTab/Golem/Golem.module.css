@@ -1,8 +1,37 @@
+.golemLineContainer {
+    container-type: inline-size;
+    /* Enables container query based on width */
+}
+
 .golemLine {
     stroke: #fff;
-    stroke-width: 1;
+    stroke-width: 2;
     stroke-linecap: round;
     fill: none;
     display: inline;
 
+}
+
+.golemLineSvg {
+    transform: translateX(-50%) scale(0.3);
+}
+
+@media (min-width: 600px) {
+    .golemLineSvg {
+        transform: translateX(-50%) scale(0.5);
+    }
+
+    .golemLine {
+        stroke-width: 1;
+    }
+}
+
+@media (min-width: 800px) {
+    .golemLineSvg {
+        transform: translateX(-50%) scale(0.7);
+    }
+
+    .golemLine {
+        stroke-width: 1;
+    }
 }

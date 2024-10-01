@@ -20,9 +20,9 @@ const ThreeScene = () => {
 			<Stars
 				radius={15}
 				depth={100}
-				count={1000}
+				count={100}
 				factor={4}
-				saturation={100}
+				saturation={3}
 				fade
 			/>
 
