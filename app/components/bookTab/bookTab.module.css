@@ -1,14 +1,14 @@
 .bookCoverContainer {
-    border-radius: var(--border-radius-md);
-    margin-top: var(--spacing-lg);
-    max-width: 100%;
-    width: 100%;
+	border-radius: var(--border-radius-md);
+	margin-top: var(--spacing-lg);
+	max-width: 100%;
+	width: 100%;
 }
 
 .bookCover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: var(--border-radius-md);
-    border: 1px solid var(--jet);
-    transform: rotate3d(1, 1, 1, 10deg);
-    object-fit: cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: var(--border-radius-md);
+	border: 1px solid var(--jet);
+	transform: rotate3d(1, 1, 1, 10deg);
+	object-fit: cover;
 }

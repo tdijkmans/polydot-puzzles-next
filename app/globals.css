@@ -1,132 +1,133 @@
 :root {
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+	--font-mono:
+		ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+		"Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+		"Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  /* Colors */
-  --jet: #3f3639ff;
-  --myrtle-green: rgb(68, 121, 133);
-  --taupe-gray: #9a99a2ff;
-  --mountbatten-pink: #8e6f80ff;
-  --earth-yellow: #d9ae6aff;
-  --pale-silver: #c9c9c9ff;
-  --moon-white: #f0f0f0ff;
+	/* Colors */
+	--jet: #3f3639ff;
+	--myrtle-green: rgb(68, 121, 133);
+	--taupe-gray: #9a99a2ff;
+	--mountbatten-pink: #8e6f80ff;
+	--earth-yellow: #d9ae6aff;
+	--pale-silver: #c9c9c9ff;
+	--moon-white: #f0f0f0ff;
 
-  /* Spacing */
-  --spacing-xs: 0.5rem;
-  --spacing-sm: 1rem;
-  --spacing-md: 1.5rem;
-  --spacing-lg: 2rem;
-  --spacing-xl: 3rem;
+	/* Spacing */
+	--spacing-xs: 0.5rem;
+	--spacing-sm: 1rem;
+	--spacing-md: 1.5rem;
+	--spacing-lg: 2rem;
+	--spacing-xl: 3rem;
 
-  /* Border Radius */
-  --border-radius-sm: 0.25rem;
-  /* 4px */
-  --border-radius-md: 0.5rem;
-  /* 8px */
-  --border-radius-lg: 1rem;
-  /* 16px */
+	/* Border Radius */
+	--border-radius-sm: 0.25rem;
+	/* 4px */
+	--border-radius-md: 0.5rem;
+	/* 8px */
+	--border-radius-lg: 1rem;
+	/* 16px */
 
-  /* Typography */
-  --font-family-sans: Arial, sans-serif;
-  --font-family-mono: ui-monospace, monospace;
-  --font-family-serif: 'Garamond', serif;
-  --base-font-size: 16px;
+	/* Typography */
+	--font-family-sans: Arial, sans-serif;
+	--font-family-mono: ui-monospace, monospace;
+	--font-family-serif: "Garamond", serif;
+	--base-font-size: 16px;
 
-  --font-size-xs: 0.75rem;
-  --font-size-sm: 0.875rem;
-  --font-size-md: 1rem;
-  --font-size-lg: 1.125rem;
-  --font-size-xl: 1.5rem;
+	--font-size-xs: 0.75rem;
+	--font-size-sm: 0.875rem;
+	--font-size-md: 1rem;
+	--font-size-lg: 1.125rem;
+	--font-size-xl: 1.5rem;
 
-  /* Line Heights */
-  --line-height-sm: 1.25;
-  --line-height-md: 1.5;
-  --line-height-lg: 1.75;
-  --line-height-xl: 2;
+	/* Line Heights */
+	--line-height-sm: 1.25;
+	--line-height-md: 1.5;
+	--line-height-lg: 1.75;
+	--line-height-xl: 2;
 
-  /* Additional Line Heights for Specific Elements */
-  --line-height-heading: 1.2;
-  /* Example value */
-  --line-height-body: var(--line-height-md);
+	/* Additional Line Heights for Specific Elements */
+	--line-height-heading: 1.2;
+	/* Example value */
+	--line-height-body: var(--line-height-md);
 
-  /* Heading Font Sizes */
-  --font-size-h1: 2.25rem;
-  /* 36px */
-  --font-size-h2: 1.875rem;
-  /* 30px */
-  --font-size-h3: 1.5rem;
-  /* 24px */
-  --font-size-h4: 1.25rem;
-  /* 20px */
-  --font-size-h5: 1.125rem;
-  /* 18px */
-  --font-size-h6: 1rem;
-  /* 16px */
+	/* Heading Font Sizes */
+	--font-size-h1: 2.25rem;
+	/* 36px */
+	--font-size-h2: 1.875rem;
+	/* 30px */
+	--font-size-h3: 1.5rem;
+	/* 24px */
+	--font-size-h4: 1.25rem;
+	/* 20px */
+	--font-size-h5: 1.125rem;
+	/* 18px */
+	--font-size-h6: 1rem;
+	/* 16px */
 
-  /* Heading Line Heights */
-  --line-height-h1: 1.3;
-  --line-height-h2: 1.3;
-  --line-height-h3: 1.3;
-  --line-height-h4: 1.3;
-  --line-height-h5: 1.3;
-  --line-height-h6: 1.3;
+	/* Heading Line Heights */
+	--line-height-h1: 1.3;
+	--line-height-h2: 1.3;
+	--line-height-h3: 1.3;
+	--line-height-h4: 1.3;
+	--line-height-h5: 1.3;
+	--line-height-h6: 1.3;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  /* Ensures consistent box sizing for all elements */
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	/* Ensures consistent box sizing for all elements */
+	margin: 0;
+	padding: 0;
 }
 
 html {
-  overflow-x: hidden;
-  /* Prevent horizontal scrolling */
-  line-height: var(--line-height-body);
-  /* Improves text readability */
-  -webkit-text-size-adjust: 100%;
-  /* Prevents font scaling in landscape mode on mobile */
+	overflow-x: hidden;
+	/* Prevent horizontal scrolling */
+	line-height: var(--line-height-body);
+	/* Improves text readability */
+	-webkit-text-size-adjust: 100%;
+	/* Prevents font scaling in landscape mode on mobile */
 }
 
 body {
-  font-family: var(--font-family-sans);
-  /* Uses defined sans-serif font family */
-  font-size: var(--base-font-size);
-  line-height: var(--line-height-body);
-  /* Consistent line height for body text */
-  margin: 0;
-  /* Removes default body margin */
+	font-family: var(--font-family-sans);
+	/* Uses defined sans-serif font family */
+	font-size: var(--base-font-size);
+	line-height: var(--line-height-body);
+	/* Consistent line height for body text */
+	margin: 0;
+	/* Removes default body margin */
 }
 
 a {
-  color: var(--jet);
-  /* Sets initial color */
-  text-decoration: none;
-  /* Removes default underline */
-  background-color: var(--pale-silver);
-  padding: var(--spacing-sm) var(--spacing-md);
-  border-radius: var(--border-radius-md);
-  border: none;
-  cursor: pointer;
-  font-size: var(--font-size-md);
-  display: block;
-  width: 100%;
+	color: var(--jet);
+	/* Sets initial color */
+	text-decoration: none;
+	/* Removes default underline */
+	background-color: var(--pale-silver);
+	padding: var(--spacing-sm) var(--spacing-md);
+	border-radius: var(--border-radius-md);
+	border: none;
+	cursor: pointer;
+	font-size: var(--font-size-md);
+	display: block;
+	width: 100%;
 }
 
 a:hover {
-  background-color: var(--myrtle-green);
-  color: var(--pale-silver);
+	background-color: var(--myrtle-green);
+	color: var(--pale-silver);
 }
 
 button,
 input,
 select,
 textarea {
-  font: inherit;
-  /* Ensures buttons and inputs use the same font as the body */
+	font: inherit;
+	/* Ensures buttons and inputs use the same font as the body */
 }
 
 /* Typography */
@@ -136,78 +137,78 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-sans);
-  /* Ensure headings use the sans-serif font */
-  font-weight: bold;
-  line-height: var(--line-height-heading);
-  margin-bottom: var(--spacing-sm);
-  color: var(--moon-white);
+	font-family: var(--font-family-sans);
+	/* Ensure headings use the sans-serif font */
+	font-weight: bold;
+	line-height: var(--line-height-heading);
+	margin-bottom: var(--spacing-sm);
+	color: var(--moon-white);
 }
 
 h1 {
-  font-size: var(--font-size-h1);
-  line-height: var(--line-height-h1);
-  /* 36px */
+	font-size: var(--font-size-h1);
+	line-height: var(--line-height-h1);
+	/* 36px */
 }
 
 h2 {
-  font-size: var(--font-size-h2);
-  line-height: var(--line-height-h2);
-  /* 30px */
+	font-size: var(--font-size-h2);
+	line-height: var(--line-height-h2);
+	/* 30px */
 }
 
 h3 {
-  font-size: var(--font-size-h3);
-  line-height: var(--line-height-h3);
-  /* 24px */
+	font-size: var(--font-size-h3);
+	line-height: var(--line-height-h3);
+	/* 24px */
 }
 
 h4 {
-  font-size: var(--font-size-h4);
-  line-height: var(--line-height-h4);
-  /* 20px */
+	font-size: var(--font-size-h4);
+	line-height: var(--line-height-h4);
+	/* 20px */
 }
 
 h5 {
-  font-size: var(--font-size-h5);
-  line-height: var(--line-height-h5);
-  /* 18px */
+	font-size: var(--font-size-h5);
+	line-height: var(--line-height-h5);
+	/* 18px */
 }
 
 h6 {
-  font-size: var(--font-size-h6);
-  line-height: var(--line-height-h6);
-  /* 16px */
+	font-size: var(--font-size-h6);
+	line-height: var(--line-height-h6);
+	/* 16px */
 }
 
 p {
-  margin-bottom: var(--spacing-md);
-  color: var(--moon-white);
-  font-size: var(--font-size-md);
-  line-height: var(--line-height-body);
+	margin-bottom: var(--spacing-md);
+	color: var(--moon-white);
+	font-size: var(--font-size-md);
+	line-height: var(--line-height-body);
 }
 
 em {
-  font-style: italic;
-  color: var(--earth-yellow);
-  margin-bottom: var(--spacing-md);
+	font-style: italic;
+	color: var(--earth-yellow);
+	margin-bottom: var(--spacing-md);
 }
 
 small {
-  font-size: var(--font-size-sm);
-  color: var(--taupe-gray);
+	font-size: var(--font-size-sm);
+	color: var(--taupe-gray);
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 li {
-  font-size: 1rem;
-  font-style: italic;
+	font-size: 1rem;
+	font-style: italic;
 }
 
 hr {
-  border: 0px solid var(--pale-silver);
-  margin: var(--spacing-lg) 0;
+	border: 0px solid var(--pale-silver);
+	margin: var(--spacing-lg) 0;
 }

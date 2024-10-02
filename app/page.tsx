@@ -8,7 +8,6 @@ import styles from "./page.module.css";
 
 export default function Page() {
 	return (
-
 		<div className={styles.tabs}>
 			<div className={styles.tab}>
 				<BookTab />
@@ -20,7 +19,6 @@ export default function Page() {
 			<div className={styles.tab}>
 				<IntroTab />
 			</div>
-
 
 			<div className={styles.tab}>
 				<InstructionsTab />
@@ -35,8 +33,6 @@ export default function Page() {
 				Darkness cradles silent worlds, <br />
 				The Void breathes alone.
 			</div>
-
 		</div>
-
 	);
 }

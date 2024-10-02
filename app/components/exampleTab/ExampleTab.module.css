@@ -1,9 +1,9 @@
 .bookCoverContainer {
-    margin-top: var(--spacing-lg);
-    max-width: 100%;
-    width: 100%;
+	margin-top: var(--spacing-lg);
+	max-width: 100%;
+	width: 100%;
 }
 
 .bookCover {
-    object-fit: cover;
+	object-fit: cover;
 }

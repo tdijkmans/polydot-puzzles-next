@@ -26,7 +26,6 @@ const ThreeScene = () => {
 				fade
 			/>
 
-
 			{/* Lighting */}
 			<ambientLight intensity={0.2} />
 			<pointLight

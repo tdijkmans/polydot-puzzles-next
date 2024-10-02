@@ -1,48 +1,48 @@
 .AnchorButton {
-    color: var(--jet);
-    /* Sets initial color */
-    text-decoration: none;
-    /* Removes default underline */
-    background-color: var(--pale-silver);
-    padding: var(--spacing-sm) var(--spacing-md);
-    border-radius: var(--border-radius-md);
-    border: none;
-    cursor: pointer;
-    font-size: var(--font-size-md);
-    display: block;
-    width: 100%;
-    position: relative;
-    box-shadow: 0 4px 15px rgba(63, 54, 57, 0.15);
-    /* Subtle shadow to create depth */
-    transition: all 0.3s ease;
+	color: var(--jet);
+	/* Sets initial color */
+	text-decoration: none;
+	/* Removes default underline */
+	background-color: var(--pale-silver);
+	padding: var(--spacing-sm) var(--spacing-md);
+	border-radius: var(--border-radius-md);
+	border: none;
+	cursor: pointer;
+	font-size: var(--font-size-md);
+	display: block;
+	width: 100%;
+	position: relative;
+	box-shadow: 0 4px 15px rgba(63, 54, 57, 0.15);
+	/* Subtle shadow to create depth */
+	transition: all 0.3s ease;
 }
 
 .AnchorButton::before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: rgba(68, 121, 133, 0.1);
-    /* Soft greenish glow */
-    border-radius: inherit;
-    box-shadow: 0 0 15px rgba(68, 121, 133, 0.5);
-    /* Add glow effect */
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: rgba(68, 121, 133, 0.1);
+	/* Soft greenish glow */
+	border-radius: inherit;
+	box-shadow: 0 0 15px rgba(68, 121, 133, 0.5);
+	/* Add glow effect */
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
 }
 
 .AnchorButton:hover::before {
-    opacity: 1;
-    /* Glow becomes visible on hover */
+	opacity: 1;
+	/* Glow becomes visible on hover */
 }
 
 .AnchorButton:hover {
-    background-color: var(--myrtle-green);
-    color: var(--pale-silver);
-    text-shadow: 0 0 8px rgba(201, 201, 201, 0.8);
-    /* Slight glow effect for text */
-    box-shadow: 0 6px 20px rgba(68, 121, 133, 0.4);
-    /* Stronger shadow for hover state */
+	background-color: var(--myrtle-green);
+	color: var(--pale-silver);
+	text-shadow: 0 0 8px rgba(201, 201, 201, 0.8);
+	/* Slight glow effect for text */
+	box-shadow: 0 6px 20px rgba(68, 121, 133, 0.4);
+	/* Stronger shadow for hover state */
 }
