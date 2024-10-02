@@ -3,7 +3,7 @@ import styles from './IntroTab.module.css';
 
 const IntroTab = () => {
     return (
-        <div className={'tabContainer'}>
+        <div >
             <div>
                 <div className={styles.infoBox}>
                     <h1>Polydot Puzzles</h1>

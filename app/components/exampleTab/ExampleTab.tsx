@@ -1,16 +1,26 @@
+import Image from "next/image";
 import styles from "./ExampleTab.module.css";
-import GolemLine from "./Golem/GolemLine";
 
 const ExampleTab = () => {
     return (
-        <div className={'tabContainer'}>
-            <h2 className={styles.title}>Polydot Drawing of The Golem</h2>
+        <>
+            <h2>Polydot Drawing of The Golem</h2>
 
-            <GolemLine />
-            <div className={styles.polyDotdescription}>
-                With each step, it protects its creator's home, its massive fists ready to defend against any threat
+            <div className={styles.bookCoverContainer}>
+                <Image
+                    src="/golem.webp"
+                    alt="Polydot Drawing of The Golem"
+                    layout="responsive"
+                    width={2308}
+                    height={2449}
+                    className={styles.bookCover}
+                />
             </div>
-        </div>)
+
+            <h3>
+                With each step, it protects its creator's home, its massive fists ready to defend against any threat
+            </h3>
+        </>)
 };
 
 export default ExampleTab;

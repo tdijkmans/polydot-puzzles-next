@@ -1,6 +1,8 @@
 .bookCoverContainer {
     border-radius: var(--border-radius-md);
-
+    margin-top: var(--spacing-lg);
+    max-width: 100%;
+    width: 100%;
 }
 
 .bookCover {
@@ -8,4 +10,5 @@
     border-radius: var(--border-radius-md);
     border: 1px solid var(--jet);
     transform: rotate3d(1, 1, 1, 10deg);
+    object-fit: cover;
 }

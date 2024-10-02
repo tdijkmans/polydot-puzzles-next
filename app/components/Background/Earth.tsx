@@ -8,8 +8,8 @@ const Earth = () => {
 	const earthRef = useRef<THREE.Mesh>(null);
 
 	const textureLoader = new THREE.TextureLoader();
-	const texture = "./equirect_world.png";
 	const earthTexture = useMemo(() => {
+		const texture = "./equirect_world.png";
 		const tex = textureLoader.load(texture);
 		tex.wrapS = tex.wrapT = RepeatWrapping;
 		tex.repeat.set(1, 1);
