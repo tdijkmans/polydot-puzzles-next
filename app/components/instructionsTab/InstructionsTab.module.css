@@ -14,3 +14,16 @@
 	color: white;
 	font-family: "Garamond", serif;
 }
+
+.letters {
+	display: flex;
+}
+
+.instructionsTab {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	max-width: 100%;
+}

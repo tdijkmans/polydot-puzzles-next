@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Button.module.css";
 
 interface AnchorButtonProps
@@ -14,4 +13,16 @@ const AnchorButton: React.FC<AnchorButtonProps> = ({ children, ...props }) => {
 	);
 };
 
-export default AnchorButton;
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+	children: React.ReactNode;
+}
+
+const Button: React.FC<ButtonProps> = ({ children, ...props }) => {
+	return (
+		<button {...props} className={styles.AnchorButton}>
+			{children}
+		</button>
+	);
+};
+
+export { AnchorButton, Button };

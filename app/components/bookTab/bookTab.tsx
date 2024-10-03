@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AnchorButton from "../Button/Button";
+import { AnchorButton } from "../Button/Button";
 import styles from "./bookTab.module.css";
 
 const BookTab = () => {

@@ -1,0 +1,32 @@
+.letters {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: var(--font-size-lg);
+	color: var(--pale-silver);
+	margin-bottom: var(--spacing-md);
+}
+
+.letter {
+	font-family: "Consolas", monospace;
+	margin: var(--spacing-xxs);
+}
+
+.letterCurrent {
+	color: var(--saturated-earth-yellow);
+}
+
+.letterPrevious {
+	color: var(--saturated-myrtle-green);
+}
+
+.letterNext {
+	color: var(--saturated-mountbatten-pink);
+}
+
+.letterFuture {
+	color: var(--pale-silver);
+}
+
+.letterPast {
+	color: var(--saturated-myrtle-green);
+}

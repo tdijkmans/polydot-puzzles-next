@@ -13,7 +13,16 @@
 	--pale-silver: #c9c9c9ff;
 	--moon-white: #f0f0f0ff;
 
+	/* Saturated Colors */
+	--saturated-jet: #4a2b35;
+	--saturated-myrtle-green: #368091;
+	--saturated-taupe-gray: #8c87b5;
+	--saturated-mountbatten-pink: #a55a83;
+	--saturated-earth-yellow: #e0af61;
+	--saturated-pale-silver: #dddddb;
+
 	/* Spacing */
+	--spacing-xxs: 0.25rem;
 	--spacing-xs: 0.5rem;
 	--spacing-sm: 1rem;
 	--spacing-md: 1.5rem;
