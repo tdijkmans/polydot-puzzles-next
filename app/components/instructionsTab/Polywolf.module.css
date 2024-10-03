@@ -1,0 +1,148 @@
+.title {
+	font-family: "Consolas", monospace;
+	font-size: var(--font-size-xl);
+	color: var(--moon-white);
+}
+
+.svg {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.polywolf {
+	max-width: 100%;
+}
+
+.line {
+	stroke-width: 2;
+	transform: translate(-99.413461px, -180.21509px);
+}
+
+.lineCurrent {
+	stroke: var(--saturated-earth-yellow);
+}
+
+.linePrevious {
+	stroke: var(--saturated-myrtle-green);
+}
+
+.lineNext {
+	stroke: var(--saturated-mountbatten-pink);
+}
+
+.lineFuture {
+	stroke: "none";
+}
+
+.linePast {
+	stroke: var(--myrtle-green);
+}
+
+.circle {
+	background-color: var(--myrtle-green);
+	fill: var(--pale-silver);
+}
+
+.text {
+	font-family: "Consolas", monospace;
+	fill: var(--moon-white);
+	font-size: var(--font-size-xs);
+	letter-spacing: 0.1em;
+	text-anchor: middle;
+	dominant-baseline: middle;
+	stroke: "none";
+}
+
+.textPast,
+.circlePast {
+	fill: var(--saturated-pale-silver);
+}
+
+.textPrevious,
+.circlePrevious {
+	/* fill: var(--mountbatten-pink); */
+}
+
+.textCurrent,
+.circleCurrent {
+	fill: var(--saturated-earth-yellow);
+}
+
+.circleBig {
+	stroke: var(--mountbatten-pink);
+	stroke-width: 0px;
+	filter: drop-shadow(0 0 7px var(--saturated-mountbatten-pink));
+	opacity: 0.5;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		stroke-width: 0px;
+	}
+
+	50% {
+		stroke-width: 16px;
+	}
+
+	100% {
+		stroke-width: 0px;
+	}
+}
+
+.textNext,
+.circleNext {
+	fill: var(--pale-silver);
+}
+
+.textFuture,
+.circleFuture {
+	fill: var(--pale-silver);
+}
+
+.planes {
+	fill: transparent;
+	stroke: "none";
+	stroke-width: 2;
+	transform: translate(-99.413461px, -180.21509px);
+}
+
+.planesResolved {
+	filter: drop-shadow(0 0 7px var(--saturated-mountbatten-pink));
+	animation: burning-eyes 10s infinite;
+}
+
+@keyframes burning-eyes {
+	0% {
+		fill: #711b36;
+	}
+
+	50% {
+		fill: var(--saturated-jet);
+	}
+
+	100% {
+		fill: #711b36;
+	}
+}
+
+.fillCircle {
+	fill: var(--moon-white);
+	transform: translate(-99.413461px, -180.21509px);
+	stroke: "none";
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	gap: var(--spacing-md);
+	align-items: center;
+}
+
+.buttonDisabled {
+	pointer-events: none;
+	opacity: 0.5;
+}

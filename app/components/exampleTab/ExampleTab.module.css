@@ -1,24 +1,24 @@
-.polyDotdescription {
-    font-size: 2rem;
-    text-align: center;
-    color: var(--pale-silver);
-    font-family: 'Garamond', serif;
-    font-style: italic;
-    max-width: 500px;
-}
-
 .title {
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-    font-family: 'Garamond', serif;
+	font-family: "Garamond", serif;
+	color: var(--moon-white);
+	font-size: var(--font-size-xxxl);
 }
 
-.tabContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    transition: all 0.3s;
-    height: 100%
+.bookCoverContainer {
+	margin-top: var(--spacing-lg);
+	max-width: 100%;
+	width: 100%;
+}
+
+.bookCover {
+	object-fit: cover;
+}
+
+.description {
+	font-family: "Garamond", serif;
+	font-size: var(--font-size-xxl);
+	font-style: italic;
+	font-weight: lighter;
+	color: var(--moon-white);
+	text-align: center;
 }

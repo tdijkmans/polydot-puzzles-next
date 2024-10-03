@@ -1,65 +1,38 @@
 .tabs {
-  justify-content: space-around;
-  width: 100vw;
-  color: var(--pale-silver);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  background-color: var(--jet);
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  border-bottom: 1px solid var(--pale-silver);
-  text-overflow: ellipsis;
+	display: grid;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .tab {
-  padding: var(--spacing-sm);
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
-  position: relative;
+	margin: var(--spacing-lg);
+	align-items: center;
+	z-index: 10;
+	border-radius: var(--border-radius-md);
+	padding: var(--spacing-md);
+	border: 1px solid var(--pale-silver);
+	backdrop-filter: blur(5px);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	max-width: 40rem;
+	min-height: calc(100vh - 300px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
 }
 
-.tab:hover {
-  background-color: #ddd;
-}
-
-.tabContent {
-  display: none;
-  position: fixed;
-  top: 70px;
-  left: 10px;
-  width: clamp(300px, 50%, 800px);
-  height: 90vh;
-
-  margin: var(--spacing-lg);
-  flex-direction: column;
-  align-items: center;
-  z-index: 10;
-  border-radius: var(--border-radius-md);
-  padding: var(--spacing-md);
-  background-color: var(--jet);
-  border: 1px solid var(--pale-silver);
-  opacity: 0.9;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
+/* first tab add margin */
+.tab:first-child {
+	margin-top: var(--spacing-xl);
 }
 
 .void {
-  color: var(--pale-silver);
-  font-size: 1.5rem;
-  margin-top: 50%;
-  background-color: none;
-  background: none;
-  backdrop-filter: none;
-  box-shadow: none;
-  border: none;
-  padding: 0;
-}
-
-/* Show tab content on hover */
-.tab:hover .tabContent {
-  display: block;
+	color: var(--pale-silver);
+	font-size: var(--font-size-md);
+	background-color: none;
+	backdrop-filter: none;
+	box-shadow: none;
+	border: none;
+	margin-top: 250px;
+	line-height: 2;
 }

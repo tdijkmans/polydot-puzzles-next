@@ -1,29 +1,18 @@
-
-import Instructions from './Instructions';
-import styles from './InstructionsTab.module.css';
+import styles from "./InstructionsTab.module.css";
+import Polywolf from "./Polywolf";
 
 const InstructionsTab = () => {
-    return (
-        <div className={styles.tabContainer}>
-            <h2 className={styles.title}>Solving the Polywolf</h2>
-            <p> With a pencil in hand, you connect the dots in the correct order as depicted in the instruction sequence below. After connecting all the dots, see that asterisks are enclosed by the lines you&apos;ve drawn. The planes that have asterisks are the ones you should shade in. By the end, you&apos;ll have drawn the Polywolf and completed the puzzle.
-            </p>
-
-            <div className={styles.polyDotinstruction}>
-                <h3>Poly Wolf</h3>
-                <>
-                    {["aa", "ab", "ac", "ad", "ae", "af", "ag", "ah", "ai", "ah", "aj", "ak", "al", "am", "an", "ao", "ap", "am", "ak", "ai", "aq", "ar", "as", "at", "au", "ar", "am", "as", "an", "ao", "av", "aa"].map((letter, index) => (
-                        <span key={index}>
-                            {letter} {(index + 1) % 5 === 0 && <span />}
-                        </span>
-                    ))}
-                </>
-
-            </div>
-            <Instructions />
-        </div>
-    )
-
-}
+	return (
+		<>
+			<div className={styles.titleContainer}>
+				<h2 className={styles.title}>The Polywolf</h2>
+				<h3 className={styles.subtitle}> example </h3>
+			</div>
+			<div className={styles.instructionsTab}>
+				<Polywolf />
+			</div>
+		</>
+	);
+};
 
 export default InstructionsTab;
