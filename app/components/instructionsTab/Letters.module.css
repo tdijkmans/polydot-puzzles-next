@@ -4,6 +4,7 @@
 	font-size: var(--font-size-lg);
 	color: var(--pale-silver);
 	margin-bottom: var(--spacing-md);
+	transition: all 0.3s ease-in-out;
 }
 
 .letter {
@@ -19,8 +20,23 @@
 	color: var(--saturated-myrtle-green);
 }
 
+@keyframes scaleUp {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.25);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
 .letterNext {
 	color: var(--saturated-mountbatten-pink);
+	animation: scaleUp 1s ease-in-out forwards;
 }
 
 .letterFuture {
@@ -29,4 +45,12 @@
 
 .letterPast {
 	color: var(--saturated-myrtle-green);
+}
+
+.colorIndicator {
+	margin-left: var(--spacing-md);
+}
+
+.timeToColor {
+	color: var(--saturated-earth-yellow);
 }

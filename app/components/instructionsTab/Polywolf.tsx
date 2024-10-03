@@ -1,15 +1,26 @@
 "use client";
-import { Fragment, type SVGProps, useState } from "react";
+import { Fragment, useState } from "react";
 import { Button } from "../Button/Button";
+import BrushIcon from "./BrushIcon";
 import Letters from "./Letters";
+import PencilIcon from "./PencilIcon";
 import styles from "./Polywolf.module.css";
 import { steps } from "./polyWolfData";
 
-const Polywolf = (props: SVGProps<SVGSVGElement>) => {
+const Polywolf = () => {
 	const [curStep, setCurStep] = useState(-1);
+
+	const handleStep = (step: number, action: "draw line" | "color planes") => {
+		if (action === "draw line" && step < steps.length) {
+			setCurStep(step);
+		} else if (action === "color planes" && step === steps.length) {
+			setCurStep(steps.length);
+		}
+	};
 
 	return (
 		<div className={styles.polywolf}>
+			<h2 className={styles.title}>Polydot | Hunt the Haunted</h2>
 			<Letters steps={steps} curStep={curStep} />
 
 			<svg
@@ -20,16 +31,8 @@ const Polywolf = (props: SVGProps<SVGSVGElement>) => {
 				className={styles.svg}
 			>
 				<title>{"polywolf"}</title>
-				<g transform="matrix(.21098 0 0 .21098 1.682 0)">
-					<path
-						d="m349.856 562.485 45.524-52.194 66.448 20.687-20.421 42.846zM249.615 488.535l28.296 52.287-14.78 13.903-13.516-66.19"
-						id="filled_plane"
-						className={`
-							${styles.planes}
-							${curStep === steps.length ? styles.planesResolved : ""}
-						`}
-					/>
 
+				<g transform="matrix(.21098 0 0 .21098 1.682 0)">
 					<circle
 						cx={410.958}
 						cy={544.336}
@@ -139,22 +142,51 @@ const Polywolf = (props: SVGProps<SVGSVGElement>) => {
 							);
 						})}
 					</g>
+
+					<path
+						d="m349.856 562.485 45.524-52.194 66.448 20.687-20.421 42.846zM249.615 488.535l28.296 52.287-14.78 13.903-13.516-66.19"
+						id="filled_plane"
+						className={`
+							${styles.planes}
+							${curStep === steps.length ? styles.planesResolved : ""}
+						`}
+					/>
 				</g>
 			</svg>
 
 			<div
 				style={{
 					display: "flex",
+					flexDirection: "column",
 					justifyContent: "space-between",
 					marginTop: "1rem",
 					gap: "1rem",
 				}}
 			>
-				<Button onClick={() => setCurStep(0)} type="button">
+				<div style={{ display: "flex", gap: "1rem" }}>
+					<Button
+						onClick={() => handleStep(curStep + 1, "draw line")}
+						type="button"
+					>
+						<div className={styles.button}>
+							<div>Draw line</div>
+
+							<PencilIcon />
+						</div>
+					</Button>
+
+					<Button
+						onClick={() => handleStep(curStep + 1, "color planes")}
+						type="button"
+					>
+						<div className={styles.button}>
+							<div>Color planes</div>
+							<BrushIcon />
+						</div>
+					</Button>
+				</div>
+				<Button onClick={() => setCurStep(-1)} type="button">
 					Go again
-				</Button>
-				<Button onClick={() => setCurStep((prev) => prev + 1)} type="button">
-					Draw line
 				</Button>
 			</div>
 		</div>

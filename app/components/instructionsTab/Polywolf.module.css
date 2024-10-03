@@ -1,3 +1,9 @@
+.title {
+	font-family: "Consolas", monospace;
+	font-size: var(--font-size-xl);
+	color: var(--moon-white);
+}
+
 .svg {
 	display: block;
 	margin: 0 auto;
@@ -98,19 +104,45 @@
 }
 
 .planes {
-	fill: var(--jet);
+	fill: transparent;
 	stroke: "none";
 	stroke-width: 2;
 	transform: translate(-99.413461px, -180.21509px);
 }
 
 .planesResolved {
-	fill: var(--saturated-earth-yellow);
+	filter: drop-shadow(0 0 7px var(--saturated-mountbatten-pink));
+	animation: burning-eyes 10s infinite;
+}
+
+@keyframes burning-eyes {
+	0% {
+		fill: #711b36;
+	}
+
+	50% {
+		fill: var(--saturated-jet);
+	}
+
+	100% {
+		fill: #711b36;
+	}
 }
 
 .fillCircle {
-	fill: var(--myrtle-green);
+	fill: var(--moon-white);
 	transform: translate(-99.413461px, -180.21509px);
 	stroke: "none";
-	stroke-width: 2;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	gap: var(--spacing-md);
+	align-items: center;
+}
+
+.buttonDisabled {
+	pointer-events: none;
+	opacity: 0.5;
 }

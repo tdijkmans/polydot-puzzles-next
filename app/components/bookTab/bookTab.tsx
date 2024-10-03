@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AnchorButton } from "../Button/Button";
+import LinkIcon from "./LinkIcon";
 import styles from "./bookTab.module.css";
 
 const BookTab = () => {
@@ -36,7 +37,10 @@ const BookTab = () => {
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				Buy Now
+				<div className={styles.buyButton}>
+					<div>Buy Now</div>
+					<LinkIcon />
+				</div>
 			</AnchorButton>
 		</>
 	);

@@ -4,7 +4,7 @@ import styles from "./ExampleTab.module.css";
 const ExampleTab = () => {
 	return (
 		<>
-			<h2>Polydot Drawing of The Golem</h2>
+			<h1 className={styles.title}>The Golem</h1>
 
 			<div className={styles.bookCoverContainer}>
 				<Image
@@ -17,7 +17,7 @@ const ExampleTab = () => {
 				/>
 			</div>
 
-			<h3>
+			<h3 className={styles.description}>
 				With each step, it protects its creator's home, its massive fists ready
 				to defend against any threat
 			</h3>

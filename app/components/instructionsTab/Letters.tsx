@@ -26,6 +26,15 @@ const Letters = ({ steps, curStep }: { steps: Step[]; curStep: number }) => {
 					</span>
 				);
 			})}
+
+			<div
+				className={`
+			${styles.letter} 
+			${styles.colorIndicator}
+			${offsetStep === steps.length ? styles.timeToColor : ""}`}
+			>
+				time to color
+			</div>
 		</div>
 	);
 };

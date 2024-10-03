@@ -1,22 +1,27 @@
-.polyDotinstruction {
-	font-family: "Consolas", monospace;
-	font-size: 1rem;
-	color: var(--pale-silver);
-}
-
-.polyDotinstruction span {
-	margin: var(--spacing-sm);
+.titleContainer {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background-color: var(--jet);
+	border-bottom: 1px solid var(--pale-silver);
 }
 
 .title {
-	font-size: 2rem;
+	font-size: var(--font-size-xxl);
 	text-align: center;
 	color: white;
 	font-family: "Garamond", serif;
+	margin-top: 15px;
+	margin-bottom: 5px;
 }
 
-.letters {
-	display: flex;
+.subtitle {
+	font-size: var(--font-size-lg);
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--pale-silver);
+	font-family: "Consolas", monospace;
 }
 
 .instructionsTab {
@@ -26,4 +31,5 @@
 	justify-content: space-between;
 	height: 100%;
 	max-width: 100%;
+	margin-top: 100px;
 }
