@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Background from "./components/background/Background";
 import "./globals.css";
 import styles from "./layout.module.css";
 
@@ -21,7 +20,6 @@ export default function RootLayout({
 			<body className={inter.className}>
 				<main className={styles.main}>
 					{children}
-					<Background />
 				</main>
 			</body>
 		</html>
