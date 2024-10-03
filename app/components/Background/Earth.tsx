@@ -7,14 +7,14 @@ import { RepeatWrapping } from "three";
 const Earth = () => {
 	const earthRef = useRef<THREE.Mesh>(null);
 
-	const textureLoader = new THREE.TextureLoader();
 	const earthTexture = useMemo(() => {
 		const texture = "./equirect_world.png";
+		const textureLoader = new THREE.TextureLoader();
 		const tex = textureLoader.load(texture);
 		tex.wrapS = tex.wrapT = RepeatWrapping;
 		tex.repeat.set(1, 1);
 		return tex;
-	}, [textureLoader]);
+	}, []);
 
 	useFrame(({ clock }) => {
 		const { current } = earthRef;
