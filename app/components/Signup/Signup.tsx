@@ -1,26 +1,41 @@
+import styles from "./Signup.module.css";
+
 export default function Signup() {
+	const iframeStyle = {
+		border: "none",
+		display: "block",
+		margin: "0 auto",
+		maxWidth: "100%",
+		width: "100%",
+		height: "363px", // Ensure this matches both client and server
+		overflow: "hidden",
+	};
+
 	return (
-		<>
-			<h1>Sign Up</h1>
+		<div className={styles.signup}>
+			<h1>Stay in the Loop</h1>
+
+			<p>
+				Currently, Polydot Puzzles has its first issue available for purchase.
+				To stay updated on new releases for future issues, sign up below.
+			</p>
+
+			<p>
+				You'll receive an email when new issues are available, as well as any
+				other important updates. No spam, just updates on Polydot Puzzles.
+			</p>
 
 			<iframe
 				data-w-type="embedded"
-				style={{
-					border: "none",
-					display: "block",
-					margin: "0 auto",
-					maxWidth: "100%",
-					width: "100%",
-					height: "100%",
-				}}
+				style={iframeStyle}
 				src="https://0xqpw.mjt.lu/wgt/0xqpw/xtug/form?c=e040f698"
-				width="100%"
+				title="Sign Up"
 			/>
 
 			<script
 				type="text/javascript"
 				src="https://app.mailjet.com/pas-nc-embedded-v1.js"
-			></script>
-		</>
+			/>
+		</div>
 	);
 }
