@@ -18,7 +18,7 @@ const ExampleTab = () => {
 			</div>
 
 			<h3 className={styles.description}>
-				With each step, it protects its creator's home, its massive fists ready
+				With each step, it protects its creator&apos;s home, its massive fists ready
 				to defend against any threat
 			</h3>
 		</>

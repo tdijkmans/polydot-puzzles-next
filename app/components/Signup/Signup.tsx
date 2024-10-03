@@ -21,7 +21,7 @@ export default function Signup() {
 			</p>
 
 			<p>
-				You'll receive an email when new issues are available, as well as any
+				You&apos;ll receive an email when new issues are available, as well as any
 				other important updates. No spam, just updates on Polydot Puzzles.
 			</p>
 
