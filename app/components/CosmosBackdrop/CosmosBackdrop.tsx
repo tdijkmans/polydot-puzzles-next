@@ -1,8 +1,8 @@
-import styles from "./Background.module.css";
+import styles from "./CosmosBackdrop.module.css";
 import Mountains from "./Mountains";
 import ThreeScene from "./Scene.component";
 
-const Background = () => {
+const CosmosBackdrop = () => {
 	return (
 		<>
 			<div className={styles.canvas}>
@@ -16,9 +16,8 @@ const Background = () => {
 			<div className={styles.mountainsFront}>
 				<Mountains />
 			</div>
-			{/* <Signup /> */}
 		</>
 	);
 };
 
-export default Background;
+export default CosmosBackdrop;
