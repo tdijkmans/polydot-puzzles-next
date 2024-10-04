@@ -1,9 +1,9 @@
-import Signup from "./components/Signup/Signup";
-import IntroTab from "./components/aboutPolydotsTab/IntroTab";
-import BookTab from "./components/bookTab/bookTab";
-import ExampleTab from "./components/exampleTab/ExampleTab";
-import InstructionsTab from "./components/instructionsTab/InstructionsTab";
 import styles from "./page.module.css";
+import IntroTab from "./tabs/AboutPolydots/IntroTab";
+import BookTab from "./tabs/BookTab/bookTab";
+import ExampleTab from "./tabs/ExampleTab/ExampleTab";
+import InstructionsTab from "./tabs/InstructionsTab/InstructionsTab";
+import Signup from "./tabs/SignupTab/Signup";
 
 export default function Page() {
 	return (
@@ -16,7 +16,7 @@ export default function Page() {
 					<ExampleTab />
 				</div>
 
-				<div className={styles.tab}>
+				<div className={`${styles.tab} ${styles.intro}`}>
 					<IntroTab />
 				</div>
 

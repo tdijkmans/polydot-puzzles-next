@@ -1,0 +1,42 @@
+.title {
+	font-family: "Garamond", serif;
+	color: var(--moon-white);
+}
+
+.description {
+	font-family: "Garamond", serif;
+	font-style: italic;
+	font-weight: lighter;
+	color: var(--moon-white);
+	text-align: center;
+}
+
+@media (max-width: 1200px) {
+	.title {
+		font-size: var(--font-size-xxxl);
+	}
+
+	.description {
+		font-size: var(--font-size-xxl);
+	}
+}
+
+@media (max-width: 400px) {
+	.title {
+		font-size: var(--font-size-xxl);
+	}
+
+	.description {
+		font-size: var(--font-size-xl);
+	}
+}
+
+.coverContainer {
+	margin-top: var(--spacing-lg);
+	max-width: 100%;
+	width: 100%;
+}
+
+.cover {
+	object-fit: cover;
+}

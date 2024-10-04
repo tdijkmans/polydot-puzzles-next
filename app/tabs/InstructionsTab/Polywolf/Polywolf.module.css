@@ -1,7 +1,24 @@
 .title {
 	font-family: "Consolas", monospace;
-	font-size: var(--font-size-xl);
 	color: var(--moon-white);
+}
+
+@media (max-width: 1200px) {
+	.title {
+		font-size: var(--font-size-xl);
+	}
+}
+
+@media (max-width: 600px) {
+	.title {
+		font-size: var(--font-size-lg);
+	}
+}
+
+@media (max-width: 400px) {
+	.title {
+		font-size: var(--font-size-md);
+	}
 }
 
 .svg {
@@ -133,16 +150,4 @@
 	fill: var(--moon-white);
 	transform: translate(-99.413461px, -180.21509px);
 	stroke: "none";
-}
-
-.button {
-	display: flex;
-	justify-content: center;
-	gap: var(--spacing-md);
-	align-items: center;
-}
-
-.buttonDisabled {
-	pointer-events: none;
-	opacity: 0.5;
 }

@@ -1,0 +1,30 @@
+.buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: var(--spacing-md);
+	margin-top: var(--spacing-lg);
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	gap: var(--spacing-md);
+	align-items: center;
+}
+
+@media (max-width: 450px) {
+	.button svg {
+		display: none;
+	}
+
+	.button {
+		font-size: var(--font-size-xs);
+	}
+}
+
+@media (max-width: 600px) {
+	.button {
+		font-size: var(--font-size-sm);
+	}
+}

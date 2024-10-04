@@ -83,6 +83,11 @@
 	--line-height-h4: 1.3;
 	--line-height-h5: 1.3;
 	--line-height-h6: 1.3;
+
+	/* Breakpoints */
+	--phone: 400px;
+	--tablet: 800px;
+	--desktop: 1200px;
 }
 
 *,

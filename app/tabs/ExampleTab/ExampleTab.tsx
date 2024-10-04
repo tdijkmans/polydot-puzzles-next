@@ -6,14 +6,14 @@ const ExampleTab = () => {
 		<>
 			<h1 className={styles.title}>The Golem</h1>
 
-			<div className={styles.bookCoverContainer}>
+			<div className={styles.coverContainer}>
 				<Image
 					src="/Golem.webp"
 					alt="Polydot Drawing of The Golem"
 					layout="responsive"
 					width={2308}
 					height={2449}
-					className={styles.bookCover}
+					className={styles.cover}
 				/>
 			</div>
 

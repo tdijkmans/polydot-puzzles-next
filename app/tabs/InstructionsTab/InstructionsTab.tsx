@@ -1,5 +1,5 @@
 import styles from "./InstructionsTab.module.css";
-import Polywolf from "./Polywolf";
+import Polywolf from "./Polywolf/Polywolf";
 
 const InstructionsTab = () => {
 	return (
