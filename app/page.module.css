@@ -36,3 +36,8 @@
 	margin-top: 250px;
 	line-height: 2;
 }
+
+.intro {
+	padding: 0;
+	justify-content: flex-start;
+}

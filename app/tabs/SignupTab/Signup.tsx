@@ -7,7 +7,7 @@ export default function Signup() {
 		margin: "0 auto",
 		maxWidth: "100%",
 		width: "100%",
-		height: "363px", // Ensure this matches both client and server
+		height: "479px", // Ensure this matches both client and server
 		overflow: "hidden",
 	};
 

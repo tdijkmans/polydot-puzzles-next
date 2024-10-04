@@ -1,16 +1,18 @@
 "use client";
 import { Fragment, useState } from "react";
-import { Button } from "../Button/Button";
-import BrushIcon from "./BrushIcon";
-import Letters from "./Letters";
-import PencilIcon from "./PencilIcon";
+import Buttons from "../Buttons/Buttons";
+import Letters from "../Letters/Letters";
 import styles from "./Polywolf.module.css";
 import { steps } from "./polyWolfData";
 
 const Polywolf = () => {
 	const [curStep, setCurStep] = useState(-1);
 
-	const handleStep = (step: number, action: "draw line" | "color planes") => {
+	const handleStep = (action: "draw line" | "color planes" | "go again") => {
+		const step = curStep + 1;
+		if (action === "go again") {
+			setCurStep(-1);
+		}
 		if (action === "draw line" && step < steps.length) {
 			setCurStep(step);
 		} else if (action === "color planes" && step === steps.length) {
@@ -154,41 +156,7 @@ const Polywolf = () => {
 				</g>
 			</svg>
 
-			<div
-				style={{
-					display: "flex",
-					flexDirection: "column",
-					justifyContent: "space-between",
-					marginTop: "1rem",
-					gap: "1rem",
-				}}
-			>
-				<div style={{ display: "flex", gap: "1rem" }}>
-					<Button
-						onClick={() => handleStep(curStep + 1, "draw line")}
-						type="button"
-					>
-						<div className={styles.button}>
-							<div>Draw line</div>
-
-							<PencilIcon />
-						</div>
-					</Button>
-
-					<Button
-						onClick={() => handleStep(curStep + 1, "color planes")}
-						type="button"
-					>
-						<div className={styles.button}>
-							<div>Color planes</div>
-							<BrushIcon />
-						</div>
-					</Button>
-				</div>
-				<Button onClick={() => setCurStep(-1)} type="button">
-					Go again
-				</Button>
-			</div>
+			<Buttons handleStep={handleStep} />
 		</div>
 	);
 };

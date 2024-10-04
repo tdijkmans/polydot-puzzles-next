@@ -1,19 +1,19 @@
 import Image from "next/image";
-import { AnchorButton } from "../Button/Button";
+import { AnchorButton } from "../../components/Button/Button";
 import LinkIcon from "./LinkIcon";
 import styles from "./bookTab.module.css";
 
 const BookTab = () => {
 	return (
 		<>
-			<div className={styles.bookCoverContainer}>
+			<div className={styles.coverContainer}>
 				<Image
 					src="/Cover.png"
 					alt="Polydot Puzzles"
 					layout="responsive"
 					width={1248}
 					height={1636}
-					className={styles.bookCover}
+					className={styles.cover}
 				/>
 			</div>
 

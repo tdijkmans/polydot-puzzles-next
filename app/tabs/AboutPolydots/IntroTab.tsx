@@ -3,11 +3,11 @@ import styles from "./IntroTab.module.css";
 const IntroTab = () => {
 	return (
 		<>
-			<div className={styles.titleBox}>
+			<div className={styles.title}>
 				<h1>Polydot Puzzles</h1>
 				<h2>Low Poly Connect-the-Dots for Adults</h2>
 			</div>
-			<div className={styles.infoBox}>
+			<div className={styles.article}>
 				<h2>What are Polydot Puzzles?</h2>
 				<p>
 					Polydot Puzzles are a unique fusion of low poly art and

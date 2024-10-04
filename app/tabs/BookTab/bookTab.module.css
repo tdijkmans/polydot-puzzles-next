@@ -1,11 +1,11 @@
-.bookCoverContainer {
+.coverContainer {
 	border-radius: var(--border-radius-md);
 	margin-top: var(--spacing-lg);
 	max-width: 100%;
 	width: 100%;
 }
 
-.bookCover {
+.cover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	border-radius: var(--border-radius-md);
 	border: 1px solid var(--jet);
