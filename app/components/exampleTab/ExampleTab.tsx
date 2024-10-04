@@ -8,7 +8,7 @@ const ExampleTab = () => {
 
 			<div className={styles.bookCoverContainer}>
 				<Image
-					src="/golem.webp"
+					src="/Golem.webp"
 					alt="Polydot Drawing of The Golem"
 					layout="responsive"
 					width={2308}
