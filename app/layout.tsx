@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import CosmosBackdrop from "./components/CosmosBackdrop/CosmosBackdrop";
 import "./globals.css";
 import styles from "./layout.module.css";
 
@@ -19,7 +20,7 @@ export default function RootLayout({
 		<html lang="nl">
 			<body className={inter.className}>
 				<main className={styles.main}>
-					{children}
+					{children} <CosmosBackdrop />
 				</main>
 			</body>
 		</html>

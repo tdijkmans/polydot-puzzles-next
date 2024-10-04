@@ -1,6 +1,5 @@
 import Signup from "./components/Signup/Signup";
 import IntroTab from "./components/aboutPolydotsTab/IntroTab";
-import Background from "./components/background/Background";
 import BookTab from "./components/bookTab/bookTab";
 import ExampleTab from "./components/exampleTab/ExampleTab";
 import InstructionsTab from "./components/instructionsTab/InstructionsTab";
@@ -35,7 +34,6 @@ export default function Page() {
 					The Void breathes alone.
 				</div>
 			</div>
-			<Background />
 		</>
 	);
 }
