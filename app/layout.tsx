@@ -7,7 +7,7 @@ import styles from "./layout.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Polydot Puzzles",
+	title: "Polydot Puzzles - Low Poly Connect-the-Dots for Adults",
 	description: "Low Poly Connect-the-Dots for Adults",
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="nl">
+		<html lang="en">
 			<body className={inter.className}>
 				<main className={styles.main}>
 					{children} <CosmosBackdrop />

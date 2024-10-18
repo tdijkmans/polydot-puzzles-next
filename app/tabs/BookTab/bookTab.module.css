@@ -13,6 +13,10 @@
 	object-fit: cover;
 }
 
+.description {
+	color: var(--taupe-gray);
+}
+
 .buyButton {
 	cursor: pointer;
 	gap: var(--spacing-sm);
