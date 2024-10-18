@@ -1,0 +1,23 @@
+.lines_group {
+    stroke: none;
+    stroke-width: 1;
+    fill: none;
+}
+
+.dots_group {
+    fill: #e31313;
+    stroke: yellow;
+    stroke-width: 0;
+    font-size: 6pt;
+    letter-spacing: 1px;
+}
+
+.text {
+    display: none
+}
+
+.solution {
+    fill: none;
+    stroke: none;
+    stroke-width: 0;
+}
