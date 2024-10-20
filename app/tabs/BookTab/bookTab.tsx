@@ -29,6 +29,7 @@ const BookTab = () => {
 					and more. At the end of the book, you&apos;ll find the answers to each
 					puzzle, revealing which creature you&apos;ve brought to life.
 				</em>
+				<hr />
 			</div>
 
 			<AnchorButton
