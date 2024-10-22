@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 	publisher: "Independently published",
 	authors: [{ name: "Eldra Silhouette", url: "https://polydotpuzzles.com/" }],
 	creator: "Polydot Puzzles",
-	icons: "/icon.svg",
+	icons: ["/icon.svg", "/favicon.ico"],
 	openGraph: {
 		type: "book",
 		locale: "en_US",
