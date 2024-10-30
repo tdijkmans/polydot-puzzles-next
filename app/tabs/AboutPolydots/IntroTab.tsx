@@ -43,7 +43,8 @@ const IntroTab = () => {
 
 			<div>
 				<ButtonLink href="/Polydot Puzzle Preta.pdf" className={styles.button}>
-					<RiDownload2Fill /> Free Printable Polydot Puzzle
+					<RiDownload2Fill />
+					Free Printable Polydot Puzzle
 				</ButtonLink>
 			</div>
 		</>

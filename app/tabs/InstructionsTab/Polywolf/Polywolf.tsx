@@ -8,17 +8,16 @@ import { getClassName } from "./getClassName";
 import { steps } from "./polyWolfData";
 
 const Polywolf = () => {
-	const [curStep, setCurStep] = useState(-1);
+	const [curStep, setCurStep] = useState(0);
 
 	const handleStep = (action: "draw line" | "color planes" | "go again") => {
-		const step = curStep + 1;
 		if (action === "go again") {
-			setCurStep(-1);
+			setCurStep(0);
 		}
-		if (action === "draw line" && step < steps.length) {
-			setCurStep(step);
-		} else if (action === "color planes" && step === steps.length) {
-			setCurStep(steps.length);
+		if (action === "draw line" && curStep < steps.length) {
+			setCurStep(curStep + 1);
+		} else if (action === "color planes" && curStep === steps.length) {
+			setCurStep(steps.length + 1);
 		}
 	};
 
@@ -37,6 +36,7 @@ const Polywolf = () => {
 				<title>{"polywolf"}</title>
 
 				<g transform="matrix(.21098 0 0 .21098 1.682 0)">
+					{/* The following circles are the dots that are drawn on the screen to indicate the planes to be colored */}
 					<circle
 						cx={410.958}
 						cy={544.336}
@@ -51,14 +51,14 @@ const Polywolf = () => {
 						r={1.512}
 						id="fill_circle_2"
 					/>
+
+					{/* The following circles are the dots that are drawn on the screen to indicate the lines to be drawn */}
 					<g transform="matrix(1.99262 0 0 1.99262 -501.384 -701.339)">
 						{steps.map(({ dot, step }, index) => {
 							const { cx, cy, label } = dot;
 
-							const offsetStep = curStep + 1;
-							const isNextStep = offsetStep + 1 === index;
-							const circleClassName = getClassName(offsetStep, index, "circle");
-							const textClassName = getClassName(offsetStep, index, "text");
+							const circleClassName = getClassName(curStep, index, "circle");
+							const textClassName = getClassName(curStep, index, "text");
 
 							return (
 								<Fragment key={`circle_${label}_${step}`}>
@@ -70,15 +70,6 @@ const Polywolf = () => {
 										className={circleClassName}
 									/>
 
-									{isNextStep && (
-										<circle
-											cx={cx}
-											cy={cy}
-											r={1.5}
-											id={`circle_${label}_big`}
-											className={styles.circleBig}
-										/>
-									)}
 									<text
 										x={cx}
 										y={cy}
@@ -95,6 +86,8 @@ const Polywolf = () => {
 						id="resolved_polywolf"
 						d="m294.71 630.917-71.507-33.615M223.203 597.302l-109.888 6.639M113.315 603.94l-62.742-29.277M50.573 574.663 8.128 513.11M8.128 513.11 1.05 467.829M1.05 467.829l162.668-93.32M163.718 374.51l14.78-13.903M178.498 360.607l-29.213-53.16M149.285 307.447l14.433 67.063M163.718 374.51l86.725 7.76M250.443 382.27l91.55 11.339M341.994 393.609l19.008-42.023M361.002 351.586l-65.035-21.51M295.967 330.076l-45.524 52.194M250.443 382.27l18.008-84.712M268.45 297.558l56.537-20.511M324.987 277.047l45.523-66.537M370.51 210.51l1.267-45.49M371.777 165.02l-106.123 30.424M265.654 195.444l-66.681 59.25M198.973 254.694l-49.688 52.753M149.285 307.447l29.119-19.898M178.404 287.549 227.612 311M227.612 311l14.713-76.933M242.325 234.067l23.326-38.621M198.973 254.694l-20.696-61.727M178.277 192.967l15.916-175.102M194.193 17.865 371.777 165.02M371.777 165.02 424.134 3.714M424.134 3.713l186.068 295.024M610.202 298.737l-198.615 387.12M411.587 685.857l-56.03-26.214"
 					/>
+
+					{/* The following lines are lines that are or will be drawn on the screen */}
 					<g id="lines_group">
 						{steps.map(({ line }, index) => (
 							<line
@@ -114,7 +107,7 @@ const Polywolf = () => {
 						id="filled_plane"
 						className={`
 							${styles.planes}
-							${curStep === steps.length ? styles.planesResolved : ""}
+							${curStep === steps.length + 1 ? styles.planesResolved : ""}
 						`}
 					/>
 				</g>

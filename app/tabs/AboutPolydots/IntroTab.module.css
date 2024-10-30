@@ -81,13 +81,12 @@
 	}
 }
 
-
-
 .button {
 	display: flex;
 	justify-content: center;
 	gap: var(--spacing-md);
 	align-items: center;
+	margin-bottom: var(--spacing-lg);
 }
 
 @media (max-width: 450px) {

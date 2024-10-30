@@ -40,6 +40,7 @@ const ButtonLink: React.FC<{
 			href={href}
 			download
 			className={`${styles.AnchorButton} ${className}`}
+			target="_blank"
 		>
 			{children}
 		</Link>

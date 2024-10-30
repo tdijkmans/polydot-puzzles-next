@@ -1,4 +1,4 @@
-function Mountains(props: any) {
+function Mountains() {
 	return (
 		<svg xmlns="http://www.w3.org/2000/svg" width="1411.3" height="379">
 			<path
@@ -11,6 +11,7 @@ function Mountains(props: any) {
 				strokeWidth="2"
 				d="M1 23 55 1l88 78 63-48 81 124c33 52 62 101 65 97l37-55 48 51 136-142 172 121 60 14 40-38 44 52 159-156 112 114h92l158 165"
 			/>
+			<title>Mountains</title>
 			<path d="M1 23 55 1l88 78 63-48 146 221 37-55 48 51 136-143 172 120 60 16 40-38 44 52 159-156 112 113 92 1 158 165H1Z" />
 			<path
 				fill="#4a2b35"

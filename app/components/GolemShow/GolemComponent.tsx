@@ -2,11 +2,10 @@ import styles from "./GolemComponent.module.css";
 import { sequence } from "./sequence";
 
 function GolemComponent() {
-
-	const getStyle = (str:string) => {
-		console.log(str)
-		return {stroke: 'green', strokeWidth: '1px'}
-	}
+	const getStyle = (str: string) => {
+		console.log(str);
+		return { stroke: "green", strokeWidth: "1px" };
+	};
 
 	return (
 		<svg

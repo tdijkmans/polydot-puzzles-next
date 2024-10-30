@@ -6,3 +6,15 @@
 	margin-bottom: var(--spacing-md);
 	transition: all 0.3s ease-in-out;
 }
+
+@media (max-width: 600px) {
+	.letters {
+		font-size: var(--font-size-md);
+	}
+}
+
+@media (max-width: 400px) {
+	.letters {
+		font-size: var(--font-size-sm);
+	}
+}

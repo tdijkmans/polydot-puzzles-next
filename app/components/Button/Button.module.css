@@ -14,12 +14,13 @@
 	transition: all 0.3s ease;
 }
 
-
 .AnchorButtonShimmer {
-	background: linear-gradient(-45deg,
-			rgba(68, 121, 133, 0.803) 0%,
-			rgba(54, 157, 180, 0.803) 50%,
-			rgba(68, 121, 133, 0.803) 100%);
+	background: linear-gradient(
+		-45deg,
+		rgba(68, 121, 133, 0.803) 0%,
+		rgba(54, 157, 180, 0.803) 50%,
+		rgba(68, 121, 133, 0.803) 100%
+	);
 
 	background-size: 200% auto;
 	animation: swayEffect 5s infinite;
@@ -30,7 +31,6 @@
 	0% {
 		opacity: 1;
 		background-position-x: 100%;
-
 	}
 
 	50% {
@@ -48,7 +48,6 @@
 		background-position-x: 100%;
 	}
 }
-
 
 .AnchorButton::before {
 	content: "";
@@ -76,7 +75,6 @@
 	box-shadow: 0 6px 20px rgba(68, 121, 133, 0.4);
 	transition: all 0.3s ease;
 	animation: none;
-
 }
 
 .AnchorButton:active {

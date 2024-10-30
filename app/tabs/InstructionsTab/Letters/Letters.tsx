@@ -3,7 +3,6 @@ import type { Step } from "../Polywolf/polyWolfData";
 import styles from "./Letters.module.css";
 
 const Letters = ({ steps, curStep }: { steps: Step[]; curStep: number }) => {
-	const offsetStep = curStep + 1;
 	return (
 		<div className={styles.letters}>
 			{steps.map(({ step, letter }, index) => {
@@ -11,7 +10,7 @@ const Letters = ({ steps, curStep }: { steps: Step[]; curStep: number }) => {
 					<span
 						key={step}
 						id={index.toString()}
-						className={getClassName(offsetStep, index, "letter")}
+						className={getClassName(curStep, index, "letter")}
 					>
 						{letter}
 					</span>
