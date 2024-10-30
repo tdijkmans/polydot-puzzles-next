@@ -2361,7 +2361,7 @@ function GolemComponent() {
 					x2={67.543829}
 					y2={863.0794000000001}
 					id="001_52_909_68_863"
-					index="001"
+					data-index="001"
 					style={getStyle("001")}
 				/>
 				<line
@@ -2370,7 +2370,7 @@ function GolemComponent() {
 					x2={100.7102}
 					y2={815.0162700000001}
 					id="002_68_863_101_815"
-					index="002"
+					data-index="002"
 					style={getStyle("002")}
 				/>
 				<line
@@ -2379,7 +2379,7 @@ function GolemComponent() {
 					x2={132.14194}
 					y2={769.4668800000001}
 					id="003_101_815_132_769"
-					index="003"
+					data-index="003"
 					style={getStyle("003")}
 				/>
 				<line
@@ -2388,7 +2388,7 @@ function GolemComponent() {
 					x2={108.95100000000001}
 					y2={832.63138}
 					id="004_132_769_109_833"
-					index="004"
+					data-index="004"
 					style={getStyle("004")}
 				/>
 				<line
@@ -2397,7 +2397,7 @@ function GolemComponent() {
 					x2={163.61984}
 					y2={780.68943}
 					id="005_109_833_164_781"
-					index="005"
+					data-index="005"
 					style={getStyle("005")}
 				/>
 				<line
@@ -2406,7 +2406,7 @@ function GolemComponent() {
 					x2={186.06493}
 					y2={807.78779}
 					id="006_164_781_186_808"
-					index="006"
+					data-index="006"
 					style={getStyle("006")}
 				/>
 				<line
@@ -2415,7 +2415,7 @@ function GolemComponent() {
 					x2={223.01724000000002}
 					y2={806.41919}
 					id="007_186_808_223_806"
-					index="007"
+					data-index="007"
 					style={getStyle("007")}
 				/>
 				<line
@@ -2424,7 +2424,7 @@ function GolemComponent() {
 					x2={253.94769000000002}
 					y2={777.67851}
 					id="008_223_806_254_778"
-					index="008"
+					data-index="008"
 					style={getStyle("008")}
 				/>
 				<line
@@ -2433,7 +2433,7 @@ function GolemComponent() {
 					x2={311.42906000000005}
 					y2={743.18968}
 					id="009_254_778_311_743"
-					index="009"
+					data-index="009"
 					style={getStyle("009")}
 				/>
 				<line
@@ -2442,7 +2442,7 @@ function GolemComponent() {
 					x2={327.5785900000001}
 					y2={702.679}
 					id="010_311_743_328_703"
-					index="010"
+					data-index="010"
 					style={getStyle("010")}
 				/>
 				<line
@@ -2451,7 +2451,7 @@ function GolemComponent() {
 					x2={311.1553400000001}
 					y2={632.05905}
 					id="011_328_703_311_632"
-					index="011"
+					data-index="011"
 					style={getStyle("011")}
 				/>
 				<line
@@ -2460,7 +2460,7 @@ function GolemComponent() {
 					x2={382.9581100000001}
 					y2={588.38029}
 					id="012_311_632_383_588"
-					index="012"
+					data-index="012"
 					style={getStyle("012")}
 				/>
 				<line
@@ -2469,7 +2469,7 @@ function GolemComponent() {
 					x2={423.3808700000001}
 					y2={606.3292899999999}
 					id="013_383_588_423_606"
-					index="013"
+					data-index="013"
 					style={getStyle("013")}
 				/>
 				<line
@@ -2478,7 +2478,7 @@ function GolemComponent() {
 					x2={482.4427300000001}
 					y2={676.2519199999999}
 					id="014_423_606_482_676"
-					index="014"
+					data-index="014"
 					style={getStyle("014")}
 				/>
 				<line
@@ -2487,7 +2487,7 @@ function GolemComponent() {
 					x2={403.0153100000001}
 					y2={729.9376699999999}
 					id="015_482_676_403_730"
-					index="015"
+					data-index="015"
 					style={getStyle("015")}
 				/>
 				<line
@@ -2496,7 +2496,7 @@ function GolemComponent() {
 					x2={357.02244000000013}
 					y2={778.8333299999999}
 					id="016_403_730_357_779"
-					index="016"
+					data-index="016"
 					style={getStyle("016")}
 				/>
 				<line
@@ -2505,7 +2505,7 @@ function GolemComponent() {
 					x2={343.24621000000013}
 					y2={674.3633199999999}
 					id="017_403_730_343_674"
-					index="017"
+					data-index="017"
 					style={getStyle("017")}
 				/>
 				<line
@@ -2514,7 +2514,7 @@ function GolemComponent() {
 					x2={423.38087000000013}
 					y2={606.3292899999999}
 					id="018_343_674_423_606"
-					index="018"
+					data-index="018"
 					style={getStyle("018")}
 				/>
 				<line
@@ -2523,7 +2523,7 @@ function GolemComponent() {
 					x2={311.15534000000014}
 					y2={632.0590499999998}
 					id="019_423_606_311_632"
-					index="019"
+					data-index="019"
 					style={getStyle("019")}
 				/>
 				<line
@@ -2532,7 +2532,7 @@ function GolemComponent() {
 					x2={343.24621000000013}
 					y2={674.3633199999998}
 					id="020_311_632_343_674"
-					index="020"
+					data-index="020"
 					style={getStyle("020")}
 				/>
 				<line
@@ -2541,7 +2541,7 @@ function GolemComponent() {
 					x2={327.57859000000013}
 					y2={702.6789999999999}
 					id="021_343_674_328_703"
-					index="021"
+					data-index="021"
 					style={getStyle("021")}
 				/>
 				<line
@@ -2550,7 +2550,7 @@ function GolemComponent() {
 					x2={357.02244000000013}
 					y2={778.8333299999998}
 					id="022_328_703_357_779"
-					index="022"
+					data-index="022"
 					style={getStyle("022")}
 				/>
 				<line
@@ -2559,7 +2559,7 @@ function GolemComponent() {
 					x2={395.7323900000001}
 					y2={814.8335999999998}
 					id="023_357_779_396_815"
-					index="023"
+					data-index="023"
 					style={getStyle("023")}
 				/>
 				<line
@@ -2568,7 +2568,7 @@ function GolemComponent() {
 					x2={395.7323900000001}
 					y2={814.8335999999998}
 					id="024_396_815_396_815"
-					index="024"
+					data-index="024"
 					style={getStyle("024")}
 				/>
 				<line
@@ -2577,7 +2577,7 @@ function GolemComponent() {
 					x2={445.7914800000001}
 					y2={746.4354199999998}
 					id="025_396_815_446_746"
-					index="025"
+					data-index="025"
 					style={getStyle("025")}
 				/>
 				<line
@@ -2586,7 +2586,7 @@ function GolemComponent() {
 					x2={482.4427300000001}
 					y2={676.2519199999998}
 					id="026_446_746_482_676"
-					index="026"
+					data-index="026"
 					style={getStyle("026")}
 				/>
 				<line
@@ -2595,7 +2595,7 @@ function GolemComponent() {
 					x2={472.8534700000001}
 					y2={807.0924999999997}
 					id="027_482_676_473_807"
-					index="027"
+					data-index="027"
 					style={getStyle("027")}
 				/>
 				<line
@@ -2604,7 +2604,7 @@ function GolemComponent() {
 					x2={550.1706600000001}
 					y2={752.7771699999997}
 					id="028_473_807_550_753"
-					index="028"
+					data-index="028"
 					style={getStyle("028")}
 				/>
 				<line
@@ -2613,7 +2613,7 @@ function GolemComponent() {
 					x2={507.21712000000014}
 					y2={707.2198899999997}
 					id="029_550_753_507_707"
-					index="029"
+					data-index="029"
 					style={getStyle("029")}
 				/>
 				<line
@@ -2622,7 +2622,7 @@ function GolemComponent() {
 					x2={463.6950600000001}
 					y2={817.7653999999998}
 					id="030_507_707_464_818"
-					index="030"
+					data-index="030"
 					style={getStyle("030")}
 				/>
 				<line
@@ -2631,7 +2631,7 @@ function GolemComponent() {
 					x2={395.7323900000001}
 					y2={814.8335999999998}
 					id="031_464_818_396_815"
-					index="031"
+					data-index="031"
 					style={getStyle("031")}
 				/>
 				<line
@@ -2640,7 +2640,7 @@ function GolemComponent() {
 					x2={397.66790000000015}
 					y2={854.3177599999998}
 					id="032_396_815_398_854"
-					index="032"
+					data-index="032"
 					style={getStyle("032")}
 				/>
 				<line
@@ -2649,7 +2649,7 @@ function GolemComponent() {
 					x2={496.76543000000015}
 					y2={871.3501499999998}
 					id="033_398_854_497_871"
-					index="033"
+					data-index="033"
 					style={getStyle("033")}
 				/>
 				<line
@@ -2658,7 +2658,7 @@ function GolemComponent() {
 					x2={505.60806000000014}
 					y2={859.5460599999998}
 					id="034_497_871_506_860"
-					index="034"
+					data-index="034"
 					style={getStyle("034")}
 				/>
 				<line
@@ -2667,7 +2667,7 @@ function GolemComponent() {
 					x2={451.3009300000001}
 					y2={850.4615399999998}
 					id="035_506_860_451_850"
-					index="035"
+					data-index="035"
 					style={getStyle("035")}
 				/>
 				<line
@@ -2676,7 +2676,7 @@ function GolemComponent() {
 					x2={463.4435100000001}
 					y2={837.6662799999998}
 					id="036_451_850_463_838"
-					index="036"
+					data-index="036"
 					style={getStyle("036")}
 				/>
 				<line
@@ -2685,7 +2685,7 @@ function GolemComponent() {
 					x2={578.8305500000001}
 					y2={761.8009499999998}
 					id="037_463_838_579_762"
-					index="037"
+					data-index="037"
 					style={getStyle("037")}
 				/>
 				<line
@@ -2694,7 +2694,7 @@ function GolemComponent() {
 					x2={490.1520400000001}
 					y2={837.9379799999998}
 					id="038_579_762_490_838"
-					index="038"
+					data-index="038"
 					style={getStyle("038")}
 				/>
 				<line
@@ -2703,7 +2703,7 @@ function GolemComponent() {
 					x2={505.60806000000014}
 					y2={859.5460599999998}
 					id="039_490_838_506_860"
-					index="039"
+					data-index="039"
 					style={getStyle("039")}
 				/>
 				<line
@@ -2712,7 +2712,7 @@ function GolemComponent() {
 					x2={513.6260800000001}
 					y2={839.4793299999998}
 					id="040_506_860_514_839"
-					index="040"
+					data-index="040"
 					style={getStyle("040")}
 				/>
 				<line
@@ -2721,7 +2721,7 @@ function GolemComponent() {
 					x2={578.8305500000001}
 					y2={761.8009499999998}
 					id="041_514_839_579_762"
-					index="041"
+					data-index="041"
 					style={getStyle("041")}
 				/>
 				<line
@@ -2730,7 +2730,7 @@ function GolemComponent() {
 					x2={507.21712000000014}
 					y2={707.2198899999999}
 					id="042_579_762_507_707"
-					index="042"
+					data-index="042"
 					style={getStyle("042")}
 				/>
 				<line
@@ -2739,7 +2739,7 @@ function GolemComponent() {
 					x2={482.44273000000015}
 					y2={676.2519199999998}
 					id="043_507_707_482_676"
-					index="043"
+					data-index="043"
 					style={getStyle("043")}
 				/>
 				<line
@@ -2748,7 +2748,7 @@ function GolemComponent() {
 					x2={573.0240500000002}
 					y2={734.3168699999998}
 					id="044_482_676_573_734"
-					index="044"
+					data-index="044"
 					style={getStyle("044")}
 				/>
 				<line
@@ -2757,7 +2757,7 @@ function GolemComponent() {
 					x2={628.3793100000003}
 					y2={762.9622499999998}
 					id="045_573_734_628_763"
-					index="045"
+					data-index="045"
 					style={getStyle("045")}
 				/>
 				<line
@@ -2766,7 +2766,7 @@ function GolemComponent() {
 					x2={559.0095400000002}
 					y2={638.7652099999998}
 					id="046_628_763_559_639"
-					index="046"
+					data-index="046"
 					style={getStyle("046")}
 				/>
 				<line
@@ -2775,7 +2775,7 @@ function GolemComponent() {
 					x2={682.1861700000003}
 					y2={735.4781699999997}
 					id="047_559_639_682_735"
-					index="047"
+					data-index="047"
 					style={getStyle("047")}
 				/>
 				<line
@@ -2784,7 +2784,7 @@ function GolemComponent() {
 					x2={628.3793100000003}
 					y2={762.9622499999997}
 					id="048_682_735_628_763"
-					index="048"
+					data-index="048"
 					style={getStyle("048")}
 				/>
 				<line
@@ -2793,7 +2793,7 @@ function GolemComponent() {
 					x2={716.2509400000002}
 					y2={860.5113599999997}
 					id="049_628_763_716_861"
-					index="049"
+					data-index="049"
 					style={getStyle("049")}
 				/>
 				<line
@@ -2802,7 +2802,7 @@ function GolemComponent() {
 					x2={699.9927600000002}
 					y2={908.7052699999997}
 					id="050_716_861_700_909"
-					index="050"
+					data-index="050"
 					style={getStyle("050")}
 				/>
 				<line
@@ -2811,7 +2811,7 @@ function GolemComponent() {
 					x2={650.8310900000002}
 					y2={908.7052699999997}
 					id="051_700_909_651_909"
-					index="051"
+					data-index="051"
 					style={getStyle("051")}
 				/>
 				<line
@@ -2820,7 +2820,7 @@ function GolemComponent() {
 					x2={625.7926300000003}
 					y2={785.0135899999997}
 					id="052_651_909_626_785"
-					index="052"
+					data-index="052"
 					style={getStyle("052")}
 				/>
 				<line
@@ -2829,7 +2829,7 @@ function GolemComponent() {
 					x2={597.4673000000003}
 					y2={771.9303699999997}
 					id="053_626_785_597_772"
-					index="053"
+					data-index="053"
 					style={getStyle("053")}
 				/>
 				<line
@@ -2838,7 +2838,7 @@ function GolemComponent() {
 					x2={716.2509400000002}
 					y2={860.5113599999997}
 					id="054_626_785_716_861"
-					index="054"
+					data-index="054"
 					style={getStyle("054")}
 				/>
 				<line
@@ -2847,7 +2847,7 @@ function GolemComponent() {
 					x2={758.4448100000002}
 					y2={908.7052699999997}
 					id="055_716_861_758_909"
-					index="055"
+					data-index="055"
 					style={getStyle("055")}
 				/>
 				<line
@@ -2856,7 +2856,7 @@ function GolemComponent() {
 					x2={741.0253200000002}
 					y2={794.3173099999997}
 					id="056_758_909_741_794"
-					index="056"
+					data-index="056"
 					style={getStyle("056")}
 				/>
 				<line
@@ -2865,7 +2865,7 @@ function GolemComponent() {
 					x2={726.5836500000001}
 					y2={772.4752499999997}
 					id="057_741_794_727_772"
-					index="057"
+					data-index="057"
 					style={getStyle("057")}
 				/>
 				<line
@@ -2874,7 +2874,7 @@ function GolemComponent() {
 					x2={675.6054700000002}
 					y2={587.6060899999998}
 					id="058_727_772_676_588"
-					index="058"
+					data-index="058"
 					style={getStyle("058")}
 				/>
 				<line
@@ -2883,7 +2883,7 @@ function GolemComponent() {
 					x2={574.5724600000002}
 					y2={579.0898999999997}
 					id="059_676_588_575_579"
-					index="059"
+					data-index="059"
 					style={getStyle("059")}
 				/>
 				<line
@@ -2892,7 +2892,7 @@ function GolemComponent() {
 					x2={621.7986300000002}
 					y2={627.8644599999997}
 					id="060_575_579_622_628"
-					index="060"
+					data-index="060"
 					style={getStyle("060")}
 				/>
 				<line
@@ -2901,7 +2901,7 @@ function GolemComponent() {
 					x2={559.0095400000002}
 					y2={638.7652099999997}
 					id="061_622_628_559_639"
-					index="061"
+					data-index="061"
 					style={getStyle("061")}
 				/>
 				<line
@@ -2910,7 +2910,7 @@ function GolemComponent() {
 					x2={522.3140000000002}
 					y2={601.1545799999997}
 					id="062_559_639_522_601"
-					index="062"
+					data-index="062"
 					style={getStyle("062")}
 				/>
 				<line
@@ -2919,7 +2919,7 @@ function GolemComponent() {
 					x2={574.5724600000002}
 					y2={579.0898999999997}
 					id="063_522_601_575_579"
-					index="063"
+					data-index="063"
 					style={getStyle("063")}
 				/>
 				<line
@@ -2928,7 +2928,7 @@ function GolemComponent() {
 					x2={481.6685300000002}
 					y2={579.0898999999997}
 					id="064_575_579_482_579"
-					index="064"
+					data-index="064"
 					style={getStyle("064")}
 				/>
 				<line
@@ -2937,7 +2937,7 @@ function GolemComponent() {
 					x2={442.8150400000002}
 					y2={455.0985299999997}
 					id="065_482_579_443_455"
-					index="065"
+					data-index="065"
 					style={getStyle("065")}
 				/>
 				<line
@@ -2946,7 +2946,7 @@ function GolemComponent() {
 					x2={414.7002800000002}
 					y2={502.8312499999997}
 					id="066_443_455_415_503"
-					index="066"
+					data-index="066"
 					style={getStyle("066")}
 				/>
 				<line
@@ -2955,7 +2955,7 @@ function GolemComponent() {
 					x2={481.6685300000002}
 					y2={579.0898999999997}
 					id="067_415_503_482_579"
-					index="067"
+					data-index="067"
 					style={getStyle("067")}
 				/>
 				<line
@@ -2964,7 +2964,7 @@ function GolemComponent() {
 					x2={423.3808700000002}
 					y2={606.3292899999997}
 					id="068_482_579_423_606"
-					index="068"
+					data-index="068"
 					style={getStyle("068")}
 				/>
 				<line
@@ -2973,7 +2973,7 @@ function GolemComponent() {
 					x2={400.3159800000002}
 					y2={579.1908299999997}
 					id="069_423_606_400_579"
-					index="069"
+					data-index="069"
 					style={getStyle("069")}
 				/>
 				<line
@@ -2982,7 +2982,7 @@ function GolemComponent() {
 					x2={386.0549100000002}
 					y2={562.4446199999996}
 					id="070_400_579_386_562"
-					index="070"
+					data-index="070"
 					style={getStyle("070")}
 				/>
 				<line
@@ -2991,7 +2991,7 @@ function GolemComponent() {
 					x2={414.7002800000002}
 					y2={502.8312499999996}
 					id="071_386_562_415_503"
-					index="071"
+					data-index="071"
 					style={getStyle("071")}
 				/>
 				<line
@@ -3000,7 +3000,7 @@ function GolemComponent() {
 					x2={424.7648800000002}
 					y2={565.9285199999996}
 					id="072_415_503_425_566"
-					index="072"
+					data-index="072"
 					style={getStyle("072")}
 				/>
 				<line
@@ -3009,7 +3009,7 @@ function GolemComponent() {
 					x2={400.3159800000002}
 					y2={579.1908299999996}
 					id="073_425_566_400_579"
-					index="073"
+					data-index="073"
 					style={getStyle("073")}
 				/>
 				<line
@@ -3018,7 +3018,7 @@ function GolemComponent() {
 					x2={382.9581100000002}
 					y2={588.3802899999996}
 					id="074_400_579_383_588"
-					index="074"
+					data-index="074"
 					style={getStyle("074")}
 				/>
 				<line
@@ -3027,7 +3027,7 @@ function GolemComponent() {
 					x2={288.2401300000002}
 					y2={623.7391899999996}
 					id="075_383_588_288_624"
-					index="075"
+					data-index="075"
 					style={getStyle("075")}
 				/>
 				<line
@@ -3036,7 +3036,7 @@ function GolemComponent() {
 					x2={311.1553400000002}
 					y2={632.0590499999995}
 					id="076_288_624_311_632"
-					index="076"
+					data-index="076"
 					style={getStyle("076")}
 				/>
 				<line
@@ -3045,7 +3045,7 @@ function GolemComponent() {
 					x2={267.0217500000002}
 					y2={667.1550799999995}
 					id="077_311_632_267_667"
-					index="077"
+					data-index="077"
 					style={getStyle("077")}
 				/>
 				<line
@@ -3054,7 +3054,7 @@ function GolemComponent() {
 					x2={219.60206000000022}
 					y2={604.2513799999996}
 					id="078_267_667_220_604"
-					index="078"
+					data-index="078"
 					style={getStyle("078")}
 				/>
 				<line
@@ -3063,7 +3063,7 @@ function GolemComponent() {
 					x2={203.34386000000023}
 					y2={583.7350999999995}
 					id="079_220_604_203_584"
-					index="079"
+					data-index="079"
 					style={getStyle("079")}
 				/>
 				<line
@@ -3072,7 +3072,7 @@ function GolemComponent() {
 					x2={241.66673000000023}
 					y2={573.6704999999995}
 					id="080_203_584_242_574"
-					index="080"
+					data-index="080"
 					style={getStyle("080")}
 				/>
 				<line
@@ -3081,7 +3081,7 @@ function GolemComponent() {
 					x2={186.61236000000022}
 					y2={559.6598699999995}
 					id="081_242_574_187_560"
-					index="081"
+					data-index="081"
 					style={getStyle("081")}
 				/>
 				<line
@@ -3090,7 +3090,7 @@ function GolemComponent() {
 					x2={158.8274000000002}
 					y2={568.6382099999995}
 					id="082_187_560_159_569"
-					index="082"
+					data-index="082"
 					style={getStyle("082")}
 				/>
 				<line
@@ -3099,7 +3099,7 @@ function GolemComponent() {
 					x2={146.4402200000002}
 					y2={597.2835899999995}
 					id="083_159_569_146_597"
-					index="083"
+					data-index="083"
 					style={getStyle("083")}
 				/>
 				<line
@@ -3108,7 +3108,7 @@ function GolemComponent() {
 					x2={160.2496400000002}
 					y2={604.2978999999996}
 					id="084_146_597_160_604"
-					index="084"
+					data-index="084"
 					style={getStyle("084")}
 				/>
 				<line
@@ -3117,7 +3117,7 @@ function GolemComponent() {
 					x2={170.8274900000002}
 					y2={609.6707799999996}
 					id="085_160_604_171_610"
-					index="085"
+					data-index="085"
 					style={getStyle("085")}
 				/>
 				<line
@@ -3126,7 +3126,7 @@ function GolemComponent() {
 					x2={219.60206000000022}
 					y2={604.2513799999996}
 					id="086_171_610_220_604"
-					index="086"
+					data-index="086"
 					style={getStyle("086")}
 				/>
 				<line
@@ -3135,7 +3135,7 @@ function GolemComponent() {
 					x2={173.9242900000002}
 					y2={674.3164199999995}
 					id="087_220_604_174_674"
-					index="087"
+					data-index="087"
 					style={getStyle("087")}
 				/>
 				<line
@@ -3144,7 +3144,7 @@ function GolemComponent() {
 					x2={220.76335000000023}
 					y2={727.3490799999995}
 					id="088_174_674_221_727"
-					index="088"
+					data-index="088"
 					style={getStyle("088")}
 				/>
 				<line
@@ -3153,7 +3153,7 @@ function GolemComponent() {
 					x2={253.94769000000022}
 					y2={777.6785099999995}
 					id="089_221_727_254_778"
-					index="089"
+					data-index="089"
 					style={getStyle("089")}
 				/>
 				<line
@@ -3162,7 +3162,7 @@ function GolemComponent() {
 					x2={286.1832000000002}
 					y2={698.3165999999995}
 					id="090_254_778_286_698"
-					index="090"
+					data-index="090"
 					style={getStyle("090")}
 				/>
 				<line
@@ -3171,7 +3171,7 @@ function GolemComponent() {
 					x2={311.4290600000002}
 					y2={743.1896799999995}
 					id="091_286_698_311_743"
-					index="091"
+					data-index="091"
 					style={getStyle("091")}
 				/>
 				<line
@@ -3180,7 +3180,7 @@ function GolemComponent() {
 					x2={357.02244000000024}
 					y2={778.8333299999995}
 					id="092_311_743_357_779"
-					index="092"
+					data-index="092"
 					style={getStyle("092")}
 				/>
 				<line
@@ -3189,7 +3189,7 @@ function GolemComponent() {
 					x2={310.86080000000027}
 					y2={817.8336199999994}
 					id="093_357_779_311_818"
-					index="093"
+					data-index="093"
 					style={getStyle("093")}
 				/>
 				<line
@@ -3198,7 +3198,7 @@ function GolemComponent() {
 					x2={274.95730000000026}
 					y2={834.5756799999995}
 					id="094_311_818_275_835"
-					index="094"
+					data-index="094"
 					style={getStyle("094")}
 				/>
 				<line
@@ -3207,7 +3207,7 @@ function GolemComponent() {
 					x2={304.7639800000003}
 					y2={840.7692799999994}
 					id="095_275_835_305_841"
-					index="095"
+					data-index="095"
 					style={getStyle("095")}
 				/>
 				<line
@@ -3216,7 +3216,7 @@ function GolemComponent() {
 					x2={341.9255400000003}
 					y2={837.2853799999995}
 					id="096_305_841_342_837"
-					index="096"
+					data-index="096"
 					style={getStyle("096")}
 				/>
 				<line
@@ -3225,7 +3225,7 @@ function GolemComponent() {
 					x2={372.1193200000003}
 					y2={876.3824499999995}
 					id="097_342_837_372_876"
-					index="097"
+					data-index="097"
 					style={getStyle("097")}
 				/>
 				<line
@@ -3234,7 +3234,7 @@ function GolemComponent() {
 					x2={344.6352500000003}
 					y2={908.7052699999995}
 					id="098_372_876_345_909"
-					index="098"
+					data-index="098"
 					style={getStyle("098")}
 				/>
 				<line
@@ -3243,7 +3243,7 @@ function GolemComponent() {
 					x2={304.76398000000034}
 					y2={840.7692799999995}
 					id="099_345_909_305_841"
-					index="099"
+					data-index="099"
 					style={getStyle("099")}
 				/>
 				<line
@@ -3252,7 +3252,7 @@ function GolemComponent() {
 					x2={264.11851000000036}
 					y2={908.7052699999995}
 					id="100_305_841_264_909"
-					index="100"
+					data-index="100"
 					style={getStyle("100")}
 				/>
 				<line
@@ -3261,7 +3261,7 @@ function GolemComponent() {
 					x2={249.40873000000036}
 					y2={867.8662499999995}
 					id="101_264_909_249_868"
-					index="101"
+					data-index="101"
 					style={getStyle("101")}
 				/>
 				<line
@@ -3270,7 +3270,7 @@ function GolemComponent() {
 					x2={242.44094000000035}
 					y2={908.7052699999995}
 					id="102_249_868_242_909"
-					index="102"
+					data-index="102"
 					style={getStyle("102")}
 				/>
 				<line
@@ -3279,7 +3279,7 @@ function GolemComponent() {
 					x2={190.95669000000035}
 					y2={908.7052699999995}
 					id="103_242_909_191_909"
-					index="103"
+					data-index="103"
 					style={getStyle("103")}
 				/>
 				<line
@@ -3288,7 +3288,7 @@ function GolemComponent() {
 					x2={186.69859000000034}
 					y2={833.0272799999995}
 					id="104_191_909_187_833"
-					index="104"
+					data-index="104"
 					style={getStyle("104")}
 				/>
 				<line
@@ -3297,7 +3297,7 @@ function GolemComponent() {
 					x2={163.61984000000035}
 					y2={780.6894299999994}
 					id="105_187_833_164_781"
-					index="105"
+					data-index="105"
 					style={getStyle("105")}
 				/>
 				<line
@@ -3306,7 +3306,7 @@ function GolemComponent() {
 					x2={122.05293000000034}
 					y2={908.7052699999995}
 					id="106_164_781_122_909"
-					index="106"
+					data-index="106"
 					style={getStyle("106")}
 				/>
 				<line
@@ -3315,7 +3315,7 @@ function GolemComponent() {
 					x2={81.020366}
 					y2={908.7052699999995}
 					id="107_122_909_81_909"
-					index="107"
+					data-index="107"
 					style={getStyle("107")}
 				/>
 				<line
@@ -3324,7 +3324,7 @@ function GolemComponent() {
 					x2={108.951}
 					y2={832.6313799999995}
 					id="108_81_909_109_833"
-					index="108"
+					data-index="108"
 					style={getStyle("108")}
 				/>
 				<line
@@ -3333,7 +3333,7 @@ function GolemComponent() {
 					x2={161.15001}
 					y2={759.4783499999995}
 					id="109_132_769_161_759"
-					index="109"
+					data-index="109"
 					style={getStyle("109")}
 				/>
 				<line
@@ -3342,7 +3342,7 @@ function GolemComponent() {
 					x2={161.92421000000002}
 					y2={704.1230899999995}
 					id="110_161_759_162_704"
-					index="110"
+					data-index="110"
 					style={getStyle("110")}
 				/>
 				<line
@@ -3351,7 +3351,7 @@ function GolemComponent() {
 					x2={119.73033000000001}
 					y2={752.8976499999994}
 					id="111_162_704_120_753"
-					index="111"
+					data-index="111"
 					style={getStyle("111")}
 				/>
 				<line
@@ -3360,7 +3360,7 @@ function GolemComponent() {
 					x2={100.7102}
 					y2={815.01627}
 					id="112_120_753_101_815"
-					index="112"
+					data-index="112"
 					style={getStyle("112")}
 				/>
 				<line
@@ -3369,7 +3369,7 @@ function GolemComponent() {
 					x2={84.788242}
 					y2={736.2098}
 					id="113_101_815_85_736"
-					index="113"
+					data-index="113"
 					style={getStyle("113")}
 				/>
 				<line
@@ -3378,7 +3378,7 @@ function GolemComponent() {
 					x2={110.518}
 					y2={614.13033}
 					id="114_85_736_111_614"
-					index="114"
+					data-index="114"
 					style={getStyle("114")}
 				/>
 				<line
@@ -3387,7 +3387,7 @@ function GolemComponent() {
 					x2={158.82741}
 					y2={568.63821}
 					id="115_111_614_159_569"
-					index="115"
+					data-index="115"
 					style={getStyle("115")}
 				/>
 				<line
@@ -3396,7 +3396,7 @@ function GolemComponent() {
 					x2={125.57263999999998}
 					y2={626.03719}
 					id="116_159_569_126_626"
-					index="116"
+					data-index="116"
 					style={getStyle("116")}
 				/>
 				<line
@@ -3405,7 +3405,7 @@ function GolemComponent() {
 					x2={110.51799999999997}
 					y2={614.13033}
 					id="117_126_626_111_614"
-					index="117"
+					data-index="117"
 					style={getStyle("117")}
 				/>
 				<line
@@ -3414,7 +3414,7 @@ function GolemComponent() {
 					x2={126.53065999999997}
 					y2={671.74856}
 					id="118_111_614_127_672"
-					index="118"
+					data-index="118"
 					style={getStyle("118")}
 				/>
 				<line
@@ -3423,7 +3423,7 @@ function GolemComponent() {
 					x2={84.78824099999997}
 					y2={736.2098}
 					id="119_127_672_85_736"
-					index="119"
+					data-index="119"
 					style={getStyle("119")}
 				/>
 				<line
@@ -3432,7 +3432,7 @@ function GolemComponent() {
 					x2={119.73032999999998}
 					y2={752.89765}
 					id="120_85_736_120_753"
-					index="120"
+					data-index="120"
 					style={getStyle("120")}
 				/>
 				<line
@@ -3441,7 +3441,7 @@ function GolemComponent() {
 					x2={134.74228999999997}
 					y2={695.97284}
 					id="121_120_753_135_696"
-					index="121"
+					data-index="121"
 					style={getStyle("121")}
 				/>
 				<line
@@ -3450,7 +3450,7 @@ function GolemComponent() {
 					x2={126.53065999999997}
 					y2={671.74856}
 					id="122_135_696_127_672"
-					index="122"
+					data-index="122"
 					style={getStyle("122")}
 				/>
 				<line
@@ -3459,7 +3459,7 @@ function GolemComponent() {
 					x2={149.38634999999996}
 					y2={637.25974}
 					id="123_127_672_149_637"
-					index="123"
+					data-index="123"
 					style={getStyle("123")}
 				/>
 				<line
@@ -3468,7 +3468,7 @@ function GolemComponent() {
 					x2={134.74228999999997}
 					y2={695.9728399999999}
 					id="124_149_637_135_696"
-					index="124"
+					data-index="124"
 					style={getStyle("124")}
 				/>
 				<line
@@ -3477,7 +3477,7 @@ function GolemComponent() {
 					x2={152.56632999999997}
 					y2={709.9999}
 					id="125_149_637_153_710"
-					index="125"
+					data-index="125"
 					style={getStyle("125")}
 				/>
 				<line
@@ -3486,7 +3486,7 @@ function GolemComponent() {
 					x2={100.71019999999996}
 					y2={815.0162700000001}
 					id="126_153_710_101_815"
-					index="126"
+					data-index="126"
 					style={getStyle("126")}
 				/>
 				<line
@@ -3495,7 +3495,7 @@ function GolemComponent() {
 					x2={186.61236999999997}
 					y2={638.08091}
 					id="127_153_710_187_638"
-					index="127"
+					data-index="127"
 					style={getStyle("127")}
 				/>
 				<line
@@ -3504,7 +3504,7 @@ function GolemComponent() {
 					x2={149.38634999999996}
 					y2={637.25974}
 					id="128_187_638_149_637"
-					index="128"
+					data-index="128"
 					style={getStyle("128")}
 				/>
 				<line
@@ -3513,7 +3513,7 @@ function GolemComponent() {
 					x2={160.24964999999997}
 					y2={604.2978999999999}
 					id="129_149_637_160_604"
-					index="129"
+					data-index="129"
 					style={getStyle("129")}
 				/>
 				<line
@@ -3522,7 +3522,7 @@ function GolemComponent() {
 					x2={174.02122999999997}
 					y2={637.1228799999999}
 					id="130_171_610_174_637"
-					index="130"
+					data-index="130"
 					style={getStyle("130")}
 				/>
 				<line
@@ -3531,7 +3531,7 @@ function GolemComponent() {
 					x2={219.60205999999997}
 					y2={604.2513799999999}
 					id="131_174_637_220_604"
-					index="131"
+					data-index="131"
 					style={getStyle("131")}
 				/>
 				<line
@@ -3540,7 +3540,7 @@ function GolemComponent() {
 					x2={253.47327999999996}
 					y2={604.6384699999999}
 					id="132_220_604_253_605"
-					index="132"
+					data-index="132"
 					style={getStyle("132")}
 				/>
 				<line
@@ -3549,7 +3549,7 @@ function GolemComponent() {
 					x2={267.02176999999995}
 					y2={667.1550799999999}
 					id="133_253_605_267_667"
-					index="133"
+					data-index="133"
 					style={getStyle("133")}
 				/>
 				<line
@@ -3558,7 +3558,7 @@ function GolemComponent() {
 					x2={220.76336999999995}
 					y2={727.3490799999998}
 					id="134_267_667_221_727"
-					index="134"
+					data-index="134"
 					style={getStyle("134")}
 				/>
 				<line
@@ -3567,7 +3567,7 @@ function GolemComponent() {
 					x2={161.92420999999996}
 					y2={704.1230899999998}
 					id="135_221_727_162_704"
-					index="135"
+					data-index="135"
 					style={getStyle("135")}
 				/>
 				<line
@@ -3576,7 +3576,7 @@ function GolemComponent() {
 					x2={173.92429999999996}
 					y2={674.3164199999998}
 					id="136_162_704_174_674"
-					index="136"
+					data-index="136"
 					style={getStyle("136")}
 				/>
 				<line
@@ -3585,7 +3585,7 @@ function GolemComponent() {
 					x2={190.37603999999996}
 					y2={751.9299099999997}
 					id="137_174_674_190_752"
-					index="137"
+					data-index="137"
 					style={getStyle("137")}
 				/>
 				<line
@@ -3594,7 +3594,7 @@ function GolemComponent() {
 					x2={223.01724999999996}
 					y2={806.4191899999997}
 					id="138_190_752_223_806"
-					index="138"
+					data-index="138"
 					style={getStyle("138")}
 				/>
 				<line
@@ -3603,7 +3603,7 @@ function GolemComponent() {
 					x2={234.31183999999996}
 					y2={844.4467199999997}
 					id="139_223_806_234_844"
-					index="139"
+					data-index="139"
 					style={getStyle("139")}
 				/>
 				<line
@@ -3612,7 +3612,7 @@ function GolemComponent() {
 					x2={230.24729999999997}
 					y2={866.1242999999997}
 					id="140_234_844_230_866"
-					index="140"
+					data-index="140"
 					style={getStyle("140")}
 				/>
 				<line
@@ -3621,7 +3621,7 @@ function GolemComponent() {
 					x2={249.40873999999997}
 					y2={867.8662499999997}
 					id="141_230_866_249_868"
-					index="141"
+					data-index="141"
 					style={getStyle("141")}
 				/>
 				<line
@@ -3630,7 +3630,7 @@ function GolemComponent() {
 					x2={274.95730999999995}
 					y2={834.5756799999997}
 					id="142_249_868_275_835"
-					index="142"
+					data-index="142"
 					style={getStyle("142")}
 				/>
 				<line
@@ -3639,7 +3639,7 @@ function GolemComponent() {
 					x2={267.4088699999999}
 					y2={818.8981399999997}
 					id="143_275_835_267_819"
-					index="143"
+					data-index="143"
 					style={getStyle("143")}
 				/>
 				<line
@@ -3648,7 +3648,7 @@ function GolemComponent() {
 					x2={253.9476999999999}
 					y2={777.6785099999996}
 					id="144_267_819_254_778"
-					index="144"
+					data-index="144"
 					style={getStyle("144")}
 				/>
 				<line
@@ -3657,7 +3657,7 @@ function GolemComponent() {
 					x2={190.3760399999999}
 					y2={751.9299099999996}
 					id="145_254_778_190_752"
-					index="145"
+					data-index="145"
 					style={getStyle("145")}
 				/>
 				<line
@@ -3666,7 +3666,7 @@ function GolemComponent() {
 					x2={161.9242099999999}
 					y2={704.1230899999996}
 					id="146_190_752_162_704"
-					index="146"
+					data-index="146"
 					style={getStyle("146")}
 				/>
 				<line
@@ -3675,7 +3675,7 @@ function GolemComponent() {
 					x2={186.0649399999999}
 					y2={807.7877899999996}
 					id="147_162_704_186_808"
-					index="147"
+					data-index="147"
 					style={getStyle("147")}
 				/>
 				<line
@@ -3684,7 +3684,7 @@ function GolemComponent() {
 					x2={234.3118399999999}
 					y2={844.4467199999997}
 					id="148_186_808_234_844"
-					index="148"
+					data-index="148"
 					style={getStyle("148")}
 				/>
 				<line
@@ -3693,7 +3693,7 @@ function GolemComponent() {
 					x2={189.0211899999999}
 					y2={852.5758099999997}
 					id="149_234_844_189_853"
-					index="149"
+					data-index="149"
 					style={getStyle("149")}
 				/>
 				<line
@@ -3702,7 +3702,7 @@ function GolemComponent() {
 					x2={230.2472999999999}
 					y2={866.1242999999997}
 					id="150_189_853_230_866"
-					index="150"
+					data-index="150"
 					style={getStyle("150")}
 				/>
 				<line
@@ -3711,7 +3711,7 @@ function GolemComponent() {
 					x2={201.0212699999999}
 					y2={888.1889899999998}
 					id="151_230_866_201_888"
-					index="151"
+					data-index="151"
 					style={getStyle("151")}
 				/>
 				<line
@@ -3720,7 +3720,7 @@ function GolemComponent() {
 					x2={207.6019699999999}
 					y2={908.7052699999998}
 					id="152_201_888_208_909"
-					index="152"
+					data-index="152"
 					style={getStyle("152")}
 				/>
 				<line
@@ -3729,7 +3729,7 @@ function GolemComponent() {
 					x2={249.4087399999999}
 					y2={867.8662499999998}
 					id="153_208_909_249_868"
-					index="153"
+					data-index="153"
 					style={getStyle("153")}
 				/>
 				<line
@@ -3738,7 +3738,7 @@ function GolemComponent() {
 					x2={234.3118399999999}
 					y2={844.4467199999998}
 					id="154_275_835_234_844"
-					index="154"
+					data-index="154"
 					style={getStyle("154")}
 				/>
 				<line
@@ -3747,7 +3747,7 @@ function GolemComponent() {
 					x2={249.4087399999999}
 					y2={867.8662499999998}
 					id="155_234_844_249_868"
-					index="155"
+					data-index="155"
 					style={getStyle("155")}
 				/>
 				<line
@@ -3756,7 +3756,7 @@ function GolemComponent() {
 					x2={304.7639899999999}
 					y2={840.7692799999998}
 					id="156_249_868_305_841"
-					index="156"
+					data-index="156"
 					style={getStyle("156")}
 				/>
 				<line
@@ -3765,7 +3765,7 @@ function GolemComponent() {
 					x2={310.8608099999999}
 					y2={817.8336199999998}
 					id="157_305_841_311_818"
-					index="157"
+					data-index="157"
 					style={getStyle("157")}
 				/>
 				<line
@@ -3774,7 +3774,7 @@ function GolemComponent() {
 					x2={341.92554999999993}
 					y2={837.2853799999998}
 					id="158_311_818_342_837"
-					index="158"
+					data-index="158"
 					style={getStyle("158")}
 				/>
 				<line
@@ -3783,7 +3783,7 @@ function GolemComponent() {
 					x2={395.73240999999996}
 					y2={814.8335999999998}
 					id="159_342_837_396_815"
-					index="159"
+					data-index="159"
 					style={getStyle("159")}
 				/>
 				<line
@@ -3792,7 +3792,7 @@ function GolemComponent() {
 					x2={351.60304999999994}
 					y2={824.1239899999998}
 					id="160_396_815_352_824"
-					index="160"
+					data-index="160"
 					style={getStyle("160")}
 				/>
 				<line
@@ -3801,7 +3801,7 @@ function GolemComponent() {
 					x2={310.86080999999996}
 					y2={817.8336199999998}
 					id="161_352_824_311_818"
-					index="161"
+					data-index="161"
 					style={getStyle("161")}
 				/>
 				<line
@@ -3810,7 +3810,7 @@ function GolemComponent() {
 					x2={253.94769999999994}
 					y2={777.6785099999997}
 					id="162_311_818_254_778"
-					index="162"
+					data-index="162"
 					style={getStyle("162")}
 				/>
 				<line
@@ -3819,7 +3819,7 @@ function GolemComponent() {
 					x2={223.01724999999993}
 					y2={806.4191899999997}
 					id="163_267_819_223_806"
-					index="163"
+					data-index="163"
 					style={getStyle("163")}
 				/>
 				<line
@@ -3828,7 +3828,7 @@ function GolemComponent() {
 					x2={274.95730999999995}
 					y2={834.5756799999997}
 					id="164_223_806_275_835"
-					index="164"
+					data-index="164"
 					style={getStyle("164")}
 				/>
 				<line
@@ -3837,7 +3837,7 @@ function GolemComponent() {
 					x2={310.8608099999999}
 					y2={817.8336199999997}
 					id="165_267_819_311_818"
-					index="165"
+					data-index="165"
 					style={getStyle("165")}
 				/>
 				<line
@@ -3846,7 +3846,7 @@ function GolemComponent() {
 					x2={311.4290699999999}
 					y2={743.1896799999996}
 					id="166_311_818_311_743"
-					index="166"
+					data-index="166"
 					style={getStyle("166")}
 				/>
 				<line
@@ -3855,7 +3855,7 @@ function GolemComponent() {
 					x2={311.1553499999999}
 					y2={632.0590499999996}
 					id="167_311_743_311_632"
-					index="167"
+					data-index="167"
 					style={getStyle("167")}
 				/>
 				<line
@@ -3864,7 +3864,7 @@ function GolemComponent() {
 					x2={286.18320999999986}
 					y2={698.3165999999997}
 					id="168_311_632_286_698"
-					index="168"
+					data-index="168"
 					style={getStyle("168")}
 				/>
 				<line
@@ -3873,7 +3873,7 @@ function GolemComponent() {
 					x2={267.02176999999983}
 					y2={667.1550799999997}
 					id="169_286_698_267_667"
-					index="169"
+					data-index="169"
 					style={getStyle("169")}
 				/>
 				<line
@@ -3882,7 +3882,7 @@ function GolemComponent() {
 					x2={273.79245999999983}
 					y2={578.8203499999996}
 					id="170_267_667_274_579"
-					index="170"
+					data-index="170"
 					style={getStyle("170")}
 				/>
 				<line
@@ -3891,7 +3891,7 @@ function GolemComponent() {
 					x2={288.2401399999998}
 					y2={623.7391899999997}
 					id="171_274_579_288_624"
-					index="171"
+					data-index="171"
 					style={getStyle("171")}
 				/>
 				<line
@@ -3900,7 +3900,7 @@ function GolemComponent() {
 					x2={297.1955899999998}
 					y2={583.6104599999996}
 					id="172_288_624_297_584"
-					index="172"
+					data-index="172"
 					style={getStyle("172")}
 				/>
 				<line
@@ -3909,7 +3909,7 @@ function GolemComponent() {
 					x2={309.0040999999998}
 					y2={576.5040899999997}
 					id="173_297_584_309_577"
-					index="173"
+					data-index="173"
 					style={getStyle("173")}
 				/>
 				<line
@@ -3918,7 +3918,7 @@ function GolemComponent() {
 					x2={308.78220999999985}
 					y2={583.9089299999997}
 					id="174_309_577_309_584"
-					index="174"
+					data-index="174"
 					style={getStyle("174")}
 				/>
 				<line
@@ -3927,7 +3927,7 @@ function GolemComponent() {
 					x2={322.20428999999984}
 					y2={577.0305799999998}
 					id="175_309_584_322_577"
-					index="175"
+					data-index="175"
 					style={getStyle("175")}
 				/>
 				<line
@@ -3936,7 +3936,7 @@ function GolemComponent() {
 					x2={321.42105999999984}
 					y2={570.9619799999998}
 					id="176_322_577_321_571"
-					index="176"
+					data-index="176"
 					style={getStyle("176")}
 				/>
 				<line
@@ -3945,7 +3945,7 @@ function GolemComponent() {
 					x2={329.70218999999986}
 					y2={570.7137999999998}
 					id="177_321_571_330_571"
-					index="177"
+					data-index="177"
 					style={getStyle("177")}
 				/>
 				<line
@@ -3954,7 +3954,7 @@ function GolemComponent() {
 					x2={324.8413899999999}
 					y2={553.3643199999998}
 					id="178_330_571_325_553"
-					index="178"
+					data-index="178"
 					style={getStyle("178")}
 				/>
 				<line
@@ -3963,7 +3963,7 @@ function GolemComponent() {
 					x2={334.4738599999999}
 					y2={551.5089999999998}
 					id="179_325_553_334_552"
-					index="179"
+					data-index="179"
 					style={getStyle("179")}
 				/>
 				<line
@@ -3972,7 +3972,7 @@ function GolemComponent() {
 					x2={343.04381999999987}
 					y2={547.8898999999998}
 					id="180_334_552_343_548"
-					index="180"
+					data-index="180"
 					style={getStyle("180")}
 				/>
 				<line
@@ -3981,7 +3981,7 @@ function GolemComponent() {
 					x2={355.0875399999999}
 					y2={541.4574599999997}
 					id="181_343_548_355_541"
-					index="181"
+					data-index="181"
 					style={getStyle("181")}
 				/>
 				<line
@@ -3990,7 +3990,7 @@ function GolemComponent() {
 					x2={359.46706999999986}
 					y2={534.3407099999997}
 					id="182_355_541_359_534"
-					index="182"
+					data-index="182"
 					style={getStyle("182")}
 				/>
 				<line
@@ -3999,7 +3999,7 @@ function GolemComponent() {
 					x2={383.69135999999986}
 					y2={546.7950199999997}
 					id="183_359_534_384_547"
-					index="183"
+					data-index="183"
 					style={getStyle("183")}
 				/>
 				<line
@@ -4008,7 +4008,7 @@ function GolemComponent() {
 					x2={379.17496999999986}
 					y2={506.01059999999967}
 					id="184_384_547_379_506"
-					index="184"
+					data-index="184"
 					style={getStyle("184")}
 				/>
 				<line
@@ -4017,7 +4017,7 @@ function GolemComponent() {
 					x2={389.6440299999999}
 					y2={521.4219799999996}
 					id="185_379_506_390_521"
-					index="185"
+					data-index="185"
 					style={getStyle("185")}
 				/>
 				<line
@@ -4026,7 +4026,7 @@ function GolemComponent() {
 					x2={394.9138999999999}
 					y2={504.6419999999996}
 					id="186_390_521_395_505"
-					index="186"
+					data-index="186"
 					style={getStyle("186")}
 				/>
 				<line
@@ -4035,7 +4035,7 @@ function GolemComponent() {
 					x2={394.9138999999999}
 					y2={504.6419999999996}
 					id="187_395_505_395_505"
-					index="187"
+					data-index="187"
 					style={getStyle("187")}
 				/>
 				<line
@@ -4044,7 +4044,7 @@ function GolemComponent() {
 					x2={390.6712299999999}
 					y2={489.1767799999996}
 					id="188_395_505_391_489"
-					index="188"
+					data-index="188"
 					style={getStyle("188")}
 				/>
 				<line
@@ -4053,7 +4053,7 @@ function GolemComponent() {
 					x2={405.0415699999999}
 					y2={488.9030499999996}
 					id="189_391_489_405_489"
-					index="189"
+					data-index="189"
 					style={getStyle("189")}
 				/>
 				<line
@@ -4062,7 +4062,7 @@ function GolemComponent() {
 					x2={401.9260099999999}
 					y2={465.28258999999963}
 					id="190_405_489_402_465"
-					index="190"
+					data-index="190"
 					style={getStyle("190")}
 				/>
 				<line
@@ -4071,7 +4071,7 @@ function GolemComponent() {
 					x2={417.9064499999999}
 					y2={471.65863999999965}
 					id="191_402_465_418_472"
-					index="191"
+					data-index="191"
 					style={getStyle("191")}
 				/>
 				<line
@@ -4080,7 +4080,7 @@ function GolemComponent() {
 					x2={424.7648799999999}
 					y2={437.41140999999965}
 					id="192_418_472_425_437"
-					index="192"
+					data-index="192"
 					style={getStyle("192")}
 				/>
 				<line
@@ -4089,7 +4089,7 @@ function GolemComponent() {
 					x2={434.4423599999999}
 					y2={426.57261999999963}
 					id="193_425_437_434_427"
-					index="193"
+					data-index="193"
 					style={getStyle("193")}
 				/>
 				<line
@@ -4098,7 +4098,7 @@ function GolemComponent() {
 					x2={422.82936999999987}
 					y2={382.4432599999996}
 					id="194_434_427_423_382"
-					index="194"
+					data-index="194"
 					style={getStyle("194")}
 				/>
 				<line
@@ -4107,7 +4107,7 @@ function GolemComponent() {
 					x2={441.5832999999999}
 					y2={377.2249399999996}
 					id="195_423_382_442_377"
-					index="195"
+					data-index="195"
 					style={getStyle("195")}
 				/>
 				<line
@@ -4116,7 +4116,7 @@ function GolemComponent() {
 					x2={460.3780399999999}
 					y2={431.9920199999996}
 					id="196_442_377_460_432"
-					index="196"
+					data-index="196"
 					style={getStyle("196")}
 				/>
 				<line
@@ -4125,7 +4125,7 @@ function GolemComponent() {
 					x2={667.4618099999999}
 					y2={560.0111899999996}
 					id="197_460_432_667_560"
-					index="197"
+					data-index="197"
 					style={getStyle("197")}
 				/>
 				<line
@@ -4134,7 +4134,7 @@ function GolemComponent() {
 					x2={590.8980099999999}
 					y2={537.6253599999995}
 					id="198_667_560_591_538"
-					index="198"
+					data-index="198"
 					style={getStyle("198")}
 				/>
 				<line
@@ -4143,7 +4143,7 @@ function GolemComponent() {
 					x2={460.3780399999999}
 					y2={431.99201999999957}
 					id="199_591_538_460_432"
-					index="199"
+					data-index="199"
 					style={getStyle("199")}
 				/>
 				<line
@@ -4152,7 +4152,7 @@ function GolemComponent() {
 					x2={442.8150399999999}
 					y2={455.0985299999996}
 					id="200_460_432_443_455"
-					index="200"
+					data-index="200"
 					style={getStyle("200")}
 				/>
 				<line
@@ -4161,7 +4161,7 @@ function GolemComponent() {
 					x2={572.8324399999999}
 					y2={537.3516399999996}
 					id="201_443_455_573_537"
-					index="201"
+					data-index="201"
 					style={getStyle("201")}
 				/>
 				<line
@@ -4170,7 +4170,7 @@ function GolemComponent() {
 					x2={516.71967}
 					y2={554.1854799999996}
 					id="202_573_537_517_554"
-					index="202"
+					data-index="202"
 					style={getStyle("202")}
 				/>
 				<line
@@ -4179,7 +4179,7 @@ function GolemComponent() {
 					x2={526.71048}
 					y2={568.6926799999997}
 					id="203_517_554_527_569"
-					index="203"
+					data-index="203"
 					style={getStyle("203")}
 				/>
 				<line
@@ -4188,7 +4188,7 @@ function GolemComponent() {
 					x2={574.57246}
 					y2={579.0898999999996}
 					id="204_527_569_575_579"
-					index="204"
+					data-index="204"
 					style={getStyle("204")}
 				/>
 				<line
@@ -4197,7 +4197,7 @@ function GolemComponent() {
 					x2={559.00954}
 					y2={638.7652099999996}
 					id="205_575_579_559_639"
-					index="205"
+					data-index="205"
 					style={getStyle("205")}
 				/>
 				<line
@@ -4206,7 +4206,7 @@ function GolemComponent() {
 					x2={505.08654}
 					y2={651.2194999999996}
 					id="206_559_639_505_651"
-					index="206"
+					data-index="206"
 					style={getStyle("206")}
 				/>
 				<line
@@ -4215,7 +4215,7 @@ function GolemComponent() {
 					x2={494.69562}
 					y2={642.2305199999996}
 					id="207_505_651_495_642"
-					index="207"
+					data-index="207"
 					style={getStyle("207")}
 				/>
 				<line
@@ -4224,7 +4224,7 @@ function GolemComponent() {
 					x2={423.38088000000005}
 					y2={606.3292899999997}
 					id="208_495_642_423_606"
-					index="208"
+					data-index="208"
 					style={getStyle("208")}
 				/>
 				<line
@@ -4233,7 +4233,7 @@ function GolemComponent() {
 					x2={503.99167000000006}
 					y2={617.5518399999996}
 					id="209_423_606_504_618"
-					index="209"
+					data-index="209"
 					style={getStyle("209")}
 				/>
 				<line
@@ -4242,7 +4242,7 @@ function GolemComponent() {
 					x2={494.69563000000005}
 					y2={642.2305199999996}
 					id="210_504_618_495_642"
-					index="210"
+					data-index="210"
 					style={getStyle("210")}
 				/>
 				<line
@@ -4251,7 +4251,7 @@ function GolemComponent() {
 					x2={470.59773000000007}
 					y2={621.3839399999996}
 					id="211_495_642_471_621"
-					index="211"
+					data-index="211"
 					style={getStyle("211")}
 				/>
 				<line
@@ -4260,7 +4260,7 @@ function GolemComponent() {
 					x2={423.38088000000005}
 					y2={606.3292899999996}
 					id="212_471_621_423_606"
-					index="212"
+					data-index="212"
 					style={getStyle("212")}
 				/>
 				<line
@@ -4269,7 +4269,7 @@ function GolemComponent() {
 					x2={522.31401}
 					y2={601.1545799999996}
 					id="213_423_606_522_601"
-					index="213"
+					data-index="213"
 					style={getStyle("213")}
 				/>
 				<line
@@ -4278,7 +4278,7 @@ function GolemComponent() {
 					x2={503.99167000000006}
 					y2={617.5518399999995}
 					id="214_522_601_504_618"
-					index="214"
+					data-index="214"
 					style={getStyle("214")}
 				/>
 				<line
@@ -4287,7 +4287,7 @@ function GolemComponent() {
 					x2={559.0095500000001}
 					y2={638.7652099999996}
 					id="215_504_618_559_639"
-					index="215"
+					data-index="215"
 					style={getStyle("215")}
 				/>
 				<line
@@ -4296,7 +4296,7 @@ function GolemComponent() {
 					x2={573.02407}
 					y2={734.3168699999995}
 					id="216_559_639_573_734"
-					index="216"
+					data-index="216"
 					style={getStyle("216")}
 				/>
 				<line
@@ -4305,7 +4305,7 @@ function GolemComponent() {
 					x2={597.46731}
 					y2={771.9303699999996}
 					id="217_573_734_597_772"
-					index="217"
+					data-index="217"
 					style={getStyle("217")}
 				/>
 				<line
@@ -4314,7 +4314,7 @@ function GolemComponent() {
 					x2={607.32126}
 					y2={809.1563999999996}
 					id="218_597_772_607_809"
-					index="218"
+					data-index="218"
 					style={getStyle("218")}
 				/>
 				<line
@@ -4323,7 +4323,7 @@ function GolemComponent() {
 					x2={506.8300300000001}
 					y2={878.5114899999996}
 					id="219_607_809_507_879"
-					index="219"
+					data-index="219"
 					style={getStyle("219")}
 				/>
 				<line
@@ -4332,7 +4332,7 @@ function GolemComponent() {
 					x2={553.1245500000001}
 					y2={828.5905799999996}
 					id="220_507_879_553_829"
-					index="220"
+					data-index="220"
 					style={getStyle("220")}
 				/>
 				<line
@@ -4341,7 +4341,7 @@ function GolemComponent() {
 					x2={496.7654400000001}
 					y2={871.3501499999995}
 					id="221_553_829_497_871"
-					index="221"
+					data-index="221"
 					style={getStyle("221")}
 				/>
 				<line
@@ -4350,7 +4350,7 @@ function GolemComponent() {
 					x2={448.8369000000001}
 					y2={881.9661299999996}
 					id="222_497_871_449_882"
-					index="222"
+					data-index="222"
 					style={getStyle("222")}
 				/>
 				<line
@@ -4359,7 +4359,7 @@ function GolemComponent() {
 					x2={403.12553000000014}
 					y2={876.7654399999996}
 					id="223_449_882_403_877"
-					index="223"
+					data-index="223"
 					style={getStyle("223")}
 				/>
 				<line
@@ -4368,7 +4368,7 @@ function GolemComponent() {
 					x2={397.6679100000001}
 					y2={854.3177599999996}
 					id="224_403_877_398_854"
-					index="224"
+					data-index="224"
 					style={getStyle("224")}
 				/>
 				<line
@@ -4377,7 +4377,7 @@ function GolemComponent() {
 					x2={372.1193300000001}
 					y2={876.3824499999996}
 					id="225_398_854_372_876"
-					index="225"
+					data-index="225"
 					style={getStyle("225")}
 				/>
 				<line
@@ -4386,7 +4386,7 @@ function GolemComponent() {
 					x2={372.1951300000001}
 					y2={908.7052699999996}
 					id="226_372_876_372_909"
-					index="226"
+					data-index="226"
 					style={getStyle("226")}
 				/>
 				<line
@@ -4395,7 +4395,7 @@ function GolemComponent() {
 					x2={408.8737200000001}
 					y2={908.7052699999996}
 					id="227_372_909_409_909"
-					index="227"
+					data-index="227"
 					style={getStyle("227")}
 				/>
 				<line
@@ -4404,7 +4404,7 @@ function GolemComponent() {
 					x2={372.1193700000001}
 					y2={876.3824499999996}
 					id="228_409_909_372_876"
-					index="228"
+					data-index="228"
 					style={getStyle("228")}
 				/>
 				<line
@@ -4413,7 +4413,7 @@ function GolemComponent() {
 					x2={454.0376500000001}
 					y2={908.7052699999996}
 					id="229_372_876_454_909"
-					index="229"
+					data-index="229"
 					style={getStyle("229")}
 				/>
 				<line
@@ -4422,7 +4422,7 @@ function GolemComponent() {
 					x2={474.5667200000001}
 					y2={897.8419399999996}
 					id="230_454_909_475_898"
-					index="230"
+					data-index="230"
 					style={getStyle("230")}
 				/>
 				<line
@@ -4431,7 +4431,7 @@ function GolemComponent() {
 					x2={496.7654700000001}
 					y2={871.3501499999995}
 					id="231_475_898_497_871"
-					index="231"
+					data-index="231"
 					style={getStyle("231")}
 				/>
 				<line
@@ -4440,7 +4440,7 @@ function GolemComponent() {
 					x2={473.7330300000001}
 					y2={908.7052699999995}
 					id="232_497_871_474_909"
-					index="232"
+					data-index="232"
 					style={getStyle("232")}
 				/>
 				<line
@@ -4449,7 +4449,7 @@ function GolemComponent() {
 					x2={572.6370100000001}
 					y2={865.3501099999995}
 					id="233_474_909_573_865"
-					index="233"
+					data-index="233"
 					style={getStyle("233")}
 				/>
 				<line
@@ -4458,7 +4458,7 @@ function GolemComponent() {
 					x2={575.5402600000001}
 					y2={855.8661599999995}
 					id="234_573_865_576_856"
-					index="234"
+					data-index="234"
 					style={getStyle("234")}
 				/>
 				<line
@@ -4467,7 +4467,7 @@ function GolemComponent() {
 					x2={506.8300600000001}
 					y2={878.5114899999994}
 					id="235_576_856_507_879"
-					index="235"
+					data-index="235"
 					style={getStyle("235")}
 				/>
 				<line
@@ -4476,7 +4476,7 @@ function GolemComponent() {
 					x2={473.5394900000001}
 					y2={908.7052699999994}
 					id="236_507_879_474_909"
-					index="236"
+					data-index="236"
 					style={getStyle("236")}
 				/>
 				<line
@@ -4485,7 +4485,7 @@ function GolemComponent() {
 					x2={539.3464100000001}
 					y2={908.7052699999994}
 					id="237_474_909_539_909"
-					index="237"
+					data-index="237"
 					style={getStyle("237")}
 				/>
 				<line
@@ -4494,7 +4494,7 @@ function GolemComponent() {
 					x2={563.5401400000001}
 					y2={872.7049999999994}
 					id="238_539_909_564_873"
-					index="238"
+					data-index="238"
 					style={getStyle("238")}
 				/>
 				<line
@@ -4503,7 +4503,7 @@ function GolemComponent() {
 					x2={507.7977900000001}
 					y2={908.7052699999994}
 					id="239_564_873_508_909"
-					index="239"
+					data-index="239"
 					style={getStyle("239")}
 				/>
 				<line
@@ -4512,7 +4512,7 @@ function GolemComponent() {
 					x2={617.9276400000001}
 					y2={908.7052699999994}
 					id="240_508_909_618_909"
-					index="240"
+					data-index="240"
 					style={getStyle("240")}
 				/>
 				<line
@@ -4521,7 +4521,7 @@ function GolemComponent() {
 					x2={607.4759300000001}
 					y2={809.2206599999994}
 					id="241_618_909_607_809"
-					index="241"
+					data-index="241"
 					style={getStyle("241")}
 				/>
 				<line
@@ -4530,7 +4530,7 @@ function GolemComponent() {
 					x2={638.05681}
 					y2={845.8015699999994}
 					id="242_607_809_638_846"
-					index="242"
+					data-index="242"
 					style={getStyle("242")}
 				/>
 				<line
@@ -4539,7 +4539,7 @@ function GolemComponent() {
 					x2={699.9927600000001}
 					y2={908.7052699999994}
 					id="243_638_846_700_909"
-					index="243"
+					data-index="243"
 					style={getStyle("243")}
 				/>
 				<line
@@ -4548,7 +4548,7 @@ function GolemComponent() {
 					x2={733.4768700000001}
 					y2={908.7052699999994}
 					id="244_700_909_733_909"
-					index="244"
+					data-index="244"
 					style={getStyle("244")}
 				/>
 				<line
@@ -4557,7 +4557,7 @@ function GolemComponent() {
 					x2={716.2509400000001}
 					y2={860.5113599999994}
 					id="245_733_909_716_861"
-					index="245"
+					data-index="245"
 					style={getStyle("245")}
 				/>
 				<line
@@ -4566,7 +4566,7 @@ function GolemComponent() {
 					x2={702.7024500000001}
 					y2={817.5432899999994}
 					id="246_716_861_703_818"
-					index="246"
+					data-index="246"
 					style={getStyle("246")}
 				/>
 				<line
@@ -4575,7 +4575,7 @@ function GolemComponent() {
 					x2={727.0897400000001}
 					y2={810.5754999999994}
 					id="247_703_818_727_811"
-					index="247"
+					data-index="247"
 					style={getStyle("247")}
 				/>
 				<line
@@ -4584,7 +4584,7 @@ function GolemComponent() {
 					x2={758.4448100000001}
 					y2={908.7052699999994}
 					id="248_727_811_758_909"
-					index="248"
+					data-index="248"
 					style={getStyle("248")}
 				/>
 				<line
@@ -4593,7 +4593,7 @@ function GolemComponent() {
 					x2={702.7024500000001}
 					y2={817.5432899999994}
 					id="249_758_909_703_818"
-					index="249"
+					data-index="249"
 					style={getStyle("249")}
 				/>
 				<line
@@ -4602,7 +4602,7 @@ function GolemComponent() {
 					x2={628.3793100000001}
 					y2={762.9622499999994}
 					id="250_703_818_628_763"
-					index="250"
+					data-index="250"
 					style={getStyle("250")}
 				/>
 				<line
@@ -4611,7 +4611,7 @@ function GolemComponent() {
 					x2={683.2887500000002}
 					y2={772.7154099999993}
 					id="251_628_763_683_773"
-					index="251"
+					data-index="251"
 					style={getStyle("251")}
 				/>
 				<line
@@ -4620,7 +4620,7 @@ function GolemComponent() {
 					x2={682.1861700000002}
 					y2={735.4781699999993}
 					id="252_683_773_682_735"
-					index="252"
+					data-index="252"
 					style={getStyle("252")}
 				/>
 				<line
@@ -4629,7 +4629,7 @@ function GolemComponent() {
 					x2={684.6531700000002}
 					y2={705.3923999999993}
 					id="253_682_735_685_705"
-					index="253"
+					data-index="253"
 					style={getStyle("253")}
 				/>
 				<line
@@ -4638,7 +4638,7 @@ function GolemComponent() {
 					x2={621.7986200000001}
 					y2={627.8644599999993}
 					id="254_685_705_622_628"
-					index="254"
+					data-index="254"
 					style={getStyle("254")}
 				/>
 				<line
@@ -4647,7 +4647,7 @@ function GolemComponent() {
 					x2={675.6054700000002}
 					y2={587.6060899999993}
 					id="255_622_628_676_588"
-					index="255"
+					data-index="255"
 					style={getStyle("255")}
 				/>
 				<line
@@ -4656,7 +4656,7 @@ function GolemComponent() {
 					x2={684.6531700000002}
 					y2={705.3923999999993}
 					id="256_676_588_685_705"
-					index="256"
+					data-index="256"
 					style={getStyle("256")}
 				/>
 				<line
@@ -4665,7 +4665,7 @@ function GolemComponent() {
 					x2={702.7024500000001}
 					y2={817.5432899999993}
 					id="257_685_705_703_818"
-					index="257"
+					data-index="257"
 					style={getStyle("257")}
 				/>
 				<line
@@ -4674,7 +4674,7 @@ function GolemComponent() {
 					x2={702.3023700000001}
 					y2={743.6002699999992}
 					id="258_703_818_702_744"
-					index="258"
+					data-index="258"
 					style={getStyle("258")}
 				/>
 				<line
@@ -4683,7 +4683,7 @@ function GolemComponent() {
 					x2={675.6054700000001}
 					y2={587.6060899999992}
 					id="259_702_744_676_588"
-					index="259"
+					data-index="259"
 					style={getStyle("259")}
 				/>
 				<line
@@ -4692,7 +4692,7 @@ function GolemComponent() {
 					x2={724.61062}
 					y2={599.3494099999992}
 					id="260_676_588_725_599"
-					index="260"
+					data-index="260"
 					style={getStyle("260")}
 				/>
 				<line
@@ -4701,7 +4701,7 @@ function GolemComponent() {
 					x2={762.79467}
 					y2={730.1879499999992}
 					id="261_725_599_763_730"
-					index="261"
+					data-index="261"
 					style={getStyle("261")}
 				/>
 				<line
@@ -4710,7 +4710,7 @@ function GolemComponent() {
 					x2={741.02531}
 					y2={794.3173099999992}
 					id="262_763_730_741_794"
-					index="262"
+					data-index="262"
 					style={getStyle("262")}
 				/>
 				<line
@@ -4719,7 +4719,7 @@ function GolemComponent() {
 					x2={742.12875}
 					y2={770.0143199999992}
 					id="263_741_794_742_770"
-					index="263"
+					data-index="263"
 					style={getStyle("263")}
 				/>
 				<line
@@ -4728,7 +4728,7 @@ function GolemComponent() {
 					x2={724.6106199999999}
 					y2={599.3494099999992}
 					id="264_742_770_725_599"
-					index="264"
+					data-index="264"
 					style={getStyle("264")}
 				/>
 				<line
@@ -4737,7 +4737,7 @@ function GolemComponent() {
 					x2={667.46179}
 					y2={560.0111899999993}
 					id="265_725_599_667_560"
-					index="265"
+					data-index="265"
 					style={getStyle("265")}
 				/>
 				<line
@@ -4746,7 +4746,7 @@ function GolemComponent() {
 					x2={675.60547}
 					y2={587.6060899999993}
 					id="266_667_560_676_588"
-					index="266"
+					data-index="266"
 					style={getStyle("266")}
 				/>
 				<line
@@ -4755,7 +4755,7 @@ function GolemComponent() {
 					x2={620.65618}
 					y2={569.7668299999993}
 					id="267_676_588_621_570"
-					index="267"
+					data-index="267"
 					style={getStyle("267")}
 				/>
 				<line
@@ -4764,7 +4764,7 @@ function GolemComponent() {
 					x2={584.46557}
 					y2={558.0175699999993}
 					id="268_621_570_584_558"
-					index="268"
+					data-index="268"
 					style={getStyle("268")}
 				/>
 				<line
@@ -4773,7 +4773,7 @@ function GolemComponent() {
 					x2={574.57246}
 					y2={579.0898999999993}
 					id="269_584_558_575_579"
-					index="269"
+					data-index="269"
 					style={getStyle("269")}
 				/>
 				<line
@@ -4782,7 +4782,7 @@ function GolemComponent() {
 					x2={620.65618}
 					y2={569.7668299999992}
 					id="270_575_579_621_570"
-					index="270"
+					data-index="270"
 					style={getStyle("270")}
 				/>
 				<line
@@ -4791,7 +4791,7 @@ function GolemComponent() {
 					x2={658.3170299999999}
 					y2={566.5681499999993}
 					id="271_621_570_658_567"
-					index="271"
+					data-index="271"
 					style={getStyle("271")}
 				/>
 				<line
@@ -4800,7 +4800,7 @@ function GolemComponent() {
 					x2={572.8324399999999}
 					y2={537.3516399999993}
 					id="272_658_567_573_537"
-					index="272"
+					data-index="272"
 					style={getStyle("272")}
 				/>
 				<line
@@ -4809,7 +4809,7 @@ function GolemComponent() {
 					x2={584.46557}
 					y2={558.0175699999993}
 					id="273_573_537_584_558"
-					index="273"
+					data-index="273"
 					style={getStyle("273")}
 				/>
 				<line
@@ -4818,7 +4818,7 @@ function GolemComponent() {
 					x2={526.71048}
 					y2={568.6926799999993}
 					id="274_584_558_527_569"
-					index="274"
+					data-index="274"
 					style={getStyle("274")}
 				/>
 				<line
@@ -4827,7 +4827,7 @@ function GolemComponent() {
 					x2={481.66853}
 					y2={579.0898999999993}
 					id="275_527_569_482_579"
-					index="275"
+					data-index="275"
 					style={getStyle("275")}
 				/>
 				<line
@@ -4836,7 +4836,7 @@ function GolemComponent() {
 					x2={516.71967}
 					y2={554.1854799999993}
 					id="276_482_579_517_554"
-					index="276"
+					data-index="276"
 					style={getStyle("276")}
 				/>
 				<line
@@ -4845,7 +4845,7 @@ function GolemComponent() {
 					x2={500.70700999999997}
 					y2={553.3643199999993}
 					id="277_517_554_501_553"
-					index="277"
+					data-index="277"
 					style={getStyle("277")}
 				/>
 				<line
@@ -4854,7 +4854,7 @@ function GolemComponent() {
 					x2={481.66853}
 					y2={579.0898999999994}
 					id="278_501_553_482_579"
-					index="278"
+					data-index="278"
 					style={getStyle("278")}
 				/>
 				<line
@@ -4863,7 +4863,7 @@ function GolemComponent() {
 					x2={469.22911}
 					y2={538.3096599999993}
 					id="279_482_579_469_538"
-					index="279"
+					data-index="279"
 					style={getStyle("279")}
 				/>
 				<line
@@ -4872,7 +4872,7 @@ function GolemComponent() {
 					x2={500.70700999999997}
 					y2={553.3643199999993}
 					id="280_469_538_501_553"
-					index="280"
+					data-index="280"
 					style={getStyle("280")}
 				/>
 				<line
@@ -4881,7 +4881,7 @@ function GolemComponent() {
 					x2={442.81503999999995}
 					y2={455.09852999999936}
 					id="281_501_553_443_455"
-					index="281"
+					data-index="281"
 					style={getStyle("281")}
 				/>
 				<line
@@ -4890,7 +4890,7 @@ function GolemComponent() {
 					x2={434.44235999999995}
 					y2={426.57261999999935}
 					id="282_443_455_434_427"
-					index="282"
+					data-index="282"
 					style={getStyle("282")}
 				/>
 				<line
@@ -4899,7 +4899,7 @@ function GolemComponent() {
 					x2={384.70005999999995}
 					y2={354.76563999999934}
 					id="283_434_427_385_355"
-					index="283"
+					data-index="283"
 					style={getStyle("283")}
 				/>
 				<line
@@ -4908,7 +4908,7 @@ function GolemComponent() {
 					x2={392.63559999999995}
 					y2={320.89441999999934}
 					id="284_385_355_393_321"
-					index="284"
+					data-index="284"
 					style={getStyle("284")}
 				/>
 				<line
@@ -4917,7 +4917,7 @@ function GolemComponent() {
 					x2={360.31278}
 					y2={336.1848399999993}
 					id="285_393_321_360_336"
-					index="285"
+					data-index="285"
 					style={getStyle("285")}
 				/>
 				<line
@@ -4926,7 +4926,7 @@ function GolemComponent() {
 					x2={360.69879}
 					y2={389.8160799999993}
 					id="286_360_336_361_390"
-					index="286"
+					data-index="286"
 					style={getStyle("286")}
 				/>
 				<line
@@ -4935,7 +4935,7 @@ function GolemComponent() {
 					x2={384.70005999999995}
 					y2={354.76563999999934}
 					id="287_361_390_385_355"
-					index="287"
+					data-index="287"
 					style={getStyle("287")}
 				/>
 				<line
@@ -4944,7 +4944,7 @@ function GolemComponent() {
 					x2={382.95811}
 					y2={386.70134999999937}
 					id="288_385_355_383_387"
-					index="288"
+					data-index="288"
 					style={getStyle("288")}
 				/>
 				<line
@@ -4953,7 +4953,7 @@ function GolemComponent() {
 					x2={360.69879}
 					y2={389.8160799999994}
 					id="289_383_387_361_390"
-					index="289"
+					data-index="289"
 					style={getStyle("289")}
 				/>
 				<line
@@ -4962,7 +4962,7 @@ function GolemComponent() {
 					x2={380.62458999999996}
 					y2={434.2118999999994}
 					id="290_361_390_381_434"
-					index="290"
+					data-index="290"
 					style={getStyle("290")}
 				/>
 				<line
@@ -4971,7 +4971,7 @@ function GolemComponent() {
 					x2={401.92599999999993}
 					y2={465.2825899999994}
 					id="291_381_434_402_465"
-					index="291"
+					data-index="291"
 					style={getStyle("291")}
 				/>
 				<line
@@ -4980,7 +4980,7 @@ function GolemComponent() {
 					x2={382.9581099999999}
 					y2={386.7013499999994}
 					id="292_402_465_383_387"
-					index="292"
+					data-index="292"
 					style={getStyle("292")}
 				/>
 				<line
@@ -4989,7 +4989,7 @@ function GolemComponent() {
 					x2={424.76487999999995}
 					y2={437.4114099999994}
 					id="293_383_387_425_437"
-					index="293"
+					data-index="293"
 					style={getStyle("293")}
 				/>
 				<line
@@ -4998,7 +4998,7 @@ function GolemComponent() {
 					x2={412.95832999999993}
 					y2={327.47509999999943}
 					id="294_425_437_413_327"
-					index="294"
+					data-index="294"
 					style={getStyle("294")}
 				/>
 				<line
@@ -5007,7 +5007,7 @@ function GolemComponent() {
 					x2={384.70005999999995}
 					y2={354.76563999999945}
 					id="295_413_327_385_355"
-					index="295"
+					data-index="295"
 					style={getStyle("295")}
 				/>
 				<line
@@ -5016,7 +5016,7 @@ function GolemComponent() {
 					x2={360.31278}
 					y2={336.18483999999944}
 					id="296_385_355_360_336"
-					index="296"
+					data-index="296"
 					style={getStyle("296")}
 				/>
 				<line
@@ -5025,7 +5025,7 @@ function GolemComponent() {
 					x2={328.37706}
 					y2={323.79765999999944}
 					id="297_360_336_328_324"
-					index="297"
+					data-index="297"
 					style={getStyle("297")}
 				/>
 				<line
@@ -5034,7 +5034,7 @@ function GolemComponent() {
 					x2={306.89302}
 					y2={319.7331199999994}
 					id="298_328_324_307_320"
-					index="298"
+					data-index="298"
 					style={getStyle("298")}
 				/>
 				<line
@@ -5043,7 +5043,7 @@ function GolemComponent() {
 					x2={292.18323}
 					y2={312.37821999999943}
 					id="299_307_320_292_312"
-					index="299"
+					data-index="299"
 					style={getStyle("299")}
 				/>
 				<line
@@ -5052,7 +5052,7 @@ function GolemComponent() {
 					x2={269.54976999999997}
 					y2={307.15243999999944}
 					id="300_292_312_270_307"
-					index="300"
+					data-index="300"
 					style={getStyle("300")}
 				/>
 				<line
@@ -5061,7 +5061,7 @@ function GolemComponent() {
 					x2={251.48419999999996}
 					y2={357.24334999999945}
 					id="301_270_307_251_357"
-					index="301"
+					data-index="301"
 					style={getStyle("301")}
 				/>
 				<line
@@ -5070,7 +5070,7 @@ function GolemComponent() {
 					x2={281.04605}
 					y2={352.86380999999943}
 					id="302_251_357_281_353"
-					index="302"
+					data-index="302"
 					style={getStyle("302")}
 				/>
 				<line
@@ -5079,7 +5079,7 @@ function GolemComponent() {
 					x2={272.5607}
 					y2={338.9040499999994}
 					id="303_281_353_273_339"
-					index="303"
+					data-index="303"
 					style={getStyle("303")}
 				/>
 				<line
@@ -5088,7 +5088,7 @@ function GolemComponent() {
 					x2={251.4842}
 					y2={357.2433499999994}
 					id="304_273_339_251_357"
-					index="304"
+					data-index="304"
 					style={getStyle("304")}
 				/>
 				<line
@@ -5097,7 +5097,7 @@ function GolemComponent() {
 					x2={233.14490999999998}
 					y2={358.3382299999994}
 					id="305_251_357_233_358"
-					index="305"
+					data-index="305"
 					style={getStyle("305")}
 				/>
 				<line
@@ -5106,7 +5106,7 @@ function GolemComponent() {
 					x2={242.62425}
 					y2={312.04374999999936}
 					id="306_233_358_243_312"
-					index="306"
+					data-index="306"
 					style={getStyle("306")}
 				/>
 				<line
@@ -5115,7 +5115,7 @@ function GolemComponent() {
 					x2={243.09143}
 					y2={303.54474999999934}
 					id="307_243_312_243_304"
-					index="307"
+					data-index="307"
 					style={getStyle("307")}
 				/>
 				<line
@@ -5124,7 +5124,7 @@ function GolemComponent() {
 					x2={259.27977}
 					y2={293.27749999999935}
 					id="308_243_304_259_293"
-					index="308"
+					data-index="308"
 					style={getStyle("308")}
 				/>
 				<line
@@ -5133,7 +5133,7 @@ function GolemComponent() {
 					x2={271.08630999999997}
 					y2={299.99102999999934}
 					id="309_259_293_271_300"
-					index="309"
+					data-index="309"
 					style={getStyle("309")}
 				/>
 				<line
@@ -5142,7 +5142,7 @@ function GolemComponent() {
 					x2={269.54976999999997}
 					y2={307.15243999999933}
 					id="310_271_300_270_307"
-					index="310"
+					data-index="310"
 					style={getStyle("310")}
 				/>
 				<line
@@ -5151,7 +5151,7 @@ function GolemComponent() {
 					x2={279.60249999999996}
 					y2={295.92647999999934}
 					id="311_270_307_280_296"
-					index="311"
+					data-index="311"
 					style={getStyle("311")}
 				/>
 				<line
@@ -5160,7 +5160,7 @@ function GolemComponent() {
 					x2={329.73189999999994}
 					y2={273.0875999999993}
 					id="312_280_296_330_273"
-					index="312"
+					data-index="312"
 					style={getStyle("312")}
 				/>
 				<line
@@ -5169,7 +5169,7 @@ function GolemComponent() {
 					x2={359.34502999999995}
 					y2={260.3133099999993}
 					id="313_330_273_359_260"
-					index="313"
+					data-index="313"
 					style={getStyle("313")}
 				/>
 				<line
@@ -5178,7 +5178,7 @@ function GolemComponent() {
 					x2={322.3770099999999}
 					y2={285.28123999999934}
 					id="314_359_260_322_285"
-					index="314"
+					data-index="314"
 					style={getStyle("314")}
 				/>
 				<line
@@ -5187,7 +5187,7 @@ function GolemComponent() {
 					x2={351.4094799999999}
 					y2={284.3134899999993}
 					id="315_322_285_351_284"
-					index="315"
+					data-index="315"
 					style={getStyle("315")}
 				/>
 				<line
@@ -5196,7 +5196,7 @@ function GolemComponent() {
 					x2={368.3629899999999}
 					y2={301.5411399999993}
 					id="316_351_284_368_302"
-					index="316"
+					data-index="316"
 					style={getStyle("316")}
 				/>
 				<line
@@ -5205,7 +5205,7 @@ function GolemComponent() {
 					x2={382.8701899999999}
 					y2={274.9902199999993}
 					id="317_368_302_383_275"
-					index="317"
+					data-index="317"
 					style={getStyle("317")}
 				/>
 				<line
@@ -5214,7 +5214,7 @@ function GolemComponent() {
 					x2={351.4094799999999}
 					y2={284.31348999999926}
 					id="318_383_275_351_284"
-					index="318"
+					data-index="318"
 					style={getStyle("318")}
 				/>
 				<line
@@ -5223,7 +5223,7 @@ function GolemComponent() {
 					x2={359.3450299999999}
 					y2={260.31330999999926}
 					id="319_351_284_359_260"
-					index="319"
+					data-index="319"
 					style={getStyle("319")}
 				/>
 				<line
@@ -5232,7 +5232,7 @@ function GolemComponent() {
 					x2={382.87018999999987}
 					y2={274.9902199999993}
 					id="320_359_260_383_275"
-					index="320"
+					data-index="320"
 					style={getStyle("320")}
 				/>
 				<line
@@ -5241,7 +5241,7 @@ function GolemComponent() {
 					x2={392.63559999999984}
 					y2={320.8944199999993}
 					id="321_383_275_393_321"
-					index="321"
+					data-index="321"
 					style={getStyle("321")}
 				/>
 				<line
@@ -5250,7 +5250,7 @@ function GolemComponent() {
 					x2={328.37705999999986}
 					y2={323.79765999999927}
 					id="322_393_321_328_324"
-					index="322"
+					data-index="322"
 					style={getStyle("322")}
 				/>
 				<line
@@ -5259,7 +5259,7 @@ function GolemComponent() {
 					x2={304.76397999999983}
 					y2={302.7007299999993}
 					id="323_328_324_305_303"
-					index="323"
+					data-index="323"
 					style={getStyle("323")}
 				/>
 				<line
@@ -5268,7 +5268,7 @@ function GolemComponent() {
 					x2={321.60280999999986}
 					y2={292.8296899999993}
 					id="324_305_303_322_293"
-					index="324"
+					data-index="324"
 					style={getStyle("324")}
 				/>
 				<line
@@ -5277,7 +5277,7 @@ function GolemComponent() {
 					x2={340.18358999999987}
 					y2={300.3781299999993}
 					id="325_322_293_340_300"
-					index="325"
+					data-index="325"
 					style={getStyle("325")}
 				/>
 				<line
@@ -5286,7 +5286,7 @@ function GolemComponent() {
 					x2={304.7639799999999}
 					y2={302.70072999999934}
 					id="326_340_300_305_303"
-					index="326"
+					data-index="326"
 					style={getStyle("326")}
 				/>
 				<line
@@ -5295,7 +5295,7 @@ function GolemComponent() {
 					x2={322.9576599999999}
 					y2={312.95886999999937}
 					id="327_305_303_323_313"
-					index="327"
+					data-index="327"
 					style={getStyle("327")}
 				/>
 				<line
@@ -5304,7 +5304,7 @@ function GolemComponent() {
 					x2={340.1835899999999}
 					y2={300.3781299999994}
 					id="328_323_313_340_300"
-					index="328"
+					data-index="328"
 					style={getStyle("328")}
 				/>
 				<line
@@ -5313,7 +5313,7 @@ function GolemComponent() {
 					x2={328.3770599999999}
 					y2={323.7976599999994}
 					id="329_340_300_328_324"
-					index="329"
+					data-index="329"
 					style={getStyle("329")}
 				/>
 				<line
@@ -5322,7 +5322,7 @@ function GolemComponent() {
 					x2={356.3450099999999}
 					y2={308.50722999999937}
 					id="330_328_324_356_309"
-					index="330"
+					data-index="330"
 					style={getStyle("330")}
 				/>
 				<line
@@ -5331,7 +5331,7 @@ function GolemComponent() {
 					x2={340.18358999999987}
 					y2={300.3781299999994}
 					id="331_356_309_340_300"
-					index="331"
+					data-index="331"
 					style={getStyle("331")}
 				/>
 				<line
@@ -5340,7 +5340,7 @@ function GolemComponent() {
 					x2={368.36298999999985}
 					y2={301.54113999999936}
 					id="332_340_300_368_302"
-					index="332"
+					data-index="332"
 					style={getStyle("332")}
 				/>
 				<line
@@ -5349,7 +5349,7 @@ function GolemComponent() {
 					x2={368.1515499999999}
 					y2={319.34598999999935}
 					id="333_368_302_368_319"
-					index="333"
+					data-index="333"
 					style={getStyle("333")}
 				/>
 				<line
@@ -5358,7 +5358,7 @@ function GolemComponent() {
 					x2={356.3450099999999}
 					y2={308.50722999999937}
 					id="334_368_319_356_309"
-					index="334"
+					data-index="334"
 					style={getStyle("334")}
 				/>
 				<line
@@ -5367,7 +5367,7 @@ function GolemComponent() {
 					x2={368.3629899999999}
 					y2={301.54113999999936}
 					id="335_356_309_368_302"
-					index="335"
+					data-index="335"
 					style={getStyle("335")}
 				/>
 				<line
@@ -5376,7 +5376,7 @@ function GolemComponent() {
 					x2={409.8615299999999}
 					y2={247.34544999999935}
 					id="336_383_275_410_247"
-					index="336"
+					data-index="336"
 					style={getStyle("336")}
 				/>
 				<line
@@ -5385,7 +5385,7 @@ function GolemComponent() {
 					x2={371.1001799999999}
 					y2={221.75153999999935}
 					id="337_410_247_371_222"
-					index="337"
+					data-index="337"
 					style={getStyle("337")}
 				/>
 				<line
@@ -5394,7 +5394,7 @@ function GolemComponent() {
 					x2={359.3450299999999}
 					y2={260.3133099999994}
 					id="338_371_222_359_260"
-					index="338"
+					data-index="338"
 					style={getStyle("338")}
 				/>
 				<line
@@ -5403,7 +5403,7 @@ function GolemComponent() {
 					x2={350.08026999999987}
 					y2={252.39766999999938}
 					id="339_359_260_350_252"
-					index="339"
+					data-index="339"
 					style={getStyle("339")}
 				/>
 				<line
@@ -5412,7 +5412,7 @@ function GolemComponent() {
 					x2={335.1512999999999}
 					y2={249.7648199999994}
 					id="340_350_252_335_250"
-					index="340"
+					data-index="340"
 					style={getStyle("340")}
 				/>
 				<line
@@ -5421,7 +5421,7 @@ function GolemComponent() {
 					x2={329.7318999999999}
 					y2={273.0875999999994}
 					id="341_335_250_330_273"
-					index="341"
+					data-index="341"
 					style={getStyle("341")}
 				/>
 				<line
@@ -5430,7 +5430,7 @@ function GolemComponent() {
 					x2={329.24802999999986}
 					y2={238.82925999999938}
 					id="342_330_273_329_239"
-					index="342"
+					data-index="342"
 					style={getStyle("342")}
 				/>
 				<line
@@ -5439,7 +5439,7 @@ function GolemComponent() {
 					x2={371.10017999999985}
 					y2={221.75153999999938}
 					id="343_329_239_371_222"
-					index="343"
+					data-index="343"
 					style={getStyle("343")}
 				/>
 				<line
@@ -5448,7 +5448,7 @@ function GolemComponent() {
 					x2={408.94207999999986}
 					y2={197.45881999999938}
 					id="344_371_222_409_197"
-					index="344"
+					data-index="344"
 					style={getStyle("344")}
 				/>
 				<line
@@ -5457,7 +5457,7 @@ function GolemComponent() {
 					x2={409.86152999999985}
 					y2={247.34544999999937}
 					id="345_409_197_410_247"
-					index="345"
+					data-index="345"
 					style={getStyle("345")}
 				/>
 				<line
@@ -5466,7 +5466,7 @@ function GolemComponent() {
 					x2={443.44241999999986}
 					y2={212.99035999999938}
 					id="346_410_247_443_213"
-					index="346"
+					data-index="346"
 					style={getStyle("346")}
 				/>
 				<line
@@ -5475,7 +5475,7 @@ function GolemComponent() {
 					x2={447.30677999999983}
 					y2={237.3988799999994}
 					id="347_443_213_447_237"
-					index="347"
+					data-index="347"
 					style={getStyle("347")}
 				/>
 				<line
@@ -5484,7 +5484,7 @@ function GolemComponent() {
 					x2={452.92636999999985}
 					y2={272.8940399999994}
 					id="348_447_237_453_273"
-					index="348"
+					data-index="348"
 					style={getStyle("348")}
 				/>
 				<line
@@ -5493,7 +5493,7 @@ function GolemComponent() {
 					x2={439.80409999999983}
 					y2={281.83323999999936}
 					id="349_453_273_440_282"
-					index="349"
+					data-index="349"
 					style={getStyle("349")}
 				/>
 				<line
@@ -5502,7 +5502,7 @@ function GolemComponent() {
 					x2={448.56316999999984}
 					y2={293.4663799999994}
 					id="350_440_282_449_293"
-					index="350"
+					data-index="350"
 					style={getStyle("350")}
 				/>
 				<line
@@ -5511,7 +5511,7 @@ function GolemComponent() {
 					x2={471.55572999999987}
 					y2={265.40998999999937}
 					id="351_449_293_472_265"
-					index="351"
+					data-index="351"
 					style={getStyle("351")}
 				/>
 				<line
@@ -5520,7 +5520,7 @@ function GolemComponent() {
 					x2={485.78920999999985}
 					y2={267.1891799999994}
 					id="352_472_265_486_267"
-					index="352"
+					data-index="352"
 					style={getStyle("352")}
 				/>
 				<line
@@ -5529,7 +5529,7 @@ function GolemComponent() {
 					x2={494.41141999999985}
 					y2={275.9482499999994}
 					id="353_486_267_494_276"
-					index="353"
+					data-index="353"
 					style={getStyle("353")}
 				/>
 				<line
@@ -5538,7 +5538,7 @@ function GolemComponent() {
 					x2={471.55572999999987}
 					y2={265.4099899999994}
 					id="354_494_276_472_265"
-					index="354"
+					data-index="354"
 					style={getStyle("354")}
 				/>
 				<line
@@ -5547,7 +5547,7 @@ function GolemComponent() {
 					x2={453.07955999999984}
 					y2={272.93731999999943}
 					id="355_472_265_453_273"
-					index="355"
+					data-index="355"
 					style={getStyle("355")}
 				/>
 				<line
@@ -5556,7 +5556,7 @@ function GolemComponent() {
 					x2={435.55113999999986}
 					y2={261.1570699999994}
 					id="356_453_273_436_261"
-					index="356"
+					data-index="356"
 					style={getStyle("356")}
 				/>
 				<line
@@ -5565,7 +5565,7 @@ function GolemComponent() {
 					x2={439.87253999999984}
 					y2={281.62794999999943}
 					id="357_436_261_440_282"
-					index="357"
+					data-index="357"
 					style={getStyle("357")}
 				/>
 				<line
@@ -5574,7 +5574,7 @@ function GolemComponent() {
 					x2={409.86152999999985}
 					y2={247.34544999999943}
 					id="358_440_282_410_247"
-					index="358"
+					data-index="358"
 					style={getStyle("358")}
 				/>
 				<line
@@ -5583,7 +5583,7 @@ function GolemComponent() {
 					x2={407.36818999999986}
 					y2={294.2875399999994}
 					id="359_410_247_407_294"
-					index="359"
+					data-index="359"
 					style={getStyle("359")}
 				/>
 				<line
@@ -5592,7 +5592,7 @@ function GolemComponent() {
 					x2={439.25665999999984}
 					y2={335.2087999999994}
 					id="360_407_294_439_335"
-					index="360"
+					data-index="360"
 					style={getStyle("360")}
 				/>
 				<line
@@ -5601,7 +5601,7 @@ function GolemComponent() {
 					x2={426.93922999999984}
 					y2={360.25424999999944}
 					id="361_439_335_427_360"
-					index="361"
+					data-index="361"
 					style={getStyle("361")}
 				/>
 				<line
@@ -5610,7 +5610,7 @@ function GolemComponent() {
 					x2={441.58328999999986}
 					y2={377.22493999999944}
 					id="362_427_360_442_377"
-					index="362"
+					data-index="362"
 					style={getStyle("362")}
 				/>
 				<line
@@ -5619,7 +5619,7 @@ function GolemComponent() {
 					x2={447.95547999999985}
 					y2={372.29763999999943}
 					id="363_442_377_448_372"
-					index="363"
+					data-index="363"
 					style={getStyle("363")}
 				/>
 				<line
@@ -5628,7 +5628,7 @@ function GolemComponent() {
 					x2={476.34583999999984}
 					y2={350.26343999999943}
 					id="364_448_372_476_350"
-					index="364"
+					data-index="364"
 					style={getStyle("364")}
 				/>
 				<line
@@ -5637,7 +5637,7 @@ function GolemComponent() {
 					x2={494.41141999999985}
 					y2={275.94824999999946}
 					id="365_476_350_494_276"
-					index="365"
+					data-index="365"
 					style={getStyle("365")}
 				/>
 				<line
@@ -5646,7 +5646,7 @@ function GolemComponent() {
 					x2={484.8311899999999}
 					y2={277.86428999999947}
 					id="366_494_276_485_278"
-					index="366"
+					data-index="366"
 					style={getStyle("366")}
 				/>
 				<line
@@ -5655,7 +5655,7 @@ function GolemComponent() {
 					x2={476.3458399999999}
 					y2={350.2634399999995}
 					id="367_485_278_476_350"
-					index="367"
+					data-index="367"
 					style={getStyle("367")}
 				/>
 				<line
@@ -5664,7 +5664,7 @@ function GolemComponent() {
 					x2={454.7218899999999}
 					y2={349.3738499999995}
 					id="368_476_350_455_349"
-					index="368"
+					data-index="368"
 					style={getStyle("368")}
 				/>
 				<line
@@ -5673,7 +5673,7 @@ function GolemComponent() {
 					x2={447.9554799999999}
 					y2={372.2976399999995}
 					id="369_455_349_448_372"
-					index="369"
+					data-index="369"
 					style={getStyle("369")}
 				/>
 				<line
@@ -5682,7 +5682,7 @@ function GolemComponent() {
 					x2={441.5832899999999}
 					y2={355.1904199999995}
 					id="370_448_372_442_355"
-					index="370"
+					data-index="370"
 					style={getStyle("370")}
 				/>
 				<line
@@ -5691,7 +5691,7 @@ function GolemComponent() {
 					x2={434.7402699999999}
 					y2={346.0207699999995}
 					id="371_442_355_435_346"
-					index="371"
+					data-index="371"
 					style={getStyle("371")}
 				/>
 				<line
@@ -5700,7 +5700,7 @@ function GolemComponent() {
 					x2={466.4124399999999}
 					y2={336.55806999999953}
 					id="372_435_346_466_337"
-					index="372"
+					data-index="372"
 					style={getStyle("372")}
 				/>
 				<line
@@ -5709,7 +5709,7 @@ function GolemComponent() {
 					x2={463.9599799999999}
 					y2={309.2053199999995}
 					id="373_466_337_464_309"
-					index="373"
+					data-index="373"
 					style={getStyle("373")}
 				/>
 				<line
@@ -5718,7 +5718,7 @@ function GolemComponent() {
 					x2={480.5885199999999}
 					y2={294.0138199999995}
 					id="374_464_309_481_294"
-					index="374"
+					data-index="374"
 					style={getStyle("374")}
 				/>
 				<line
@@ -5727,7 +5727,7 @@ function GolemComponent() {
 					x2={466.4124399999999}
 					y2={336.5580699999995}
 					id="375_481_294_466_337"
-					index="375"
+					data-index="375"
 					style={getStyle("375")}
 				/>
 				<line
@@ -5736,7 +5736,7 @@ function GolemComponent() {
 					x2={454.7218899999999}
 					y2={349.3738499999995}
 					id="376_466_337_455_349"
-					index="376"
+					data-index="376"
 					style={getStyle("376")}
 				/>
 				<line
@@ -5745,7 +5745,7 @@ function GolemComponent() {
 					x2={441.5832899999999}
 					y2={355.1904199999995}
 					id="377_455_349_442_355"
-					index="377"
+					data-index="377"
 					style={getStyle("377")}
 				/>
 				<line
@@ -5754,7 +5754,7 @@ function GolemComponent() {
 					x2={426.9392299999999}
 					y2={360.2542499999995}
 					id="378_442_355_427_360"
-					index="378"
+					data-index="378"
 					style={getStyle("378")}
 				/>
 				<line
@@ -5763,7 +5763,7 @@ function GolemComponent() {
 					x2={420.09620999999987}
 					y2={310.1633499999995}
 					id="379_427_360_420_310"
-					index="379"
+					data-index="379"
 					style={getStyle("379")}
 				/>
 				<line
@@ -5772,7 +5772,7 @@ function GolemComponent() {
 					x2={439.87253999999984}
 					y2={281.62794999999954}
 					id="380_420_310_440_282"
-					index="380"
+					data-index="380"
 					style={getStyle("380")}
 				/>
 				<line
@@ -5781,7 +5781,7 @@ function GolemComponent() {
 					x2={432.70039999999983}
 					y2={322.24923999999953}
 					id="381_440_282_433_322"
-					index="381"
+					data-index="381"
 					style={getStyle("381")}
 				/>
 				<line
@@ -5790,7 +5790,7 @@ function GolemComponent() {
 					x2={444.91060999999985}
 					y2={300.09392999999955}
 					id="382_433_322_445_300"
-					index="382"
+					data-index="382"
 					style={getStyle("382")}
 				/>
 				<line
@@ -5799,7 +5799,7 @@ function GolemComponent() {
 					x2={448.56316999999984}
 					y2={293.46637999999956}
 					id="383_445_300_449_293"
-					index="383"
+					data-index="383"
 					style={getStyle("383")}
 				/>
 				<line
@@ -5808,7 +5808,7 @@ function GolemComponent() {
 					x2={468.47636999999986}
 					y2={274.10062999999957}
 					id="384_449_293_468_274"
-					index="384"
+					data-index="384"
 					style={getStyle("384")}
 				/>
 				<line
@@ -5817,7 +5817,7 @@ function GolemComponent() {
 					x2={484.8311899999999}
 					y2={277.8642899999996}
 					id="385_468_274_485_278"
-					index="385"
+					data-index="385"
 					style={getStyle("385")}
 				/>
 				<line
@@ -5826,7 +5826,7 @@ function GolemComponent() {
 					x2={480.5885199999999}
 					y2={294.01381999999955}
 					id="386_485_278_481_294"
-					index="386"
+					data-index="386"
 					style={getStyle("386")}
 				/>
 				<line
@@ -5835,7 +5835,7 @@ function GolemComponent() {
 					x2={469.7081099999999}
 					y2={291.48189999999954}
 					id="387_481_294_470_291"
-					index="387"
+					data-index="387"
 					style={getStyle("387")}
 				/>
 				<line
@@ -5844,7 +5844,7 @@ function GolemComponent() {
 					x2={444.9106099999999}
 					y2={300.09392999999955}
 					id="388_470_291_445_300"
-					index="388"
+					data-index="388"
 					style={getStyle("388")}
 				/>
 				<line
@@ -5853,7 +5853,7 @@ function GolemComponent() {
 					x2={463.9599799999999}
 					y2={309.2053199999996}
 					id="389_445_300_464_309"
-					index="389"
+					data-index="389"
 					style={getStyle("389")}
 				/>
 				<line
@@ -5862,7 +5862,7 @@ function GolemComponent() {
 					x2={445.5522399999999}
 					y2={312.2846799999996}
 					id="390_464_309_446_312"
-					index="390"
+					data-index="390"
 					style={getStyle("390")}
 				/>
 				<line
@@ -5871,7 +5871,7 @@ function GolemComponent() {
 					x2={466.41243999999995}
 					y2={336.5580699999996}
 					id="391_446_312_466_337"
-					index="391"
+					data-index="391"
 					style={getStyle("391")}
 				/>
 				<line
@@ -5880,7 +5880,7 @@ function GolemComponent() {
 					x2={432.70039999999995}
 					y2={322.2492399999996}
 					id="392_466_337_433_322"
-					index="392"
+					data-index="392"
 					style={getStyle("392")}
 				/>
 				<line
@@ -5889,7 +5889,7 @@ function GolemComponent() {
 					x2={420.0962099999999}
 					y2={310.3459299999996}
 					id="393_433_322_420_310"
-					index="393"
+					data-index="393"
 					style={getStyle("393")}
 				/>
 				<line
@@ -5898,7 +5898,7 @@ function GolemComponent() {
 					x2={407.3681899999999}
 					y2={294.28753999999964}
 					id="394_420_310_407_294"
-					index="394"
+					data-index="394"
 					style={getStyle("394")}
 				/>
 				<line
@@ -5907,7 +5907,7 @@ function GolemComponent() {
 					x2={388.0708699999999}
 					y2={270.06324999999964}
 					id="395_407_294_388_270"
-					index="395"
+					data-index="395"
 					style={getStyle("395")}
 				/>
 				<line
@@ -5916,7 +5916,7 @@ function GolemComponent() {
 					x2={371.1001799999999}
 					y2={221.75153999999964}
 					id="396_388_270_371_222"
-					index="396"
+					data-index="396"
 					style={getStyle("396")}
 				/>
 				<line
@@ -5925,7 +5925,7 @@ function GolemComponent() {
 					x2={375.0691299999999}
 					y2={199.64857999999964}
 					id="397_371_222_375_200"
-					index="397"
+					data-index="397"
 					style={getStyle("397")}
 				/>
 				<line
@@ -5934,7 +5934,7 @@ function GolemComponent() {
 					x2={408.9420799999999}
 					y2={197.45881999999963}
 					id="398_375_200_409_197"
-					index="398"
+					data-index="398"
 					style={getStyle("398")}
 				/>
 				<line
@@ -5943,7 +5943,7 @@ function GolemComponent() {
 					x2={443.4424199999999}
 					y2={212.99035999999964}
 					id="399_409_197_443_213"
-					index="399"
+					data-index="399"
 					style={getStyle("399")}
 				/>
 				<line
@@ -5952,7 +5952,7 @@ function GolemComponent() {
 					x2={422.55968999999993}
 					y2={185.68881999999965}
 					id="400_443_213_423_186"
-					index="400"
+					data-index="400"
 					style={getStyle("400")}
 				/>
 				<line
@@ -5961,7 +5961,7 @@ function GolemComponent() {
 					x2={408.9420799999999}
 					y2={197.45881999999966}
 					id="401_423_186_409_197"
-					index="401"
+					data-index="401"
 					style={getStyle("401")}
 				/>
 				<line
@@ -5970,7 +5970,7 @@ function GolemComponent() {
 					x2={371.92133999999993}
 					y2={156.19540999999967}
 					id="402_409_197_372_156"
-					index="402"
+					data-index="402"
 					style={getStyle("402")}
 				/>
 				<line
@@ -5979,7 +5979,7 @@ function GolemComponent() {
 					x2={422.55968999999993}
 					y2={185.68881999999968}
 					id="403_372_156_423_186"
-					index="403"
+					data-index="403"
 					style={getStyle("403")}
 				/>
 				<line
@@ -5988,7 +5988,7 @@ function GolemComponent() {
 					x2={360.90423999999996}
 					y2={170.4972199999997}
 					id="404_423_186_361_170"
-					index="404"
+					data-index="404"
 					style={getStyle("404")}
 				/>
 				<line
@@ -5997,7 +5997,7 @@ function GolemComponent() {
 					x2={322.92531999999994}
 					y2={150.31040999999968}
 					id="405_361_170_323_150"
-					index="405"
+					data-index="405"
 					style={getStyle("405")}
 				/>
 				<line
@@ -6006,7 +6006,7 @@ function GolemComponent() {
 					x2={331.8006199999999}
 					y2={188.8485999999997}
 					id="406_323_150_332_189"
-					index="406"
+					data-index="406"
 					style={getStyle("406")}
 				/>
 				<line
@@ -6015,7 +6015,7 @@ function GolemComponent() {
 					x2={288.9839399999999}
 					y2={172.6186599999997}
 					id="407_332_189_289_173"
-					index="407"
+					data-index="407"
 					style={getStyle("407")}
 				/>
 				<line
@@ -6024,7 +6024,7 @@ function GolemComponent() {
 					x2={356.7977599999999}
 					y2={182.4047499999997}
 					id="408_289_173_357_182"
-					index="408"
+					data-index="408"
 					style={getStyle("408")}
 				/>
 				<line
@@ -6033,7 +6033,7 @@ function GolemComponent() {
 					x2={408.9420799999999}
 					y2={197.4588199999997}
 					id="409_357_182_409_197"
-					index="409"
+					data-index="409"
 					style={getStyle("409")}
 				/>
 				<line
@@ -6042,7 +6042,7 @@ function GolemComponent() {
 					x2={360.9042399999999}
 					y2={170.4972199999997}
 					id="410_409_197_361_170"
-					index="410"
+					data-index="410"
 					style={getStyle("410")}
 				/>
 				<line
@@ -6051,7 +6051,7 @@ function GolemComponent() {
 					x2={371.9213399999999}
 					y2={156.1954099999997}
 					id="411_361_170_372_156"
-					index="411"
+					data-index="411"
 					style={getStyle("411")}
 				/>
 				<line
@@ -6060,7 +6060,7 @@ function GolemComponent() {
 					x2={322.9253199999999}
 					y2={150.3104099999997}
 					id="412_372_156_323_150"
-					index="412"
+					data-index="412"
 					style={getStyle("412")}
 				/>
 				<line
@@ -6069,7 +6069,7 @@ function GolemComponent() {
 					x2={288.9839399999999}
 					y2={172.6186599999997}
 					id="413_323_150_289_173"
-					index="413"
+					data-index="413"
 					style={getStyle("413")}
 				/>
 				<line
@@ -6078,7 +6078,7 @@ function GolemComponent() {
 					x2={260.9275599999999}
 					y2={172.4817899999997}
 					id="414_289_173_261_172"
-					index="414"
+					data-index="414"
 					style={getStyle("414")}
 				/>
 				<line
@@ -6087,7 +6087,7 @@ function GolemComponent() {
 					x2={322.92531999999994}
 					y2={150.3104099999997}
 					id="415_261_172_323_150"
-					index="415"
+					data-index="415"
 					style={getStyle("415")}
 				/>
 				<line
@@ -6096,7 +6096,7 @@ function GolemComponent() {
 					x2={356.7977599999999}
 					y2={182.4047499999997}
 					id="416_323_150_357_182"
-					index="416"
+					data-index="416"
 					style={getStyle("416")}
 				/>
 				<line
@@ -6105,7 +6105,7 @@ function GolemComponent() {
 					x2={375.0691299999999}
 					y2={199.7170099999997}
 					id="417_357_182_375_200"
-					index="417"
+					data-index="417"
 					style={getStyle("417")}
 				/>
 				<line
@@ -6114,7 +6114,7 @@ function GolemComponent() {
 					x2={352.02735999999993}
 					y2={201.9777199999997}
 					id="418_375_200_352_202"
-					index="418"
+					data-index="418"
 					style={getStyle("418")}
 				/>
 				<line
@@ -6123,7 +6123,7 @@ function GolemComponent() {
 					x2={338.80112999999994}
 					y2={203.2753899999997}
 					id="419_352_202_339_203"
-					index="419"
+					data-index="419"
 					style={getStyle("419")}
 				/>
 				<line
@@ -6132,7 +6132,7 @@ function GolemComponent() {
 					x2={329.24802999999997}
 					y2={238.8292599999997}
 					id="420_339_203_329_239"
-					index="420"
+					data-index="420"
 					style={getStyle("420")}
 				/>
 				<line
@@ -6141,7 +6141,7 @@ function GolemComponent() {
 					x2={279.60249999999996}
 					y2={295.9264799999997}
 					id="421_329_239_280_296"
-					index="421"
+					data-index="421"
 					style={getStyle("421")}
 				/>
 				<line
@@ -6150,7 +6150,7 @@ function GolemComponent() {
 					x2={268.86546}
 					y2={258.5669699999997}
 					id="422_280_296_269_259"
-					index="422"
+					data-index="422"
 					style={getStyle("422")}
 				/>
 				<line
@@ -6159,7 +6159,7 @@ function GolemComponent() {
 					x2={288.98393999999996}
 					y2={172.6186599999997}
 					id="423_269_259_289_173"
-					index="423"
+					data-index="423"
 					style={getStyle("423")}
 				/>
 				<line
@@ -6168,7 +6168,7 @@ function GolemComponent() {
 					x2={314.16625}
 					y2={197.66410999999968}
 					id="424_289_173_314_198"
-					index="424"
+					data-index="424"
 					style={getStyle("424")}
 				/>
 				<line
@@ -6177,7 +6177,7 @@ function GolemComponent() {
 					x2={338.80113}
 					y2={203.27538999999967}
 					id="425_314_198_339_203"
-					index="425"
+					data-index="425"
 					style={getStyle("425")}
 				/>
 				<line
@@ -6186,7 +6186,7 @@ function GolemComponent() {
 					x2={268.86546}
 					y2={258.5669699999997}
 					id="426_339_203_269_259"
-					index="426"
+					data-index="426"
 					style={getStyle("426")}
 				/>
 				<line
@@ -6195,7 +6195,7 @@ function GolemComponent() {
 					x2={329.24802999999997}
 					y2={238.8292599999997}
 					id="427_269_259_329_239"
-					index="427"
+					data-index="427"
 					style={getStyle("427")}
 				/>
 				<line
@@ -6204,7 +6204,7 @@ function GolemComponent() {
 					x2={335.1513}
 					y2={249.7648199999997}
 					id="428_329_239_335_250"
-					index="428"
+					data-index="428"
 					style={getStyle("428")}
 				/>
 				<line
@@ -6213,7 +6213,7 @@ function GolemComponent() {
 					x2={371.10018}
 					y2={221.7515399999997}
 					id="429_335_250_371_222"
-					index="429"
+					data-index="429"
 					style={getStyle("429")}
 				/>
 				<line
@@ -6222,7 +6222,7 @@ function GolemComponent() {
 					x2={352.02736000000004}
 					y2={201.9777199999997}
 					id="430_371_222_352_202"
-					index="430"
+					data-index="430"
 					style={getStyle("430")}
 				/>
 				<line
@@ -6231,7 +6231,7 @@ function GolemComponent() {
 					x2={331.80062000000004}
 					y2={188.8485999999997}
 					id="431_352_202_332_189"
-					index="431"
+					data-index="431"
 					style={getStyle("431")}
 				/>
 				<line
@@ -6240,7 +6240,7 @@ function GolemComponent() {
 					x2={314.16625000000005}
 					y2={197.66410999999968}
 					id="432_332_189_314_198"
-					index="432"
+					data-index="432"
 					style={getStyle("432")}
 				/>
 				<line
@@ -6249,7 +6249,7 @@ function GolemComponent() {
 					x2={268.86546000000004}
 					y2={258.5669699999997}
 					id="433_314_198_269_259"
-					index="433"
+					data-index="433"
 					style={getStyle("433")}
 				/>
 				<line
@@ -6258,7 +6258,7 @@ function GolemComponent() {
 					x2={249.705}
 					y2={258.5669699999997}
 					id="434_269_259_250_259"
-					index="434"
+					data-index="434"
 					style={getStyle("434")}
 				/>
 				<line
@@ -6267,7 +6267,7 @@ function GolemComponent() {
 					x2={288.98394}
 					y2={172.6186599999997}
 					id="435_250_259_289_173"
-					index="435"
+					data-index="435"
 					style={getStyle("435")}
 				/>
 				<line
@@ -6276,7 +6276,7 @@ function GolemComponent() {
 					x2={236.11524000000003}
 					y2={194.9495299999997}
 					id="436_289_173_236_195"
-					index="436"
+					data-index="436"
 					style={getStyle("436")}
 				/>
 				<line
@@ -6285,7 +6285,7 @@ function GolemComponent() {
 					x2={221.53754000000004}
 					y2={202.3451199999997}
 					id="437_236_195_222_202"
-					index="437"
+					data-index="437"
 					style={getStyle("437")}
 				/>
 				<line
@@ -6294,7 +6294,7 @@ function GolemComponent() {
 					x2={216.72470000000004}
 					y2={220.21452999999968}
 					id="438_222_202_217_220"
-					index="438"
+					data-index="438"
 					style={getStyle("438")}
 				/>
 				<line
@@ -6303,7 +6303,7 @@ function GolemComponent() {
 					x2={211.76327000000003}
 					y2={238.63570999999968}
 					id="439_217_220_212_239"
-					index="439"
+					data-index="439"
 					style={getStyle("439")}
 				/>
 				<line
@@ -6312,7 +6312,7 @@ function GolemComponent() {
 					x2={240.02155000000005}
 					y2={296.8942199999997}
 					id="440_212_239_240_297"
-					index="440"
+					data-index="440"
 					style={getStyle("440")}
 				/>
 				<line
@@ -6321,7 +6321,7 @@ function GolemComponent() {
 					x2={249.70500000000004}
 					y2={258.5669699999997}
 					id="441_240_297_250_259"
-					index="441"
+					data-index="441"
 					style={getStyle("441")}
 				/>
 				<line
@@ -6330,7 +6330,7 @@ function GolemComponent() {
 					x2={258.02169000000004}
 					y2={284.5430799999997}
 					id="442_250_259_258_285"
-					index="442"
+					data-index="442"
 					style={getStyle("442")}
 				/>
 				<line
@@ -6339,7 +6339,7 @@ function GolemComponent() {
 					x2={268.86546000000004}
 					y2={258.5669699999997}
 					id="443_258_285_269_259"
-					index="443"
+					data-index="443"
 					style={getStyle("443")}
 				/>
 				<line
@@ -6348,7 +6348,7 @@ function GolemComponent() {
 					x2={258.02169000000004}
 					y2={284.5430799999997}
 					id="444_280_296_258_285"
-					index="444"
+					data-index="444"
 					style={getStyle("444")}
 				/>
 				<line
@@ -6357,7 +6357,7 @@ function GolemComponent() {
 					x2={240.02156000000002}
 					y2={296.8942199999997}
 					id="445_258_285_240_297"
-					index="445"
+					data-index="445"
 					style={getStyle("445")}
 				/>
 				<line
@@ -6366,7 +6366,7 @@ function GolemComponent() {
 					x2={204.69871}
 					y2={281.6037799999997}
 					id="446_240_297_205_282"
-					index="446"
+					data-index="446"
 					style={getStyle("446")}
 				/>
 				<line
@@ -6375,7 +6375,7 @@ function GolemComponent() {
 					x2={217.66655}
 					y2={251.6035499999997}
 					id="447_205_282_218_252"
-					index="447"
+					data-index="447"
 					style={getStyle("447")}
 				/>
 				<line
@@ -6384,7 +6384,7 @@ function GolemComponent() {
 					x2={249.70502}
 					y2={258.5669699999997}
 					id="448_218_252_250_259"
-					index="448"
+					data-index="448"
 					style={getStyle("448")}
 				/>
 				<line
@@ -6393,7 +6393,7 @@ function GolemComponent() {
 					x2={238.49342}
 					y2={206.19536999999968}
 					id="449_250_259_238_206"
-					index="449"
+					data-index="449"
 					style={getStyle("449")}
 				/>
 				<line
@@ -6402,7 +6402,7 @@ function GolemComponent() {
 					x2={236.11524999999997}
 					y2={194.9495299999997}
 					id="450_238_206_236_195"
-					index="450"
+					data-index="450"
 					style={getStyle("450")}
 				/>
 				<line
@@ -6411,7 +6411,7 @@ function GolemComponent() {
 					x2={260.92755999999997}
 					y2={172.4817899999997}
 					id="451_236_195_261_172"
-					index="451"
+					data-index="451"
 					style={getStyle("451")}
 				/>
 				<line
@@ -6420,7 +6420,7 @@ function GolemComponent() {
 					x2={238.49340999999998}
 					y2={206.1953699999997}
 					id="452_261_172_238_206"
-					index="452"
+					data-index="452"
 					style={getStyle("452")}
 				/>
 				<line
@@ -6429,7 +6429,7 @@ function GolemComponent() {
 					x2={216.72469999999998}
 					y2={220.2145299999997}
 					id="453_238_206_217_220"
-					index="453"
+					data-index="453"
 					style={getStyle("453")}
 				/>
 				<line
@@ -6438,7 +6438,7 @@ function GolemComponent() {
 					x2={217.66654}
 					y2={251.6035499999997}
 					id="454_217_220_218_252"
-					index="454"
+					data-index="454"
 					style={getStyle("454")}
 				/>
 				<line
@@ -6447,7 +6447,7 @@ function GolemComponent() {
 					x2={189.02116999999998}
 					y2={273.9585599999997}
 					id="455_218_252_189_274"
-					index="455"
+					data-index="455"
 					style={getStyle("455")}
 				/>
 				<line
@@ -6456,7 +6456,7 @@ function GolemComponent() {
 					x2={211.76327999999998}
 					y2={238.63570999999968}
 					id="456_189_274_212_239"
-					index="456"
+					data-index="456"
 					style={getStyle("456")}
 				/>
 				<line
@@ -6465,7 +6465,7 @@ function GolemComponent() {
 					x2={204.69870999999998}
 					y2={281.6037799999997}
 					id="457_212_239_205_282"
-					index="457"
+					data-index="457"
 					style={getStyle("457")}
 				/>
 				<line
@@ -6474,7 +6474,7 @@ function GolemComponent() {
 					x2={189.02118}
 					y2={273.9585599999997}
 					id="458_205_282_189_274"
-					index="458"
+					data-index="458"
 					style={getStyle("458")}
 				/>
 				<line
@@ -6483,7 +6483,7 @@ function GolemComponent() {
 					x2={193.95668999999998}
 					y2={299.0716499999997}
 					id="459_189_274_194_299"
-					index="459"
+					data-index="459"
 					style={getStyle("459")}
 				/>
 				<line
@@ -6492,7 +6492,7 @@ function GolemComponent() {
 					x2={216.89235999999997}
 					y2={293.65223999999967}
 					id="460_194_299_217_294"
-					index="460"
+					data-index="460"
 					style={getStyle("460")}
 				/>
 				<line
@@ -6501,7 +6501,7 @@ function GolemComponent() {
 					x2={189.02117999999996}
 					y2={273.9585599999997}
 					id="461_217_294_189_274"
-					index="461"
+					data-index="461"
 					style={getStyle("461")}
 				/>
 				<line
@@ -6510,7 +6510,7 @@ function GolemComponent() {
 					x2={209.19874999999996}
 					y2={318.4750199999997}
 					id="462_189_274_209_318"
-					index="462"
+					data-index="462"
 					style={getStyle("462")}
 				/>
 				<line
@@ -6519,7 +6519,7 @@ function GolemComponent() {
 					x2={228.28635999999997}
 					y2={328.8447899999997}
 					id="463_209_318_228_329"
-					index="463"
+					data-index="463"
 					style={getStyle("463")}
 				/>
 				<line
@@ -6528,7 +6528,7 @@ function GolemComponent() {
 					x2={242.62425999999996}
 					y2={312.0437499999997}
 					id="464_228_329_243_312"
-					index="464"
+					data-index="464"
 					style={getStyle("464")}
 				/>
 				<line
@@ -6537,7 +6537,7 @@ function GolemComponent() {
 					x2={227.50580999999997}
 					y2={296.8223499999997}
 					id="465_243_304_228_297"
-					index="465"
+					data-index="465"
 					style={getStyle("465")}
 				/>
 				<line
@@ -6546,7 +6546,7 @@ function GolemComponent() {
 					x2={216.16796999999997}
 					y2={303.6518599999997}
 					id="466_228_297_216_304"
-					index="466"
+					data-index="466"
 					style={getStyle("466")}
 				/>
 				<line
@@ -6555,7 +6555,7 @@ function GolemComponent() {
 					x2={228.06985999999998}
 					y2={312.3298099999997}
 					id="467_216_304_228_312"
-					index="467"
+					data-index="467"
 					style={getStyle("467")}
 				/>
 				<line
@@ -6564,7 +6564,7 @@ function GolemComponent() {
 					x2={243.09143999999998}
 					y2={303.54474999999974}
 					id="468_228_312_243_304"
-					index="468"
+					data-index="468"
 					style={getStyle("468")}
 				/>
 				<line
@@ -6573,7 +6573,7 @@ function GolemComponent() {
 					x2={216.16796999999997}
 					y2={303.65182999999973}
 					id="469_243_304_216_304"
-					index="469"
+					data-index="469"
 					style={getStyle("469")}
 				/>
 				<line
@@ -6582,7 +6582,7 @@ function GolemComponent() {
 					x2={209.19874999999996}
 					y2={318.47499999999974}
 					id="470_216_304_209_318"
-					index="470"
+					data-index="470"
 					style={getStyle("470")}
 				/>
 				<line
@@ -6591,7 +6591,7 @@ function GolemComponent() {
 					x2={194.82766999999996}
 					y2={336.81383999999974}
 					id="471_209_318_195_337"
-					index="471"
+					data-index="471"
 					style={getStyle("471")}
 				/>
 				<line
@@ -6600,7 +6600,7 @@ function GolemComponent() {
 					x2={204.99920999999995}
 					y2={365.1796599999997}
 					id="472_195_337_205_365"
-					index="472"
+					data-index="472"
 					style={getStyle("472")}
 				/>
 				<line
@@ -6609,7 +6609,7 @@ function GolemComponent() {
 					x2={213.91601999999995}
 					y2={369.28701999999976}
 					id="473_205_365_214_369"
-					index="473"
+					data-index="473"
 					style={getStyle("473")}
 				/>
 				<line
@@ -6618,7 +6618,7 @@ function GolemComponent() {
 					x2={214.56974999999994}
 					y2={348.47521999999975}
 					id="474_214_369_215_348"
-					index="474"
+					data-index="474"
 					style={getStyle("474")}
 				/>
 				<line
@@ -6627,7 +6627,7 @@ function GolemComponent() {
 					x2={228.28635999999995}
 					y2={328.84476999999976}
 					id="475_215_348_228_329"
-					index="475"
+					data-index="475"
 					style={getStyle("475")}
 				/>
 				<line
@@ -6636,7 +6636,7 @@ function GolemComponent() {
 					x2={194.82766999999996}
 					y2={336.81383999999974}
 					id="476_228_329_195_337"
-					index="476"
+					data-index="476"
 					style={getStyle("476")}
 				/>
 				<line
@@ -6645,7 +6645,7 @@ function GolemComponent() {
 					x2={214.56974999999994}
 					y2={348.47521999999975}
 					id="477_195_337_215_348"
-					index="477"
+					data-index="477"
 					style={getStyle("477")}
 				/>
 				<line
@@ -6654,7 +6654,7 @@ function GolemComponent() {
 					x2={204.99920999999995}
 					y2={365.1796599999997}
 					id="478_215_348_205_365"
-					index="478"
+					data-index="478"
 					style={getStyle("478")}
 				/>
 				<line
@@ -6663,7 +6663,7 @@ function GolemComponent() {
 					x2={219.55365999999995}
 					y2={387.62066999999973}
 					id="479_205_365_220_388"
-					index="479"
+					data-index="479"
 					style={getStyle("479")}
 				/>
 				<line
@@ -6672,7 +6672,7 @@ function GolemComponent() {
 					x2={208.51002999999994}
 					y2={453.18244999999973}
 					id="480_220_388_209_453"
-					index="480"
+					data-index="480"
 					style={getStyle("480")}
 				/>
 				<line
@@ -6681,7 +6681,7 @@ function GolemComponent() {
 					x2={214.49867999999995}
 					y2={459.11867999999976}
 					id="481_209_453_214_459"
-					index="481"
+					data-index="481"
 					style={getStyle("481")}
 				/>
 				<line
@@ -6690,7 +6690,7 @@ function GolemComponent() {
 					x2={209.74177999999995}
 					y2={491.0927799999998}
 					id="482_214_459_210_491"
-					index="482"
+					data-index="482"
 					style={getStyle("482")}
 				/>
 				<line
@@ -6699,7 +6699,7 @@ function GolemComponent() {
 					x2={221.51176999999996}
 					y2={492.18765999999977}
 					id="483_210_491_222_492"
-					index="483"
+					data-index="483"
 					style={getStyle("483")}
 				/>
 				<line
@@ -6708,7 +6708,7 @@ function GolemComponent() {
 					x2={220.14316999999997}
 					y2={531.1928799999997}
 					id="484_222_492_220_531"
-					index="484"
+					data-index="484"
 					style={getStyle("484")}
 				/>
 				<line
@@ -6717,7 +6717,7 @@ function GolemComponent() {
 					x2={186.61236999999997}
 					y2={559.6598499999997}
 					id="485_220_531_187_560"
-					index="485"
+					data-index="485"
 					style={getStyle("485")}
 				/>
 				<line
@@ -6726,7 +6726,7 @@ function GolemComponent() {
 					x2={219.04828999999998}
 					y2={550.7639199999996}
 					id="486_187_560_219_551"
-					index="486"
+					data-index="486"
 					style={getStyle("486")}
 				/>
 				<line
@@ -6735,7 +6735,7 @@ function GolemComponent() {
 					x2={231.36571999999998}
 					y2={498.20951999999966}
 					id="487_219_551_231_498"
-					index="487"
+					data-index="487"
 					style={getStyle("487")}
 				/>
 				<line
@@ -6744,7 +6744,7 @@ function GolemComponent() {
 					x2={222.74352}
 					y2={473.98522999999966}
 					id="488_231_498_223_474"
-					index="488"
+					data-index="488"
 					style={getStyle("488")}
 				/>
 				<line
@@ -6753,7 +6753,7 @@ function GolemComponent() {
 					x2={209.74177999999998}
 					y2={491.09277999999966}
 					id="489_223_474_210_491"
-					index="489"
+					data-index="489"
 					style={getStyle("489")}
 				/>
 				<line
@@ -6762,7 +6762,7 @@ function GolemComponent() {
 					x2={227.94420999999997}
 					y2={445.9288399999997}
 					id="490_210_491_228_446"
-					index="490"
+					data-index="490"
 					style={getStyle("490")}
 				/>
 				<line
@@ -6771,7 +6771,7 @@ function GolemComponent() {
 					x2={230.27083999999996}
 					y2={425.6734999999997}
 					id="491_228_446_230_426"
-					index="491"
+					data-index="491"
 					style={getStyle("491")}
 				/>
 				<line
@@ -6780,7 +6780,7 @@ function GolemComponent() {
 					x2={214.49867999999998}
 					y2={459.1186799999997}
 					id="492_230_426_214_459"
-					index="492"
+					data-index="492"
 					style={getStyle("492")}
 				/>
 				<line
@@ -6789,7 +6789,7 @@ function GolemComponent() {
 					x2={221.92464999999999}
 					y2={419.9918799999997}
 					id="493_214_459_222_420"
-					index="493"
+					data-index="493"
 					style={getStyle("493")}
 				/>
 				<line
@@ -6798,7 +6798,7 @@ function GolemComponent() {
 					x2={230.27084}
 					y2={425.6734999999997}
 					id="494_222_420_230_426"
-					index="494"
+					data-index="494"
 					style={getStyle("494")}
 				/>
 				<line
@@ -6807,7 +6807,7 @@ function GolemComponent() {
 					x2={249.5539}
 					y2={426.0887199999997}
 					id="495_230_426_250_426"
-					index="495"
+					data-index="495"
 					style={getStyle("495")}
 				/>
 				<line
@@ -6816,7 +6816,7 @@ function GolemComponent() {
 					x2={274.42503}
 					y2={425.50805999999966}
 					id="496_250_426_274_426"
-					index="496"
+					data-index="496"
 					style={getStyle("496")}
 				/>
 				<line
@@ -6825,7 +6825,7 @@ function GolemComponent() {
 					x2={289.57031}
 					y2={425.8951399999997}
 					id="497_274_426_290_426"
-					index="497"
+					data-index="497"
 					style={getStyle("497")}
 				/>
 				<line
@@ -6834,7 +6834,7 @@ function GolemComponent() {
 					x2={311.15111}
 					y2={424.9273999999997}
 					id="498_290_426_311_425"
-					index="498"
+					data-index="498"
 					style={getStyle("498")}
 				/>
 				<line
@@ -6843,7 +6843,7 @@ function GolemComponent() {
 					x2={325.93625000000003}
 					y2={423.8943199999997}
 					id="499_311_425_326_424"
-					index="499"
+					data-index="499"
 					style={getStyle("499")}
 				/>
 				<line
@@ -6852,7 +6852,7 @@ function GolemComponent() {
 					x2={347.42333}
 					y2={436.6907699999997}
 					id="500_326_424_347_437"
-					index="500"
+					data-index="500"
 					style={getStyle("500")}
 				/>
 				<line
@@ -6861,7 +6861,7 @@ function GolemComponent() {
 					x2={348.44979}
 					y2={422.2519899999997}
 					id="501_347_437_348_422"
-					index="501"
+					data-index="501"
 					style={getStyle("501")}
 				/>
 				<line
@@ -6870,7 +6870,7 @@ function GolemComponent() {
 					x2={303.69643}
 					y2={398.9857299999997}
 					id="502_348_422_304_399"
-					index="502"
+					data-index="502"
 					style={getStyle("502")}
 				/>
 				<line
@@ -6879,7 +6879,7 @@ function GolemComponent() {
 					x2={273.11859000000004}
 					y2={395.7981399999997}
 					id="503_304_399_273_396"
-					index="503"
+					data-index="503"
 					style={getStyle("503")}
 				/>
 				<line
@@ -6888,7 +6888,7 @@ function GolemComponent() {
 					x2={261.36042000000003}
 					y2={401.7981999999997}
 					id="504_273_396_261_402"
-					index="504"
+					data-index="504"
 					style={getStyle("504")}
 				/>
 				<line
@@ -6897,7 +6897,7 @@ function GolemComponent() {
 					x2={249.16678000000005}
 					y2={396.7175099999997}
 					id="505_261_402_249_397"
-					index="505"
+					data-index="505"
 					style={getStyle("505")}
 				/>
 				<line
@@ -6906,7 +6906,7 @@ function GolemComponent() {
 					x2={230.74984000000003}
 					y2={401.9966299999997}
 					id="506_249_397_231_402"
-					index="506"
+					data-index="506"
 					style={getStyle("506")}
 				/>
 				<line
@@ -6915,7 +6915,7 @@ function GolemComponent() {
 					x2={221.92465000000004}
 					y2={419.9918799999997}
 					id="507_231_402_222_420"
-					index="507"
+					data-index="507"
 					style={getStyle("507")}
 				/>
 				<line
@@ -6924,7 +6924,7 @@ function GolemComponent() {
 					x2={237.92547000000005}
 					y2={416.2560299999997}
 					id="508_230_426_238_416"
-					index="508"
+					data-index="508"
 					style={getStyle("508")}
 				/>
 				<line
@@ -6933,7 +6933,7 @@ function GolemComponent() {
 					x2={256.47959000000003}
 					y2={412.3295899999997}
 					id="509_238_416_256_412"
-					index="509"
+					data-index="509"
 					style={getStyle("509")}
 				/>
 				<line
@@ -6942,7 +6942,7 @@ function GolemComponent() {
 					x2={268.93389}
 					y2={411.91900999999973}
 					id="510_256_412_269_412"
-					index="510"
+					data-index="510"
 					style={getStyle("510")}
 				/>
 				<line
@@ -6951,7 +6951,7 @@ function GolemComponent() {
 					x2={285.494}
 					y2={411.91900999999973}
 					id="511_269_412_285_412"
-					index="511"
+					data-index="511"
 					style={getStyle("511")}
 				/>
 				<line
@@ -6960,7 +6960,7 @@ function GolemComponent() {
 					x2={304.5176}
 					y2={413.56133999999975}
 					id="512_285_412_305_414"
-					index="512"
+					data-index="512"
 					style={getStyle("512")}
 				/>
 				<line
@@ -6969,7 +6969,7 @@ function GolemComponent() {
 					x2={325.93625000000003}
 					y2={423.89431999999977}
 					id="513_305_414_326_424"
-					index="513"
+					data-index="513"
 					style={getStyle("513")}
 				/>
 				<line
@@ -6978,7 +6978,7 @@ function GolemComponent() {
 					x2={304.5176}
 					y2={413.56133999999975}
 					id="514_311_425_305_414"
-					index="514"
+					data-index="514"
 					style={getStyle("514")}
 				/>
 				<line
@@ -6987,7 +6987,7 @@ function GolemComponent() {
 					x2={303.69643}
 					y2={398.98572999999976}
 					id="515_305_414_304_399"
-					index="515"
+					data-index="515"
 					style={getStyle("515")}
 				/>
 				<line
@@ -6996,7 +6996,7 @@ function GolemComponent() {
 					x2={304.95752000000005}
 					y2={363.8016899999998}
 					id="516_304_399_305_364"
-					index="516"
+					data-index="516"
 					style={getStyle("516")}
 				/>
 				<line
@@ -7005,7 +7005,7 @@ function GolemComponent() {
 					x2={348.44979000000006}
 					y2={422.25198999999975}
 					id="517_305_364_348_422"
-					index="517"
+					data-index="517"
 					style={getStyle("517")}
 				/>
 				<line
@@ -7014,7 +7014,7 @@ function GolemComponent() {
 					x2={355.7098700000001}
 					y2={429.29928999999976}
 					id="518_348_422_356_429"
-					index="518"
+					data-index="518"
 					style={getStyle("518")}
 				/>
 				<line
@@ -7023,7 +7023,7 @@ function GolemComponent() {
 					x2={368.0547600000001}
 					y2={441.2823499999998}
 					id="519_356_429_368_441"
-					index="519"
+					data-index="519"
 					style={getStyle("519")}
 				/>
 				<line
@@ -7032,7 +7032,7 @@ function GolemComponent() {
 					x2={380.6245900000001}
 					y2={434.2118699999998}
 					id="520_368_441_381_434"
-					index="520"
+					data-index="520"
 					style={getStyle("520")}
 				/>
 				<line
@@ -7041,7 +7041,7 @@ function GolemComponent() {
 					x2={391.33930000000015}
 					y2={458.2115199999998}
 					id="521_381_434_391_458"
-					index="521"
+					data-index="521"
 					style={getStyle("521")}
 				/>
 				<line
@@ -7050,7 +7050,7 @@ function GolemComponent() {
 					x2={405.04157000000015}
 					y2={488.9030299999998}
 					id="522_391_458_405_489"
-					index="522"
+					data-index="522"
 					style={getStyle("522")}
 				/>
 				<line
@@ -7059,7 +7059,7 @@ function GolemComponent() {
 					x2={391.33930000000015}
 					y2={458.2115199999998}
 					id="523_391_489_391_458"
-					index="523"
+					data-index="523"
 					style={getStyle("523")}
 				/>
 				<line
@@ -7068,7 +7068,7 @@ function GolemComponent() {
 					x2={368.05478000000016}
 					y2={441.2823499999998}
 					id="524_391_458_368_441"
-					index="524"
+					data-index="524"
 					style={getStyle("524")}
 				/>
 				<line
@@ -7077,7 +7077,7 @@ function GolemComponent() {
 					x2={394.9139000000002}
 					y2={504.64197999999976}
 					id="525_368_441_395_505"
-					index="525"
+					data-index="525"
 					style={getStyle("525")}
 				/>
 				<line
@@ -7086,7 +7086,7 @@ function GolemComponent() {
 					x2={368.05478000000016}
 					y2={441.2823499999998}
 					id="526_390_521_368_441"
-					index="526"
+					data-index="526"
 					style={getStyle("526")}
 				/>
 				<line
@@ -7095,7 +7095,7 @@ function GolemComponent() {
 					x2={356.44180000000017}
 					y2={488.99237999999974}
 					id="527_356_429_356_489"
-					index="527"
+					data-index="527"
 					style={getStyle("527")}
 				/>
 				<line
@@ -7104,7 +7104,7 @@ function GolemComponent() {
 					x2={379.1749800000002}
 					y2={506.0105799999997}
 					id="528_356_489_379_506"
-					index="528"
+					data-index="528"
 					style={getStyle("528")}
 				/>
 				<line
@@ -7113,7 +7113,7 @@ function GolemComponent() {
 					x2={368.0547900000002}
 					y2={441.2823499999997}
 					id="529_379_506_368_441"
-					index="529"
+					data-index="529"
 					style={getStyle("529")}
 				/>
 				<line
@@ -7122,7 +7122,7 @@ function GolemComponent() {
 					x2={347.8339200000002}
 					y2={382.6993199999997}
 					id="530_368_441_348_383"
-					index="530"
+					data-index="530"
 					style={getStyle("530")}
 				/>
 				<line
@@ -7131,7 +7131,7 @@ function GolemComponent() {
 					x2={360.69880000000023}
 					y2={389.8160599999997}
 					id="531_348_383_361_390"
-					index="531"
+					data-index="531"
 					style={getStyle("531")}
 				/>
 				<line
@@ -7140,7 +7140,7 @@ function GolemComponent() {
 					x2={336.3376500000002}
 					y2={353.0006099999997}
 					id="532_361_390_336_353"
-					index="532"
+					data-index="532"
 					style={getStyle("532")}
 				/>
 				<line
@@ -7149,7 +7149,7 @@ function GolemComponent() {
 					x2={306.89303000000024}
 					y2={319.7330999999997}
 					id="533_336_353_307_320"
-					index="533"
+					data-index="533"
 					style={getStyle("533")}
 				/>
 				<line
@@ -7158,7 +7158,7 @@ function GolemComponent() {
 					x2={328.12603000000024}
 					y2={376.4037399999997}
 					id="534_307_320_328_376"
-					index="534"
+					data-index="534"
 					style={getStyle("534")}
 				/>
 				<line
@@ -7167,7 +7167,7 @@ function GolemComponent() {
 					x2={304.9575200000002}
 					y2={363.8017099999997}
 					id="535_328_376_305_364"
-					index="535"
+					data-index="535"
 					style={getStyle("535")}
 				/>
 				<line
@@ -7176,7 +7176,7 @@ function GolemComponent() {
 					x2={304.9575200000002}
 					y2={363.80171999999965}
 					id="536_305_364_305_364"
-					index="536"
+					data-index="536"
 					style={getStyle("536")}
 				/>
 				<line
@@ -7185,7 +7185,7 @@ function GolemComponent() {
 					x2={301.9638200000002}
 					y2={352.91302999999965}
 					id="537_305_364_302_353"
-					index="537"
+					data-index="537"
 					style={getStyle("537")}
 				/>
 				<line
@@ -7194,7 +7194,7 @@ function GolemComponent() {
 					x2={281.0460500000002}
 					y2={352.86372999999963}
 					id="538_302_353_281_353"
-					index="538"
+					data-index="538"
 					style={getStyle("538")}
 				/>
 				<line
@@ -7203,7 +7203,7 @@ function GolemComponent() {
 					x2={300.2155600000002}
 					y2={343.4429199999997}
 					id="539_302_353_300_343"
-					index="539"
+					data-index="539"
 					style={getStyle("539")}
 				/>
 				<line
@@ -7212,7 +7212,7 @@ function GolemComponent() {
 					x2={291.6993600000002}
 					y2={336.95899999999966}
 					id="540_300_343_292_337"
-					index="540"
+					data-index="540"
 					style={getStyle("540")}
 				/>
 				<line
@@ -7221,7 +7221,7 @@ function GolemComponent() {
 					x2={272.5607100000002}
 					y2={338.90404999999964}
 					id="541_292_337_273_339"
-					index="541"
+					data-index="541"
 					style={getStyle("541")}
 				/>
 				<line
@@ -7230,7 +7230,7 @@ function GolemComponent() {
 					x2={280.1831500000002}
 					y2={327.08795999999967}
 					id="542_273_339_280_327"
-					index="542"
+					data-index="542"
 					style={getStyle("542")}
 				/>
 				<line
@@ -7239,7 +7239,7 @@ function GolemComponent() {
 					x2={262.27979000000016}
 					y2={326.02343999999965}
 					id="543_280_327_262_326"
-					index="543"
+					data-index="543"
 					style={getStyle("543")}
 				/>
 				<line
@@ -7248,7 +7248,7 @@ function GolemComponent() {
 					x2={292.18323000000015}
 					y2={312.3782099999996}
 					id="544_262_326_292_312"
-					index="544"
+					data-index="544"
 					style={getStyle("544")}
 				/>
 				<line
@@ -7257,7 +7257,7 @@ function GolemComponent() {
 					x2={300.21556000000015}
 					y2={343.4429199999996}
 					id="545_292_312_300_343"
-					index="545"
+					data-index="545"
 					style={getStyle("545")}
 				/>
 				<line
@@ -7266,7 +7266,7 @@ function GolemComponent() {
 					x2={273.1185800000002}
 					y2={395.7981499999996}
 					id="546_305_364_273_396"
-					index="546"
+					data-index="546"
 					style={getStyle("546")}
 				/>
 				<line
@@ -7275,7 +7275,7 @@ function GolemComponent() {
 					x2={266.4411100000002}
 					y2={378.28188999999963}
 					id="547_273_396_266_378"
-					index="547"
+					data-index="547"
 					style={getStyle("547")}
 				/>
 				<line
@@ -7284,7 +7284,7 @@ function GolemComponent() {
 					x2={304.9575200000002}
 					y2={363.8017099999996}
 					id="548_266_378_305_364"
-					index="548"
+					data-index="548"
 					style={getStyle("548")}
 				/>
 				<line
@@ -7293,7 +7293,7 @@ function GolemComponent() {
 					x2={258.0535000000002}
 					y2={377.3617799999996}
 					id="549_305_364_258_377"
-					index="549"
+					data-index="549"
 					style={getStyle("549")}
 				/>
 				<line
@@ -7302,7 +7302,7 @@ function GolemComponent() {
 					x2={233.4186300000002}
 					y2={366.1392299999996}
 					id="550_258_377_233_366"
-					index="550"
+					data-index="550"
 					style={getStyle("550")}
 				/>
 				<line
@@ -7311,7 +7311,7 @@ function GolemComponent() {
 					x2={233.1449100000002}
 					y2={358.3382299999996}
 					id="551_233_366_233_358"
-					index="551"
+					data-index="551"
 					style={getStyle("551")}
 				/>
 				<line
@@ -7320,7 +7320,7 @@ function GolemComponent() {
 					x2={213.9160100000002}
 					y2={369.2870399999996}
 					id="552_233_358_214_369"
-					index="552"
+					data-index="552"
 					style={getStyle("552")}
 				/>
 				<line
@@ -7329,7 +7329,7 @@ function GolemComponent() {
 					x2={222.5382300000002}
 					y2={380.3727099999996}
 					id="553_214_369_223_380"
-					index="553"
+					data-index="553"
 					style={getStyle("553")}
 				/>
 				<line
@@ -7338,7 +7338,7 @@ function GolemComponent() {
 					x2={233.4186300000002}
 					y2={366.1392299999996}
 					id="554_223_380_233_366"
-					index="554"
+					data-index="554"
 					style={getStyle("554")}
 				/>
 				<line
@@ -7347,7 +7347,7 @@ function GolemComponent() {
 					x2={230.7498500000002}
 					y2={401.9966499999996}
 					id="555_233_366_231_402"
-					index="555"
+					data-index="555"
 					style={getStyle("555")}
 				/>
 				<line
@@ -7356,7 +7356,7 @@ function GolemComponent() {
 					x2={256.4796100000002}
 					y2={412.3296199999996}
 					id="556_231_402_256_412"
-					index="556"
+					data-index="556"
 					style={getStyle("556")}
 				/>
 				<line
@@ -7365,7 +7365,7 @@ function GolemComponent() {
 					x2={249.5538900000002}
 					y2={426.0887299999996}
 					id="557_256_412_250_426"
-					index="557"
+					data-index="557"
 					style={getStyle("557")}
 				/>
 				<line
@@ -7374,7 +7374,7 @@ function GolemComponent() {
 					x2={234.7188000000002}
 					y2={476.7224299999996}
 					id="558_250_426_235_477"
-					index="558"
+					data-index="558"
 					style={getStyle("558")}
 				/>
 				<line
@@ -7383,7 +7383,7 @@ function GolemComponent() {
 					x2={260.79071000000016}
 					y2={432.2427999999996}
 					id="559_235_477_261_432"
-					index="559"
+					data-index="559"
 					style={getStyle("559")}
 				/>
 				<line
@@ -7392,7 +7392,7 @@ function GolemComponent() {
 					x2={271.32896000000017}
 					y2={432.5165199999996}
 					id="560_261_432_271_433"
-					index="560"
+					data-index="560"
 					style={getStyle("560")}
 				/>
 				<line
@@ -7401,7 +7401,7 @@ function GolemComponent() {
 					x2={267.0217700000002}
 					y2={667.1550799999997}
 					id="561_271_433_267_667"
-					index="561"
+					data-index="561"
 					style={getStyle("561")}
 				/>
 				<line
@@ -7410,7 +7410,7 @@ function GolemComponent() {
 					x2={260.79071000000016}
 					y2={432.24279999999965}
 					id="562_267_667_261_432"
-					index="562"
+					data-index="562"
 					style={getStyle("562")}
 				/>
 				<line
@@ -7419,7 +7419,7 @@ function GolemComponent() {
 					x2={244.02531000000016}
 					y2={535.6408399999997}
 					id="563_261_432_244_536"
-					index="563"
+					data-index="563"
 					style={getStyle("563")}
 				/>
 				<line
@@ -7428,7 +7428,7 @@ function GolemComponent() {
 					x2={234.71880000000016}
 					y2={476.7224299999997}
 					id="564_244_536_235_477"
-					index="564"
+					data-index="564"
 					style={getStyle("564")}
 				/>
 				<line
@@ -7437,7 +7437,7 @@ function GolemComponent() {
 					x2={228.21502000000015}
 					y2={573.7672299999997}
 					id="565_235_477_228_574"
-					index="565"
+					data-index="565"
 					style={getStyle("565")}
 				/>
 				<line
@@ -7446,7 +7446,7 @@ function GolemComponent() {
 					x2={235.08604000000014}
 					y2={565.8070299999997}
 					id="566_228_574_235_566"
-					index="566"
+					data-index="566"
 					style={getStyle("566")}
 				/>
 				<line
@@ -7455,7 +7455,7 @@ function GolemComponent() {
 					x2={234.71880000000013}
 					y2={476.7224299999997}
 					id="567_235_566_235_477"
-					index="567"
+					data-index="567"
 					style={getStyle("567")}
 				/>
 				<line
@@ -7464,7 +7464,7 @@ function GolemComponent() {
 					x2={222.74352000000013}
 					y2={473.98524999999967}
 					id="568_235_477_223_474"
-					index="568"
+					data-index="568"
 					style={getStyle("568")}
 				/>
 				<line
@@ -7473,7 +7473,7 @@ function GolemComponent() {
 					x2={249.55389000000014}
 					y2={426.08872999999966}
 					id="569_223_474_250_426"
-					index="569"
+					data-index="569"
 					style={getStyle("569")}
 				/>
 				<line
@@ -7482,7 +7482,7 @@ function GolemComponent() {
 					x2={244.02531000000013}
 					y2={535.6408399999997}
 					id="570_250_426_244_536"
-					index="570"
+					data-index="570"
 					style={getStyle("570")}
 				/>
 				<line
@@ -7491,7 +7491,7 @@ function GolemComponent() {
 					x2={241.37639000000013}
 					y2={583.0576299999997}
 					id="571_244_536_241_583"
-					index="571"
+					data-index="571"
 					style={getStyle("571")}
 				/>
 				<line
@@ -7500,7 +7500,7 @@ function GolemComponent() {
 					x2={219.60207000000014}
 					y2={604.2513799999997}
 					id="572_241_583_220_604"
-					index="572"
+					data-index="572"
 					style={getStyle("572")}
 				/>
 				<line
@@ -7509,7 +7509,7 @@ function GolemComponent() {
 					x2={246.42036000000013}
 					y2={597.2964599999997}
 					id="573_220_604_246_597"
-					index="573"
+					data-index="573"
 					style={getStyle("573")}
 				/>
 				<line
@@ -7518,7 +7518,7 @@ function GolemComponent() {
 					x2={241.37639000000013}
 					y2={583.0576299999997}
 					id="574_246_597_241_583"
-					index="574"
+					data-index="574"
 					style={getStyle("574")}
 				/>
 				<line
@@ -7527,7 +7527,7 @@ function GolemComponent() {
 					x2={253.47328000000013}
 					y2={604.6384599999997}
 					id="575_246_597_253_605"
-					index="575"
+					data-index="575"
 					style={getStyle("575")}
 				/>
 				<line
@@ -7536,7 +7536,7 @@ function GolemComponent() {
 					x2={260.7907100000001}
 					y2={432.24279999999965}
 					id="576_253_605_261_432"
-					index="576"
+					data-index="576"
 					style={getStyle("576")}
 				/>
 				<line
@@ -7545,7 +7545,7 @@ function GolemComponent() {
 					x2={278.63474000000014}
 					y2={438.2823399999997}
 					id="577_271_433_279_438"
-					index="577"
+					data-index="577"
 					style={getStyle("577")}
 				/>
 				<line
@@ -7554,7 +7554,7 @@ function GolemComponent() {
 					x2={273.7924600000001}
 					y2={578.8203499999997}
 					id="578_279_438_274_579"
-					index="578"
+					data-index="578"
 					style={getStyle("578")}
 				/>
 				<line
@@ -7563,7 +7563,7 @@ function GolemComponent() {
 					x2={279.5405700000001}
 					y2={632.1958599999997}
 					id="579_274_579_280_632"
-					index="579"
+					data-index="579"
 					style={getStyle("579")}
 				/>
 				<line
@@ -7572,7 +7572,7 @@ function GolemComponent() {
 					x2={288.2401400000001}
 					y2={623.7391899999997}
 					id="580_280_632_288_624"
-					index="580"
+					data-index="580"
 					style={getStyle("580")}
 				/>
 				<line
@@ -7581,7 +7581,7 @@ function GolemComponent() {
 					x2={278.63474000000014}
 					y2={438.28233999999964}
 					id="581_288_624_279_438"
-					index="581"
+					data-index="581"
 					style={getStyle("581")}
 				/>
 				<line
@@ -7590,7 +7590,7 @@ function GolemComponent() {
 					x2={285.08342000000016}
 					y2={448.11860999999965}
 					id="582_279_438_285_448"
-					index="582"
+					data-index="582"
 					style={getStyle("582")}
 				/>
 				<line
@@ -7599,7 +7599,7 @@ function GolemComponent() {
 					x2={288.24014000000017}
 					y2={623.7391899999997}
 					id="583_285_448_288_624"
-					index="583"
+					data-index="583"
 					style={getStyle("583")}
 				/>
 				<line
@@ -7608,7 +7608,7 @@ function GolemComponent() {
 					x2={295.57035000000013}
 					y2={549.3799599999996}
 					id="584_297_584_296_549"
-					index="584"
+					data-index="584"
 					style={getStyle("584")}
 				/>
 				<line
@@ -7617,7 +7617,7 @@ function GolemComponent() {
 					x2={309.8930300000001}
 					y2={470.41161999999963}
 					id="585_296_549_310_470"
-					index="585"
+					data-index="585"
 					style={getStyle("585")}
 				/>
 				<line
@@ -7626,7 +7626,7 @@ function GolemComponent() {
 					x2={311.82854000000015}
 					y2={496.63761999999963}
 					id="586_310_470_312_497"
-					index="586"
+					data-index="586"
 					style={getStyle("586")}
 				/>
 				<line
@@ -7635,7 +7635,7 @@ function GolemComponent() {
 					x2={309.00409000000013}
 					y2={576.5040799999996}
 					id="587_312_497_309_577"
-					index="587"
+					data-index="587"
 					style={getStyle("587")}
 				/>
 				<line
@@ -7644,7 +7644,7 @@ function GolemComponent() {
 					x2={311.82854000000015}
 					y2={496.63761999999974}
 					id="588_321_571_312_497"
-					index="588"
+					data-index="588"
 					style={getStyle("588")}
 				/>
 				<line
@@ -7653,7 +7653,7 @@ function GolemComponent() {
 					x2={324.84139000000016}
 					y2={553.3643199999998}
 					id="589_312_497_325_553"
-					index="589"
+					data-index="589"
 					style={getStyle("589")}
 				/>
 				<line
@@ -7662,7 +7662,7 @@ function GolemComponent() {
 					x2={332.82869000000017}
 					y2={482.89557999999977}
 					id="590_334_552_333_483"
-					index="590"
+					data-index="590"
 					style={getStyle("590")}
 				/>
 				<line
@@ -7671,7 +7671,7 @@ function GolemComponent() {
 					x2={343.04382000000015}
 					y2={547.8898999999998}
 					id="591_333_483_343_548"
-					index="591"
+					data-index="591"
 					style={getStyle("591")}
 				/>
 				<line
@@ -7680,7 +7680,7 @@ function GolemComponent() {
 					x2={349.18365000000017}
 					y2={474.28260999999975}
 					id="592_343_548_349_474"
-					index="592"
+					data-index="592"
 					style={getStyle("592")}
 				/>
 				<line
@@ -7689,7 +7689,7 @@ function GolemComponent() {
 					x2={309.8930300000002}
 					y2={470.41161999999974}
 					id="593_349_474_310_470"
-					index="593"
+					data-index="593"
 					style={getStyle("593")}
 				/>
 				<line
@@ -7698,7 +7698,7 @@ function GolemComponent() {
 					x2={302.4413700000002}
 					y2={448.25015999999977}
 					id="594_310_470_302_448"
-					index="594"
+					data-index="594"
 					style={getStyle("594")}
 				/>
 				<line
@@ -7707,7 +7707,7 @@ function GolemComponent() {
 					x2={349.18365000000017}
 					y2={474.28260999999975}
 					id="595_302_448_349_474"
-					index="595"
+					data-index="595"
 					style={getStyle("595")}
 				/>
 				<line
@@ -7716,7 +7716,7 @@ function GolemComponent() {
 					x2={311.1511100000002}
 					y2={424.9274099999997}
 					id="596_349_474_311_425"
-					index="596"
+					data-index="596"
 					style={getStyle("596")}
 				/>
 				<line
@@ -7725,7 +7725,7 @@ function GolemComponent() {
 					x2={302.4413700000002}
 					y2={448.2501599999997}
 					id="597_290_426_302_448"
-					index="597"
+					data-index="597"
 					style={getStyle("597")}
 				/>
 				<line
@@ -7734,7 +7734,7 @@ function GolemComponent() {
 					x2={285.08342000000016}
 					y2={448.1186099999997}
 					id="598_302_448_285_448"
-					index="598"
+					data-index="598"
 					style={getStyle("598")}
 				/>
 				<line
@@ -7743,7 +7743,7 @@ function GolemComponent() {
 					x2={309.8930300000002}
 					y2={470.4116199999997}
 					id="599_285_448_310_470"
-					index="599"
+					data-index="599"
 					style={getStyle("599")}
 				/>
 				<line
@@ -7752,7 +7752,7 @@ function GolemComponent() {
 					x2={334.4738600000002}
 					y2={551.5089999999997}
 					id="600_310_470_334_552"
-					index="600"
+					data-index="600"
 					style={getStyle("600")}
 				/>
 				<line
@@ -7761,7 +7761,7 @@ function GolemComponent() {
 					x2={337.07002000000017}
 					y2={559.6860299999996}
 					id="601_334_552_337_560"
-					index="601"
+					data-index="601"
 					style={getStyle("601")}
 				/>
 				<line
@@ -7770,7 +7770,7 @@ function GolemComponent() {
 					x2={344.9526700000002}
 					y2={556.7528699999996}
 					id="602_337_560_345_557"
-					index="602"
+					data-index="602"
 					style={getStyle("602")}
 				/>
 				<line
@@ -7779,7 +7779,7 @@ function GolemComponent() {
 					x2={355.0875300000002}
 					y2={541.4574499999995}
 					id="603_345_557_355_541"
-					index="603"
+					data-index="603"
 					style={getStyle("603")}
 				/>
 				<line
@@ -7788,7 +7788,7 @@ function GolemComponent() {
 					x2={356.4417900000002}
 					y2={488.9923999999995}
 					id="604_355_541_356_489"
-					index="604"
+					data-index="604"
 					style={getStyle("604")}
 				/>
 				<line
@@ -7797,7 +7797,7 @@ function GolemComponent() {
 					x2={359.4670700000002}
 					y2={534.3407099999995}
 					id="605_356_489_359_534"
-					index="605"
+					data-index="605"
 					style={getStyle("605")}
 				/>
 				<line
@@ -7806,7 +7806,7 @@ function GolemComponent() {
 					x2={372.7878200000002}
 					y2={522.8494399999995}
 					id="606_359_534_373_523"
-					index="606"
+					data-index="606"
 					style={getStyle("606")}
 				/>
 				<line
@@ -7815,7 +7815,7 @@ function GolemComponent() {
 					x2={368.05478000000016}
 					y2={441.2823699999995}
 					id="607_373_523_368_441"
-					index="607"
+					data-index="607"
 					style={getStyle("607")}
 				/>
 				<line
@@ -7824,7 +7824,7 @@ function GolemComponent() {
 					x2={360.6988000000002}
 					y2={389.8160799999995}
 					id="608_368_441_361_390"
-					index="608"
+					data-index="608"
 					style={getStyle("608")}
 				/>
 				<line
@@ -7833,7 +7833,7 @@ function GolemComponent() {
 					x2={392.6356200000002}
 					y2={320.8944199999995}
 					id="609_361_390_393_321"
-					index="609"
+					data-index="609"
 					style={getStyle("609")}
 				/>
 				<line
@@ -7842,7 +7842,7 @@ function GolemComponent() {
 					x2={407.3682000000002}
 					y2={294.2875399999995}
 					id="610_393_321_407_294"
-					index="610"
+					data-index="610"
 					style={getStyle("610")}
 				/>
 				<line
@@ -7851,7 +7851,7 @@ function GolemComponent() {
 					x2={435.5511500000002}
 					y2={261.1570699999995}
 					id="611_407_294_436_261"
-					index="611"
+					data-index="611"
 					style={getStyle("611")}
 				/>
 				<line
@@ -7860,7 +7860,7 @@ function GolemComponent() {
 					x2={447.3067900000002}
 					y2={237.3988799999995}
 					id="612_436_261_447_237"
-					index="612"
+					data-index="612"
 					style={getStyle("612")}
 				/>
 				<line
@@ -7869,7 +7869,7 @@ function GolemComponent() {
 					x2={460.1828900000002}
 					y2={228.9136499999995}
 					id="613_447_237_460_229"
-					index="613"
+					data-index="613"
 					style={getStyle("613")}
 				/>
 				<line
@@ -7878,7 +7878,7 @@ function GolemComponent() {
 					x2={456.9493300000002}
 					y2={209.9259699999995}
 					id="614_460_229_457_210"
-					index="614"
+					data-index="614"
 					style={getStyle("614")}
 				/>
 				<line
@@ -7887,7 +7887,7 @@ function GolemComponent() {
 					x2={438.4915600000002}
 					y2={183.6302099999995}
 					id="615_457_210_438_184"
-					index="615"
+					data-index="615"
 					style={getStyle("615")}
 				/>
 				<line
@@ -7896,7 +7896,7 @@ function GolemComponent() {
 					x2={422.1912700000002}
 					y2={169.65004999999948}
 					id="616_438_184_422_170"
-					index="616"
+					data-index="616"
 					style={getStyle("616")}
 				/>
 				<line
@@ -7905,7 +7905,7 @@ function GolemComponent() {
 					x2={378.6288200000002}
 					y2={144.37838999999948}
 					id="617_422_170_379_144"
-					index="617"
+					data-index="617"
 					style={getStyle("617")}
 				/>
 				<line
@@ -7914,7 +7914,7 @@ function GolemComponent() {
 					x2={365.9455700000002}
 					y2={142.1352899999995}
 					id="618_379_144_366_142"
-					index="618"
+					data-index="618"
 					style={getStyle("618")}
 				/>
 				<line
@@ -7923,7 +7923,7 @@ function GolemComponent() {
 					x2={323.8889400000002}
 					y2={137.2081799999995}
 					id="619_366_142_324_137"
-					index="619"
+					data-index="619"
 					style={getStyle("619")}
 				/>
 				<line
@@ -7932,7 +7932,7 @@ function GolemComponent() {
 					x2={312.77692000000025}
 					y2={140.36164999999949}
 					id="620_324_137_313_140"
-					index="620"
+					data-index="620"
 					style={getStyle("620")}
 				/>
 				<line
@@ -7941,7 +7941,7 @@ function GolemComponent() {
 					x2={256.75127000000026}
 					y2={160.47998999999948}
 					id="621_313_140_257_160"
-					index="621"
+					data-index="621"
 					style={getStyle("621")}
 				/>
 				<line
@@ -7950,7 +7950,7 @@ function GolemComponent() {
 					x2={246.51650000000026}
 					y2={168.77070999999947}
 					id="622_257_160_247_169"
-					index="622"
+					data-index="622"
 					style={getStyle("622")}
 				/>
 				<line
@@ -7959,7 +7959,7 @@ function GolemComponent() {
 					x2={229.56939000000025}
 					y2={184.07907999999946}
 					id="623_247_169_230_184"
-					index="623"
+					data-index="623"
 					style={getStyle("623")}
 				/>
 				<line
@@ -7968,7 +7968,7 @@ function GolemComponent() {
 					x2={215.16701000000026}
 					y2={191.60415999999947}
 					id="624_230_184_215_192"
-					index="624"
+					data-index="624"
 					style={getStyle("624")}
 				/>
 				<line
@@ -7977,7 +7977,7 @@ function GolemComponent() {
 					x2={209.01395000000025}
 					y2={202.26671999999945}
 					id="625_215_192_209_202"
-					index="625"
+					data-index="625"
 					style={getStyle("625")}
 				/>
 				<line
@@ -7986,7 +7986,7 @@ function GolemComponent() {
 					x2={200.66325000000026}
 					y2={233.25637999999947}
 					id="626_209_202_201_233"
-					index="626"
+					data-index="626"
 					style={getStyle("626")}
 				/>
 				<line
@@ -7995,7 +7995,7 @@ function GolemComponent() {
 					x2={174.84161000000026}
 					y2={280.8878999999995}
 					id="627_201_233_175_281"
-					index="627"
+					data-index="627"
 					style={getStyle("627")}
 				/>
 				<line
@@ -8004,7 +8004,7 @@ function GolemComponent() {
 					x2={195.93515000000025}
 					y2={315.4496099999995}
 					id="628_175_281_196_315"
-					index="628"
+					data-index="628"
 					style={getStyle("628")}
 				/>
 				<line
@@ -8013,7 +8013,7 @@ function GolemComponent() {
 					x2={184.74254000000025}
 					y2={329.9974399999995}
 					id="629_196_315_185_330"
-					index="629"
+					data-index="629"
 					style={getStyle("629")}
 				/>
 				<line
@@ -8022,7 +8022,7 @@ function GolemComponent() {
 					x2={185.50744000000026}
 					y2={344.8284199999995}
 					id="630_185_330_186_345"
-					index="630"
+					data-index="630"
 					style={getStyle("630")}
 				/>
 				<line
@@ -8031,7 +8031,7 @@ function GolemComponent() {
 					x2={196.93380000000025}
 					y2={373.8228999999995}
 					id="631_186_345_197_374"
-					index="631"
+					data-index="631"
 					style={getStyle("631")}
 				/>
 				<line
@@ -8040,7 +8040,7 @@ function GolemComponent() {
 					x2={206.84976000000026}
 					y2={390.3015599999995}
 					id="632_197_374_207_390"
-					index="632"
+					data-index="632"
 					style={getStyle("632")}
 				/>
 				<line
@@ -8049,7 +8049,7 @@ function GolemComponent() {
 					x2={196.55958000000027}
 					y2={451.6000499999995}
 					id="633_207_390_197_452"
-					index="633"
+					data-index="633"
 					style={getStyle("633")}
 				/>
 				<line
@@ -8058,7 +8058,7 @@ function GolemComponent() {
 					x2={201.42881000000025}
 					y2={463.3550799999995}
 					id="634_197_452_201_463"
-					index="634"
+					data-index="634"
 					style={getStyle("634")}
 				/>
 				<line
@@ -8067,7 +8067,7 @@ function GolemComponent() {
 					x2={197.72931000000025}
 					y2={490.4085299999995}
 					id="635_201_463_198_490"
-					index="635"
+					data-index="635"
 					style={getStyle("635")}
 				/>
 				<line
@@ -8076,7 +8076,7 @@ function GolemComponent() {
 					x2={209.01601000000025}
 					y2={504.05179999999945}
 					id="636_198_490_209_504"
-					index="636"
+					data-index="636"
 					style={getStyle("636")}
 				/>
 				<line
@@ -8085,7 +8085,7 @@ function GolemComponent() {
 					x2={208.28466000000026}
 					y2={524.9187299999994}
 					id="637_209_504_208_525"
-					index="637"
+					data-index="637"
 					style={getStyle("637")}
 				/>
 				<line
@@ -8094,7 +8094,7 @@ function GolemComponent() {
 					x2={181.13071000000025}
 					y2={547.9711599999994}
 					id="638_208_525_181_548"
-					index="638"
+					data-index="638"
 					style={getStyle("638")}
 				/>
 				<line
@@ -8103,7 +8103,7 @@ function GolemComponent() {
 					x2={154.41941000000025}
 					y2={556.7708599999994}
 					id="639_181_548_154_557"
-					index="639"
+					data-index="639"
 					style={getStyle("639")}
 				/>
 				<line
@@ -8112,7 +8112,7 @@ function GolemComponent() {
 					x2={144.58481000000026}
 					y2={565.0010299999994}
 					id="640_154_557_145_565"
-					index="640"
+					data-index="640"
 					style={getStyle("640")}
 				/>
 				<line
@@ -8121,7 +8121,7 @@ function GolemComponent() {
 					x2={101.75381000000026}
 					y2={605.4567999999995}
 					id="641_145_565_102_605"
-					index="641"
+					data-index="641"
 					style={getStyle("641")}
 				/>
 				<line
@@ -8130,7 +8130,7 @@ function GolemComponent() {
 					x2={97.61113100000026}
 					y2={616.7303599999995}
 					id="642_102_605_98_617"
-					index="642"
+					data-index="642"
 					style={getStyle("642")}
 				/>
 				<line
@@ -8139,7 +8139,7 @@ function GolemComponent() {
 					x2={72.89109200000026}
 					y2={734.2644399999995}
 					id="643_98_617_73_734"
-					index="643"
+					data-index="643"
 					style={getStyle("643")}
 				/>
 				<line
@@ -8148,7 +8148,7 @@ function GolemComponent() {
 					x2={74.61507300000025}
 					y2={746.9693599999995}
 					id="644_73_734_75_747"
-					index="644"
+					data-index="644"
 					style={getStyle("644")}
 				/>
 				<line
@@ -8157,7 +8157,7 @@ function GolemComponent() {
 					x2={87.76197800000025}
 					y2={812.0390299999995}
 					id="645_75_747_88_812"
-					index="645"
+					data-index="645"
 					style={getStyle("645")}
 				/>
 				<line
@@ -8166,7 +8166,7 @@ function GolemComponent() {
 					x2={56.334128000000256}
 					y2={856.3442799999995}
 					id="646_88_812_56_856"
-					index="646"
+					data-index="646"
 					style={getStyle("646")}
 				/>
 				<line
@@ -8175,7 +8175,7 @@ function GolemComponent() {
 					x2={51.20245900000025}
 					y2={870.3821499999995}
 					id="647_56_856_51_870"
-					index="647"
+					data-index="647"
 					style={getStyle("647")}
 				/>
 				<line
@@ -8184,7 +8184,7 @@ function GolemComponent() {
 					x2={39.42672900000025}
 					y2={905.4505399999995}
 					id="648_51_870_39_905"
-					index="648"
+					data-index="648"
 					style={getStyle("648")}
 				/>
 				<line
@@ -8193,7 +8193,7 @@ function GolemComponent() {
 					x2={39.42672900000025}
 					y2={918.7244199999994}
 					id="649_39_905_39_919"
-					index="649"
+					data-index="649"
 					style={getStyle("649")}
 				/>
 				<line
@@ -8202,7 +8202,7 @@ function GolemComponent() {
 					x2={52.48918700000025}
 					y2={908.7052699999995}
 					id="650_39_919_52_909"
-					index="650"
+					data-index="650"
 					style={getStyle("650")}
 				/>
 				<line
@@ -8211,7 +8211,7 @@ function GolemComponent() {
 					x2={138.55009000000024}
 					y2={908.7052699999995}
 					id="651_52_909_139_909"
-					index="651"
+					data-index="651"
 					style={getStyle("651")}
 				/>
 				<line
@@ -8220,7 +8220,7 @@ function GolemComponent() {
 					x2={173.07409000000024}
 					y2={821.2207399999995}
 					id="652_139_909_173_821"
-					index="652"
+					data-index="652"
 					style={getStyle("652")}
 				/>
 				<line
@@ -8229,7 +8229,7 @@ function GolemComponent() {
 					x2={190.95668000000023}
 					y2={908.7052699999995}
 					id="653_173_821_191_909"
-					index="653"
+					data-index="653"
 					style={getStyle("653")}
 				/>
 				<line
@@ -8238,7 +8238,7 @@ function GolemComponent() {
 					x2={758.4448100000002}
 					y2={908.7052699999995}
 					id="654_191_909_758_909"
-					index="654"
+					data-index="654"
 					style={getStyle("654")}
 				/>
 				<line
@@ -8247,7 +8247,7 @@ function GolemComponent() {
 					x2={771.9027300000001}
 					y2={913.6853399999994}
 					id="655_758_909_772_914"
-					index="655"
+					data-index="655"
 					style={getStyle("655")}
 				/>
 				<line
@@ -8256,7 +8256,7 @@ function GolemComponent() {
 					x2={771.9027300000001}
 					y2={902.8625199999994}
 					id="656_772_914_772_903"
-					index="656"
+					data-index="656"
 					style={getStyle("656")}
 				/>
 				<line
@@ -8265,7 +8265,7 @@ function GolemComponent() {
 					x2={755.5616200000002}
 					y2={795.5238299999994}
 					id="657_772_903_756_796"
-					index="657"
+					data-index="657"
 					style={getStyle("657")}
 				/>
 				<line
@@ -8274,7 +8274,7 @@ function GolemComponent() {
 					x2={776.5718200000002}
 					y2={733.3827899999994}
 					id="658_756_796_777_733"
-					index="658"
+					data-index="658"
 					style={getStyle("658")}
 				/>
 				<line
@@ -8283,7 +8283,7 @@ function GolemComponent() {
 					x2={775.0034100000003}
 					y2={721.4896899999994}
 					id="659_777_733_775_721"
-					index="659"
+					data-index="659"
 					style={getStyle("659")}
 				/>
 				<line
@@ -8292,7 +8292,7 @@ function GolemComponent() {
 					x2={738.0349200000003}
 					y2={594.9484999999994}
 					id="660_775_721_738_595"
-					index="660"
+					data-index="660"
 					style={getStyle("660")}
 				/>
 				<line
@@ -8301,7 +8301,7 @@ function GolemComponent() {
 					x2={473.1437500000003}
 					y2={423.7682099999994}
 					id="661_738_595_473_424"
-					index="661"
+					data-index="661"
 					style={getStyle("661")}
 				/>
 				<line
@@ -8310,7 +8310,7 @@ function GolemComponent() {
 					x2={463.5186200000003}
 					y2={377.6633599999994}
 					id="662_473_424_464_378"
-					index="662"
+					data-index="662"
 					style={getStyle("662")}
 				/>
 				<line
@@ -8319,7 +8319,7 @@ function GolemComponent() {
 					x2={486.47054000000026}
 					y2={359.72822999999937}
 					id="663_464_378_486_360"
-					index="663"
+					data-index="663"
 					style={getStyle("663")}
 				/>
 				<line
@@ -8328,7 +8328,7 @@ function GolemComponent() {
 					x2={491.30342000000024}
 					y2={348.73234999999937}
 					id="664_486_360_491_349"
-					index="664"
+					data-index="664"
 					style={getStyle("664")}
 				/>
 				<line
@@ -8337,7 +8337,7 @@ function GolemComponent() {
 					x2={508.09198000000026}
 					y2={279.42750999999936}
 					id="665_491_349_508_279"
-					index="665"
+					data-index="665"
 					style={getStyle("665")}
 				/>
 				<line
@@ -8346,7 +8346,7 @@ function GolemComponent() {
 					x2={503.37047000000024}
 					y2={266.30737999999934}
 					id="666_508_279_503_266"
-					index="666"
+					data-index="666"
 					style={getStyle("666")}
 				/>
 				<line
@@ -8355,7 +8355,7 @@ function GolemComponent() {
 					x2={482.63507000000027}
 					y2={251.23015999999933}
 					id="667_503_266_483_251"
-					index="667"
+					data-index="667"
 					style={getStyle("667")}
 				/>
 				<line
@@ -8364,7 +8364,7 @@ function GolemComponent() {
 					x2={464.4189000000003}
 					y2={254.56383999999932}
 					id="668_483_251_464_255"
-					index="668"
+					data-index="668"
 					style={getStyle("668")}
 				/>
 				<line
@@ -8373,7 +8373,7 @@ function GolemComponent() {
 					x2={460.1828800000003}
 					y2={228.9136499999993}
 					id="669_464_255_460_229"
-					index="669"
+					data-index="669"
 					style={getStyle("669")}
 				/>
 			</g>
