@@ -13,7 +13,21 @@
 	align-items: center;
 }
 
+.button__desktop {
+	display: block;
+}
+
+.button__mobile {
+	display: none;
+}
+
 @media (max-width: 450px) {
+	.buttons {
+		flex-direction: row;
+		gap: var(--spacing-sm);
+		margin-top: var(--spacing-sm);
+	}
+
 	.button svg {
 		display: none;
 	}
@@ -21,10 +35,12 @@
 	.button {
 		font-size: var(--font-size-xs);
 	}
-}
 
-@media (max-width: 600px) {
-	.button {
-		font-size: var(--font-size-sm);
+	.button__mobile {
+		display: block;
+	}
+
+	.button__desktop {
+		display: none;
 	}
 }

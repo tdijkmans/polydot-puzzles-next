@@ -88,31 +88,17 @@
 	fill: var(--saturated-earth-yellow);
 }
 
-.circleBig {
+.textNext {
+	fill: var(--pale-silver);
+}
+
+.circleNext {
+	fill: var(--pale-silver);
 	stroke: var(--mountbatten-pink);
 	stroke-width: 0px;
 	filter: drop-shadow(0 0 7px var(--saturated-mountbatten-pink));
 	opacity: 0.5;
 	animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-	0% {
-		stroke-width: 0px;
-	}
-
-	50% {
-		stroke-width: 16px;
-	}
-
-	100% {
-		stroke-width: 0px;
-	}
-}
-
-.textNext,
-.circleNext {
-	fill: var(--pale-silver);
 }
 
 .textFuture,
@@ -132,6 +118,66 @@
 	animation: burning-eyes 10s infinite;
 }
 
+.fillCircle {
+	fill: var(--moon-white);
+	transform: translate(-99.413461px, -180.21509px);
+	stroke: "none";
+}
+
+.letter {
+	font-family: "Consolas", monospace;
+	margin: var(--spacing-xxs);
+}
+
+.letterCurrent {
+	color: var(--saturated-earth-yellow);
+}
+
+.letterPrevious {
+	color: var(--saturated-myrtle-green);
+}
+
+.letterNext {
+	color: var(--saturated-mountbatten-pink);
+	animation: scaleUp 1s ease-in-out forwards;
+}
+
+.letterFuture {
+	color: var(--pale-silver);
+}
+
+.letterPast {
+	color: var(--saturated-myrtle-green);
+}
+
+@keyframes scaleUp {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.25);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		stroke-width: 0px;
+	}
+
+	50% {
+		stroke-width: 16px;
+	}
+
+	100% {
+		stroke-width: 0px;
+	}
+}
+
 @keyframes burning-eyes {
 	0% {
 		fill: #711b36;
@@ -144,10 +190,4 @@
 	100% {
 		fill: #711b36;
 	}
-}
-
-.fillCircle {
-	fill: var(--moon-white);
-	transform: translate(-99.413461px, -180.21509px);
-	stroke: "none";
 }

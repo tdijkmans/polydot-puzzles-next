@@ -9,6 +9,9 @@ export default function Page() {
 	return (
 		<>
 			<div className={styles.tabs}>
+				{/* <div className={styles.tab}>
+					<GolemComponent />
+				</div> */}
 				<div className={styles.tab}>
 					<BookTab />
 				</div>

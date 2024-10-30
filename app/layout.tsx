@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import CosmosBackdrop from "./components/CosmosBackdrop/CosmosBackdrop";
 import "./globals.css";
-import styles from "./layout.module.css";
 
 const seoText = `Origins of the Obscure is the first book in the Polydot Puzzles series. It features 20 puzzles of mythological creatures from around the world, including the Golem, the Popobawa, the Gwisin, Baba Yaga, and more. At the end of the book, you'll find the answers to each puzzle, revealing which creature you've brought to life.`;
 const keywords = [
@@ -56,7 +55,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<main className={styles.main}>
+				<main>
 					{children} <CosmosBackdrop />
 				</main>
 			</body>

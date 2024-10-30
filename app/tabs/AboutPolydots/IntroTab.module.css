@@ -80,3 +80,27 @@
 		font-size: var(--font-size-md);
 	}
 }
+
+.button {
+	display: flex;
+	justify-content: center;
+	gap: var(--spacing-md);
+	align-items: center;
+	margin-bottom: var(--spacing-lg);
+}
+
+@media (max-width: 450px) {
+	.button svg {
+		display: none;
+	}
+
+	.button {
+		font-size: var(--font-size-xs);
+	}
+}
+
+@media (max-width: 600px) {
+	.button {
+		font-size: var(--font-size-sm);
+	}
+}

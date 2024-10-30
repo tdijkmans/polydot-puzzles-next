@@ -7,11 +7,6 @@
 	transition: all 0.3s ease-in-out;
 }
 
-.letter {
-	font-family: "Consolas", monospace;
-	margin: var(--spacing-xxs);
-}
-
 @media (max-width: 600px) {
 	.letters {
 		font-size: var(--font-size-md);
@@ -22,50 +17,4 @@
 	.letters {
 		font-size: var(--font-size-sm);
 	}
-}
-
-.letterCurrent {
-	color: var(--saturated-earth-yellow);
-}
-
-.letterPrevious {
-	color: var(--saturated-myrtle-green);
-}
-
-.letterNext {
-	color: var(--saturated-mountbatten-pink);
-	animation: scaleUp 1s ease-in-out forwards;
-}
-
-.letterFuture {
-	color: var(--pale-silver);
-}
-
-.letterPast {
-	color: var(--saturated-myrtle-green);
-}
-
-@keyframes scaleUp {
-	0% {
-		transform: scale(1);
-	}
-
-	50% {
-		transform: scale(1.25);
-	}
-
-	100% {
-		transform: scale(1);
-	}
-}
-
-.colorIndicator {
-	text-transform: uppercase;
-	font-family: sans-serif;
-	font-size: var(--font-size-xs);
-	color: var(--pale-silver);
-}
-
-.timeToColor {
-	color: var(--saturated-earth-yellow);
 }
