@@ -1,4 +1,3 @@
-import GolemComponent from "./components/GolemShow/GolemComponent";
 import styles from "./page.module.css";
 import IntroTab from "./tabs/AboutPolydots/IntroTab";
 import BookTab from "./tabs/BookTab/bookTab";
@@ -10,9 +9,9 @@ export default function Page() {
 	return (
 		<>
 			<div className={styles.tabs}>
-				<div className={styles.tab}>
+				{/* <div className={styles.tab}>
 					<GolemComponent />
-				</div>
+				</div> */}
 				<div className={styles.tab}>
 					<BookTab />
 				</div>
