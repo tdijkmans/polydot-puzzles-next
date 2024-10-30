@@ -4,7 +4,7 @@ import styles from "./ExampleTab.module.css";
 const ExampleTab = () => {
 	return (
 		<>
-			<h1 className={styles.title}>The Golem</h1>
+			<h2 className={styles.title}>The Golem</h2>
 
 			<div className={styles.coverContainer}>
 				<Image

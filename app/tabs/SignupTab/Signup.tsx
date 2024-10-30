@@ -13,7 +13,7 @@ export default function Signup() {
 
 	return (
 		<div className={styles.signup}>
-			<h1>Stay in the Loop</h1>
+			<h2>Stay in the Loop</h2>
 
 			<p>
 				Currently, Polydot Puzzles has its first issue available for purchase.
