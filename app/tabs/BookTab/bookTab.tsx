@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AnchorButton } from "../../components/Button/Button";
-import LinkIcon from "./LinkIcon";
+
+import { RiExternalLinkFill } from "react-icons/ri";
 import styles from "./bookTab.module.css";
 
 const BookTab = () => {
@@ -39,7 +40,7 @@ const BookTab = () => {
 			>
 				<div className={styles.buyButton}>
 					<div>Buy Now</div>
-					<LinkIcon />
+					<RiExternalLinkFill />
 				</div>
 			</AnchorButton>
 		</>

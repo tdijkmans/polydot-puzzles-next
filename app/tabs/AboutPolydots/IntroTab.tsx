@@ -1,3 +1,5 @@
+import { ButtonLink } from "@/app/components/Button/Button";
+import { RiDownload2Fill } from "react-icons/ri";
 import styles from "./IntroTab.module.css";
 
 const IntroTab = () => {
@@ -33,9 +35,16 @@ const IntroTab = () => {
 				</p>
 
 				<em>
-					See below for a quick interactive tutorial on how to play: The
-					Polywolf.
+					See below for the quick interactive 'Polywolf' tutorial on how to
+					playecht . Or download the free printable Polydot Puzzle to get
+					started right away!
 				</em>
+			</div>
+
+			<div>
+				<ButtonLink href="/Polydot Puzzle Preta.pdf" className={styles.button}>
+					<RiDownload2Fill /> Free Printable Polydot Puzzle
+				</ButtonLink>
 			</div>
 		</>
 	);

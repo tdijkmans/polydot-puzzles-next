@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Button.module.css";
 
 interface AnchorButtonProps
@@ -25,4 +26,20 @@ const Button: React.FC<ButtonProps> = ({ children, ...props }) => {
 	);
 };
 
-export { AnchorButton, Button };
+const ButtonLink: React.FC<{
+	href: string;
+	children: React.ReactNode;
+	className: string;
+}> = ({ href, children, className }) => {
+	return (
+		<Link
+			href={href}
+			download
+			className={`${styles.AnchorButton} ${className}`}
+		>
+			{children}
+		</Link>
+	);
+};
+
+export { AnchorButton, Button, ButtonLink };
