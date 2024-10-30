@@ -35,8 +35,8 @@ const IntroTab = () => {
 				</p>
 
 				<em>
-					See below for the quick interactive 'Polywolf' tutorial on how to
-					playecht . Or download the free printable Polydot Puzzle to get
+					See below for the quick interactive &apos;Polywolf&apos; tutorial on
+					how to play. Or download the free printable Polydot Puzzle to get
 					started right away!
 				</em>
 			</div>
