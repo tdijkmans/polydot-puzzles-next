@@ -1,36 +1,11 @@
 "use client";
 import { Fragment, useState } from "react";
 import Buttons from "../Buttons/Buttons";
+import DrawingStatus from "../DrawingStatus/DrawingStatus";
 import Letters from "../Letters/Letters";
 import styles from "./Polywolf.module.css";
+import { getClassName } from "./getClassName";
 import { steps } from "./polyWolfData";
-
-const getClassName = (
-	offsetStep: number,
-	index: number,
-	type: "line" | "circle" | "text",
-) => {
-	let suffix: "Past" | "Previous" | "Current" | "Next" | "Future";
-
-	switch (true) {
-		case index < offsetStep:
-			suffix = "Past";
-			break;
-		case index === offsetStep - 1:
-			suffix = "Previous";
-			break;
-		case index === offsetStep:
-			suffix = "Current";
-			break;
-		case index === offsetStep + 1:
-			suffix = "Next";
-			break;
-		default:
-			suffix = "Future";
-	}
-
-	return `${styles[type]} ${styles[`${type}${suffix}`]}`;
-};
 
 const Polywolf = () => {
 	const [curStep, setCurStep] = useState(-1);
@@ -145,6 +120,7 @@ const Polywolf = () => {
 				</g>
 			</svg>
 
+			<DrawingStatus curStep={curStep} stepLength={steps.length} />
 			<Buttons handleStep={handleStep} />
 		</div>
 	);
