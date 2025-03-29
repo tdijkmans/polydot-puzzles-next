@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 			"/cover-auto-400.png",
 		],
 		isbn: "979-8339345985",
-		url: "https://www.amazon.com/Origins-Obscure-Polydot-Connect-Dots/dp/B0DHT7VH9Y/",
+		url: "https://www.amazon.nl/Origins-Obscure-Polydot-Connect-Dots/dp/B0DHT7VH9Y/",
 	},
 };
 
