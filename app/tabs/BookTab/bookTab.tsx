@@ -34,7 +34,7 @@ const BookTab = () => {
 			</div>
 
 			<AnchorButton
-				href="https://www.amazon.com/Origins-Obscure-Polydot-Connect-Dots/dp/B0DHT7VH9Y/"
+				href="https://www.amazon.nl/Origins-Obscure-Polydot-Connect-Dots/dp/B0DHT7VH9Y/"
 				target="_blank"
 				rel="noopener noreferrer"
 				shimmer={true}
