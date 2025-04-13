@@ -37,7 +37,6 @@ const BookTab = () => {
 				href="https://www.amazon.nl/Origins-Obscure-Polydot-Connect-Dots/dp/B0DHT7VH9Y/"
 				target="_blank"
 				rel="noopener noreferrer"
-				shimmer={true}
 			>
 				<div className={styles.buyButton}>
 					<div>Buy Now</div>

@@ -4,14 +4,13 @@ import styles from "./Button.module.css";
 interface AnchorButtonProps
 	extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 	children: React.ReactNode;
-	shimmer?: boolean;
 }
 
 const AnchorButton: React.FC<AnchorButtonProps> = ({ children, ...props }) => {
 	return (
 		<a
 			{...props}
-			className={`${styles.AnchorButton} ${props.shimmer ? styles.AnchorButtonShimmer : ""}`}
+			className={`${styles.AnchorButton} ${styles.AnchorButtonShimmer}`}
 		>
 			{children}
 		</a>
